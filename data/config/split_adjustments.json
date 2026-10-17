@@ -1,0 +1,58 @@
+[
+  {
+    "symbol": "KOTAKBANK",
+    "ex_date": "2026-01-13",
+    "old_fv": 5.0,
+    "new_fv": 1.0,
+    "factor": 5.0,
+    "type": "split"
+  },
+  {
+    "symbol": "MCX",
+    "ex_date": "2026-01-01",
+    "old_fv": 10.0,
+    "new_fv": 2.0,
+    "factor": 5.0,
+    "type": "split"
+  },
+  {
+    "symbol": "ANGELONE",
+    "ex_date": "2026-02-25",
+    "old_fv": 10.0,
+    "new_fv": 1.0,
+    "factor": 10.0,
+    "type": "split"
+  },
+  {
+    "symbol": "TDPOWERSYS",
+    "ex_date": "2026-08-21",
+    "old_fv": 2.0,
+    "new_fv": 1.0,
+    "factor": 2.0,
+    "type": "split"
+  },
+  {
+    "symbol": "V2RETAIL",
+    "ex_date": "2026-03-24",
+    "old_fv": 10.0,
+    "new_fv": 1.0,
+    "factor": 10.0,
+    "type": "split"
+  },
+  {
+    "symbol": "E2E",
+    "ex_date": "2026-06-04",
+    "old_fv": 10.0,
+    "new_fv": 1.0,
+    "factor": 10.0,
+    "type": "split"
+  },
+  {
+    "symbol": "KIRLPNU",
+    "ex_date": "2026-08-17",
+    "old_fv": 2.0,
+    "new_fv": 1.0,
+    "factor": 2.0,
+    "type": "split"
+  }
+]

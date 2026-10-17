@@ -1,0 +1,10 @@
+pandas>=2.2
+numpy>=1.26
+pyarrow>=15
+requests>=2.31
+yfinance>=0.2.40      # fallback prices + share counts for the nanocap ranking
+pytest>=8
+# optional: browser fallback for NSE (spec section 4)
+# playwright>=1.45   then: python -m playwright install chromium
+# optional: AMFI xlsx for nanocap ranking (mbi universe --refresh --amfi-file ...)
+# openpyxl>=3.1

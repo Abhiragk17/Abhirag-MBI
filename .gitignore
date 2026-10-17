@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# ---------------------------------------------------------------- Node / Next.js (web/ has its own .gitignore too)
+web/node_modules/
+web/.next/
+web/out/
+npm-debug.log*
+
+# ---------------------------------------------------------------- Secrets and local settings
+.env
+.env.*
+!.env.example
+
+# ---------------------------------------------------------------- Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------- App data (data/)
+# Raw price archive: ~140 MB and growing; rebuild with `python -m mbi backfill`.
+data/prices/
+# Per-stock day tables for the Stocks page; regenerated on demand.
+data/breadth/days/
+# Binary copy of breadth_history.csv (the CSV is the tracked, readable copy).
+data/breadth/breadth_history.parquet
+# Run logs and machine-specific run state.
+data/meta/logs/
+data/meta/data_status.json
+data/meta/split_validation.json
+# Atomic-write temp files.
+*.tmp
+
+# Kept in git on purpose:
+#   data/config/*.json              your split list, thresholds, calendar
+#   data/breadth/breadth_history.csv indicator history (opens in Excel)
+#   data/breadth/breadth_latest.json
+#   data/meta/universe_history/     universe versions (needed to reproduce past buckets)
+#   data/meta/holidays_cache.json, no_session_dates.json, shares_outstanding.csv  (slow to re-fetch)

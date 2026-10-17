@@ -1,0 +1,114 @@
+{
+  "_comment": "Starting defaults (spec 7.4). Lower edges are inclusive: a value exactly on an edge falls in the upper zone.",
+  "p_zones": {
+    "L": 20.0,
+    "M": 40.0,
+    "H": 60.0,
+    "VH": 80.0
+  },
+  "vr_zones": {
+    "mid": 0.5,
+    "high": 1.0,
+    "extreme": 2.0
+  },
+  "table": {
+    "VH": {
+      "low": "EU",
+      "mid": "EU",
+      "high": "EU"
+    },
+    "H": {
+      "low": "LD",
+      "mid": "BD",
+      "high": "BD"
+    },
+    "M": {
+      "low": "LD",
+      "mid": {
+        "state": "LD",
+        "alt_state": "BD",
+        "alt_when": {
+          "vr_min": 0.7,
+          "dp_gt": 0.0
+        }
+      },
+      "high": "BD"
+    },
+    "L": {
+      "low": {
+        "state": "LS",
+        "alt_state": "BR",
+        "alt_when": {
+          "dp_lt": 0.0
+        }
+      },
+      "mid": "BR",
+      "high": "BR"
+    },
+    "VL": {
+      "low": "LS",
+      "mid": "BR",
+      "high": "PA"
+    }
+  },
+  "overrides": {
+    "panic": {
+      "enabled": true,
+      "vr_min": 2.0,
+      "p_max": 30.0
+    },
+    "euphoria": {
+      "enabled": true,
+      "p_min": 80.0
+    }
+  },
+  "null_vr_zone": "high",
+  "trend": {
+    "enabled": true,
+    "dp_window": 5,
+    "missing_dp": 0.0
+  },
+  "confirm_days": 2,
+  "vr_regimes": [
+    {
+      "min": null,
+      "max": 0.25,
+      "id": "extreme_low",
+      "label": "Extreme low demand / fear"
+    },
+    {
+      "min": 0.25,
+      "max": 0.5,
+      "id": "choppy",
+      "label": "Choppy and muted"
+    },
+    {
+      "min": 0.5,
+      "max": 0.7,
+      "id": "improving",
+      "label": "Improving, tradable"
+    },
+    {
+      "min": 0.7,
+      "max": 1.0,
+      "id": "building",
+      "label": "Building demand"
+    },
+    {
+      "min": 1.0,
+      "max": 2.0,
+      "id": "high_demand",
+      "label": "High-demand phase"
+    },
+    {
+      "min": 2.0,
+      "max": null,
+      "id": "extreme",
+      "label": "Extreme excess / climax"
+    }
+  ],
+  "boundary_margin": {
+    "p": 2.0,
+    "vr": 0.05
+  }
+}

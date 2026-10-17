@@ -1,0 +1,1002 @@
+rank,bucket,symbol,company,industry,series,isin,mcap_cr,source
+1,LARGECAP,ABB,ABB India Ltd.,Capital Goods,EQ,INE117A01022,,previous_version
+2,LARGECAP,ADANIENSOL,Adani Energy Solutions Ltd.,Power,EQ,INE931S01010,,previous_version
+3,LARGECAP,ADANIENT,Adani Enterprises Ltd.,Metals & Mining,EQ,INE423A01024,,previous_version
+4,LARGECAP,ADANIGREEN,Adani Green Energy Ltd.,Power,EQ,INE364U01010,,previous_version
+5,LARGECAP,ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,EQ,INE742F01042,,previous_version
+6,LARGECAP,ADANIPOWER,Adani Power Ltd.,Power,EQ,INE814H01029,,previous_version
+7,LARGECAP,AMBUJACEM,Ambuja Cements Ltd.,Construction Materials,EQ,INE079A01024,,previous_version
+8,LARGECAP,APOLLOHOSP,Apollo Hospitals Enterprise Ltd.,Healthcare,EQ,INE437A01024,,previous_version
+9,LARGECAP,ASIANPAINT,Asian Paints Ltd.,Consumer Durables,EQ,INE021A01026,,previous_version
+10,LARGECAP,DMART,Avenue Supermarts Ltd.,Consumer Services,EQ,INE192R01011,,previous_version
+11,LARGECAP,AXISBANK,Axis Bank Ltd.,Financial Services,EQ,INE238A01034,,previous_version
+12,LARGECAP,BSE,BSE Ltd.,Financial Services,EQ,INE118H01025,,previous_version
+13,LARGECAP,BAJAJ-AUTO,Bajaj Auto Ltd.,Automobile and Auto Components,EQ,INE917I01010,,previous_version
+14,LARGECAP,BAJFINANCE,Bajaj Finance Ltd.,Financial Services,EQ,INE296A01032,,previous_version
+15,LARGECAP,BAJAJFINSV,Bajaj Finserv Ltd.,Financial Services,EQ,INE918I01026,,previous_version
+16,LARGECAP,BAJAJHLDNG,Bajaj Holdings & Investment Ltd.,Financial Services,EQ,INE118A01012,,previous_version
+17,LARGECAP,BANKBARODA,Bank of Baroda,Financial Services,EQ,INE028A01039,,previous_version
+18,LARGECAP,BEL,Bharat Electronics Ltd.,Capital Goods,EQ,INE263A01024,,previous_version
+19,LARGECAP,BPCL,Bharat Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,EQ,INE029A01011,,previous_version
+20,LARGECAP,BHARTIARTL,Bharti Airtel Ltd.,Telecommunication,EQ,INE397D01024,,previous_version
+21,LARGECAP,BOSCHLTD,Bosch Ltd.,Automobile and Auto Components,EQ,INE323A01026,,previous_version
+22,LARGECAP,BRITANNIA,Britannia Industries Ltd.,Fast Moving Consumer Goods,EQ,INE216A01030,,previous_version
+23,LARGECAP,CGPOWER,CG Power and Industrial Solutions Ltd.,Capital Goods,EQ,INE067A01029,,previous_version
+24,LARGECAP,CANBK,Canara Bank,Financial Services,EQ,INE476A01022,,previous_version
+25,LARGECAP,CHOLAFIN,Cholamandalam Investment and Finance Company Ltd.,Financial Services,EQ,INE121A01024,,previous_version
+26,LARGECAP,CIPLA,Cipla Ltd.,Healthcare,EQ,INE059A01026,,previous_version
+27,LARGECAP,COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,EQ,INE522F01014,,previous_version
+28,LARGECAP,CUMMINSIND,Cummins India Ltd.,Capital Goods,EQ,INE298A01020,,previous_version
+29,LARGECAP,DLF,DLF Ltd.,Realty,EQ,INE271C01023,,previous_version
+30,LARGECAP,DIVISLAB,Divi's Laboratories Ltd.,Healthcare,EQ,INE361B01024,,previous_version
+31,LARGECAP,DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,EQ,INE089A01031,,previous_version
+32,LARGECAP,EICHERMOT,Eicher Motors Ltd.,Automobile and Auto Components,EQ,INE066A01021,,previous_version
+33,LARGECAP,ETERNAL,Eternal Ltd.,Consumer Services,EQ,INE758T01015,,previous_version
+34,LARGECAP,GAIL,GAIL (India) Ltd.,Oil Gas & Consumable Fuels,EQ,INE129A01019,,previous_version
+35,LARGECAP,GODREJCP,Godrej Consumer Products Ltd.,Fast Moving Consumer Goods,EQ,INE102D01028,,previous_version
+36,LARGECAP,GRASIM,Grasim Industries Ltd.,Construction Materials,EQ,INE047A01021,,previous_version
+37,LARGECAP,HCLTECH,HCL Technologies Ltd.,Information Technology,EQ,INE860A01027,,previous_version
+38,LARGECAP,HDFCAMC,HDFC Asset Management Company Ltd.,Financial Services,EQ,INE127D01025,,previous_version
+39,LARGECAP,HDFCBANK,HDFC Bank Ltd.,Financial Services,EQ,INE040A01034,,previous_version
+40,LARGECAP,HDFCLIFE,HDFC Life Insurance Company Ltd.,Financial Services,EQ,INE795G01014,,previous_version
+41,LARGECAP,HINDALCO,Hindalco Industries Ltd.,Metals & Mining,EQ,INE038A01020,,previous_version
+42,LARGECAP,HAL,Hindustan Aeronautics Ltd.,Capital Goods,EQ,INE066F01020,,previous_version
+43,LARGECAP,HINDUNILVR,Hindustan Unilever Ltd.,Fast Moving Consumer Goods,EQ,INE030A01027,,previous_version
+44,LARGECAP,HINDZINC,Hindustan Zinc Ltd.,Metals & Mining,EQ,INE267A01025,,previous_version
+45,LARGECAP,POWERINDIA,Hitachi Energy India Ltd.,Capital Goods,EQ,INE07Y701011,,previous_version
+46,LARGECAP,HYUNDAI,Hyundai Motor India Ltd.,Automobile and Auto Components,EQ,INE0V6F01027,,previous_version
+47,LARGECAP,ICICIBANK,ICICI Bank Ltd.,Financial Services,EQ,INE090A01021,,previous_version
+48,LARGECAP,ITC,ITC Ltd.,Fast Moving Consumer Goods,EQ,INE154A01025,,previous_version
+49,LARGECAP,IOC,Indian Oil Corporation Ltd.,Oil Gas & Consumable Fuels,EQ,INE242A01010,,previous_version
+50,LARGECAP,IRFC,Indian Railway Finance Corporation Ltd.,Financial Services,EQ,INE053F01010,,previous_version
+51,LARGECAP,INFY,Infosys Ltd.,Information Technology,EQ,INE009A01021,,previous_version
+52,LARGECAP,INDIGO,InterGlobe Aviation Ltd.,Services,EQ,INE646L01027,,previous_version
+53,LARGECAP,JSWSTEEL,JSW Steel Ltd.,Metals & Mining,EQ,INE019A01038,,previous_version
+54,LARGECAP,JINDALSTEL,Jindal Steel Ltd.,Metals & Mining,EQ,INE749A01030,,previous_version
+55,LARGECAP,JIOFIN,Jio Financial Services Ltd.,Financial Services,EQ,INE758E01017,,previous_version
+56,LARGECAP,KOTAKBANK,Kotak Mahindra Bank Ltd.,Financial Services,EQ,INE237A01036,,previous_version
+57,LARGECAP,LTM,LTM Ltd.,Information Technology,EQ,INE214T01019,,previous_version
+58,LARGECAP,LT,Larsen & Toubro Ltd.,Construction,EQ,INE018A01030,,previous_version
+59,LARGECAP,M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,EQ,INE101A01026,,previous_version
+60,LARGECAP,MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,EQ,INE585B01010,,previous_version
+61,LARGECAP,MAXHEALTH,Max Healthcare Institute Ltd.,Healthcare,EQ,INE027H01010,,previous_version
+62,LARGECAP,MAZDOCK,Mazagoan Dock Shipbuilders Ltd.,Capital Goods,EQ,INE249Z01020,,previous_version
+63,LARGECAP,MUTHOOTFIN,Muthoot Finance Ltd.,Financial Services,EQ,INE414G01012,,previous_version
+64,LARGECAP,NTPC,NTPC Ltd.,Power,EQ,INE733E01010,,previous_version
+65,LARGECAP,NESTLEIND,Nestle India Ltd.,Fast Moving Consumer Goods,EQ,INE239A01024,,previous_version
+66,LARGECAP,ONGC,Oil & Natural Gas Corporation Ltd.,Oil Gas & Consumable Fuels,EQ,INE213A01029,,previous_version
+67,LARGECAP,PIDILITIND,Pidilite Industries Ltd.,Chemicals,EQ,INE318A01026,,previous_version
+68,LARGECAP,POLYCAB,Polycab India Ltd.,Capital Goods,EQ,INE455K01017,,previous_version
+69,LARGECAP,PFC,Power Finance Corporation Ltd.,Financial Services,EQ,INE134E01011,,previous_version
+70,LARGECAP,POWERGRID,Power Grid Corporation of India Ltd.,Power,EQ,INE752E01010,,previous_version
+71,LARGECAP,PNB,Punjab National Bank,Financial Services,EQ,INE160A01022,,previous_version
+72,LARGECAP,RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,EQ,INE002A01018,,previous_version
+73,LARGECAP,SBILIFE,SBI Life Insurance Company Ltd.,Financial Services,EQ,INE123W01016,,previous_version
+74,LARGECAP,MOTHERSON,Samvardhana Motherson International Ltd.,Automobile and Auto Components,EQ,INE775A01035,,previous_version
+75,LARGECAP,SHRIRAMFIN,Shriram Finance Ltd.,Financial Services,EQ,INE721A01047,,previous_version
+76,LARGECAP,ENRIN,Siemens Energy India Ltd.,Capital Goods,EQ,INE1NPP01017,,previous_version
+77,LARGECAP,SIEMENS,Siemens Ltd.,Capital Goods,EQ,INE003A01024,,previous_version
+78,LARGECAP,SOLARINDS,Solar Industries India Ltd.,Chemicals,EQ,INE343H01029,,previous_version
+79,LARGECAP,SBIN,State Bank of India,Financial Services,EQ,INE062A01020,,previous_version
+80,LARGECAP,SUNPHARMA,Sun Pharmaceutical Industries Ltd.,Healthcare,EQ,INE044A01036,,previous_version
+81,LARGECAP,TVSMOTOR,TVS Motor Company Ltd.,Automobile and Auto Components,EQ,INE494B01023,,previous_version
+82,LARGECAP,TATACAP,Tata Capital Ltd.,Financial Services,EQ,INE976I01016,,previous_version
+83,LARGECAP,TCS,Tata Consultancy Services Ltd.,Information Technology,EQ,INE467B01029,,previous_version
+84,LARGECAP,TATACONSUM,Tata Consumer Products Ltd.,Fast Moving Consumer Goods,EQ,INE192A01025,,previous_version
+85,LARGECAP,TMCV,Tata Motors Ltd.,Capital Goods,EQ,INE1TAE01010,,previous_version
+86,LARGECAP,TMPV,Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,EQ,INE155A01022,,previous_version
+87,LARGECAP,TATAPOWER,Tata Power Co. Ltd.,Power,EQ,INE245A01021,,previous_version
+88,LARGECAP,TATASTEEL,Tata Steel Ltd.,Metals & Mining,EQ,INE081A01020,,previous_version
+89,LARGECAP,TECHM,Tech Mahindra Ltd.,Information Technology,EQ,INE669C01036,,previous_version
+90,LARGECAP,TITAN,Titan Company Ltd.,Consumer Durables,EQ,INE280A01028,,previous_version
+91,LARGECAP,TORNTPHARM,Torrent Pharmaceuticals Ltd.,Healthcare,EQ,INE685A01028,,previous_version
+92,LARGECAP,TRENT,Trent Ltd.,Consumer Services,EQ,INE849A01020,,previous_version
+93,LARGECAP,ULTRACEMCO,UltraTech Cement Ltd.,Construction Materials,EQ,INE481G01011,,previous_version
+94,LARGECAP,UNIONBANK,Union Bank of India,Financial Services,EQ,INE692A01016,,previous_version
+95,LARGECAP,VBL,Varun Beverages Ltd.,Fast Moving Consumer Goods,EQ,INE200M01039,,previous_version
+96,LARGECAP,VAML,Vedanta Aluminium Metal Ltd.,Metals & Mining,EQ,INE1CDF01017,,previous_version
+97,LARGECAP,VEDL,Vedanta Ltd.,Metals & Mining,EQ,INE205A01025,,previous_version
+98,LARGECAP,IDEA,Vodafone Idea Ltd.,Telecommunication,EQ,INE669E01016,,previous_version
+99,LARGECAP,WIPRO,Wipro Ltd.,Information Technology,EQ,INE075A01022,,previous_version
+100,LARGECAP,ZYDUSLIFE,Zydus Lifesciences Ltd.,Healthcare,EQ,INE010B01027,,previous_version
+101,MIDCAP,360ONE,360 ONE WAM Ltd.,Financial Services,EQ,INE466L01038,,previous_version
+102,MIDCAP,AIAENG,AIA Engineering Ltd.,Capital Goods,EQ,INE212H01026,,previous_version
+103,MIDCAP,APLAPOLLO,APL Apollo Tubes Ltd.,Capital Goods,EQ,INE702C01027,,previous_version
+104,MIDCAP,AUBANK,AU Small Finance Bank Ltd.,Financial Services,EQ,INE949L01017,,previous_version
+105,MIDCAP,ABBOTINDIA,Abbott India Ltd.,Healthcare,EQ,INE358A01014,,previous_version
+106,MIDCAP,ATGL,Adani Total Gas Ltd.,Oil Gas & Consumable Fuels,EQ,INE399L01023,,previous_version
+107,MIDCAP,ABCAPITAL,Aditya Birla Capital Ltd.,Financial Services,EQ,INE674K01013,,previous_version
+108,MIDCAP,AJANTPHARM,Ajanta Pharmaceuticals Ltd.,Healthcare,EQ,INE031B01049,,previous_version
+109,MIDCAP,ALKEM,Alkem Laboratories Ltd.,Healthcare,EQ,INE540L01014,,previous_version
+110,MIDCAP,ANTHEM,Anthem Biosciences Ltd.,Healthcare,EQ,INE0CZ201020,,previous_version
+111,MIDCAP,APARINDS,Apar Industries Ltd.,Capital Goods,EQ,INE372A01015,,previous_version
+112,MIDCAP,ASHOKLEY,Ashok Leyland Ltd.,Capital Goods,EQ,INE208A01029,,previous_version
+113,MIDCAP,ASTERDM,Aster DM Quality Care Ltd.,Healthcare,EQ,INE914M01019,,previous_version
+114,MIDCAP,ASTRAL,Astral Ltd.,Capital Goods,EQ,INE006I01046,,previous_version
+115,MIDCAP,AUROPHARMA,Aurobindo Pharma Ltd.,Healthcare,EQ,INE406A01037,,previous_version
+116,MIDCAP,AIIL,Authum Investment & Infrastructure Ltd.,Financial Services,EQ,INE206F01022,,previous_version
+117,MIDCAP,BAJAJHFL,Bajaj Housing Finance Ltd.,Financial Services,EQ,INE377Y01014,,previous_version
+118,MIDCAP,BALKRISIND,Balkrishna Industries Ltd.,Automobile and Auto Components,EQ,INE787D01026,,previous_version
+119,MIDCAP,BANKINDIA,Bank of India,Financial Services,EQ,INE084A01016,,previous_version
+120,MIDCAP,MAHABANK,Bank of Maharashtra,Financial Services,EQ,INE457A01014,,previous_version
+121,MIDCAP,BERGEPAINT,Berger Paints India Ltd.,Consumer Durables,EQ,INE463A01038,,previous_version
+122,MIDCAP,BDL,Bharat Dynamics Ltd.,Capital Goods,EQ,INE171Z01026,,previous_version
+123,MIDCAP,BHARATFORG,Bharat Forge Ltd.,Automobile and Auto Components,EQ,INE465A01025,,previous_version
+124,MIDCAP,BHEL,Bharat Heavy Electricals Ltd.,Capital Goods,EQ,INE257A01026,,previous_version
+125,MIDCAP,BHARTIHEXA,Bharti Hexacom Ltd.,Telecommunication,EQ,INE343G01021,,previous_version
+126,MIDCAP,GROWW,Billionbrains Garage Ventures Ltd.,Financial Services,EQ,INE0HOQ01053,,previous_version
+127,MIDCAP,BIOCON,Biocon Ltd.,Healthcare,EQ,INE376G01013,,previous_version
+128,MIDCAP,BLUESTARCO,Blue Star Ltd.,Consumer Durables,EQ,INE472A01039,,previous_version
+129,MIDCAP,CRISIL,CRISIL Ltd.,Financial Services,EQ,INE007A01025,,previous_version
+130,MIDCAP,COCHINSHIP,Cochin Shipyard Ltd.,Capital Goods,EQ,INE704P01025,,previous_version
+131,MIDCAP,COFORGE,Coforge Ltd.,Information Technology,EQ,INE591G01025,,previous_version
+132,MIDCAP,COLPAL,Colgate Palmolive (India) Ltd.,Fast Moving Consumer Goods,EQ,INE259A01022,,previous_version
+133,MIDCAP,CONCOR,Container Corporation of India Ltd.,Services,EQ,INE111A01025,,previous_version
+134,MIDCAP,COROMANDEL,Coromandel International Ltd.,Chemicals,EQ,INE169A01031,,previous_version
+135,MIDCAP,DABUR,Dabur India Ltd.,Fast Moving Consumer Goods,EQ,INE016A01026,,previous_version
+136,MIDCAP,DALBHARAT,Dalmia Bharat Ltd.,Construction Materials,EQ,INE00R701025,,previous_version
+137,MIDCAP,DIXON,Dixon Technologies (India) Ltd.,Consumer Durables,EQ,INE935N01020,,previous_version
+138,MIDCAP,EMBASSY,EMBASSY OFFICE PARKS REIT,Realty,RR,INE041025011,,previous_version
+139,MIDCAP,ENDURANCE,Endurance Technologies Ltd.,Automobile and Auto Components,EQ,INE913H01037,,previous_version
+140,MIDCAP,ESCORTS,Escorts Kubota Ltd.,Capital Goods,EQ,INE042A01014,,previous_version
+141,MIDCAP,EXIDEIND,Exide Industries Ltd.,Automobile and Auto Components,EQ,INE302A01020,,previous_version
+142,MIDCAP,NYKAA,FSN E-Commerce Ventures Ltd.,Consumer Services,EQ,INE388Y01029,,previous_version
+143,MIDCAP,FEDERALBNK,Federal Bank Ltd.,Financial Services,EQ,INE171A01029,,previous_version
+144,MIDCAP,FACT,Fertilisers and Chemicals Travancore Ltd.,Chemicals,EQ,INE188A01015,,previous_version
+145,MIDCAP,FORTIS,Fortis Healthcare Ltd.,Healthcare,EQ,INE061F01013,,previous_version
+146,MIDCAP,GVT&D,GE Vernova T&D India Ltd.,Capital Goods,EQ,INE200A01026,,previous_version
+147,MIDCAP,GMRAIRPORT,GMR Airports Ltd.,Services,EQ,INE776C01039,,previous_version
+148,MIDCAP,GICRE,General Insurance Corporation of India,Financial Services,EQ,INE481Y01014,,previous_version
+149,MIDCAP,GLAXO,Glaxosmithkline Pharmaceuticals Ltd.,Healthcare,EQ,INE159A01016,,previous_version
+150,MIDCAP,GLENMARK,Glenmark Pharmaceuticals Ltd.,Healthcare,EQ,INE935A01035,,previous_version
+151,MIDCAP,MEDANTA,Global Health Ltd.,Healthcare,EQ,INE474Q01031,,previous_version
+152,MIDCAP,GODFRYPHLP,Godfrey Phillips India Ltd.,Fast Moving Consumer Goods,EQ,INE260B01028,,previous_version
+153,MIDCAP,GODREJIND,Godrej Industries Ltd.,Diversified,EQ,INE233A01035,,previous_version
+154,MIDCAP,GODREJPROP,Godrej Properties Ltd.,Realty,EQ,INE484J01027,,previous_version
+155,MIDCAP,FLUOROCHEM,Gujarat Fluorochemicals Ltd.,Chemicals,EQ,INE09N301011,,previous_version
+156,MIDCAP,HDBFS,HDB Financial Services Ltd.,Financial Services,EQ,INE756I01012,,previous_version
+157,MIDCAP,HAVELLS,Havells India Ltd.,Consumer Durables,EQ,INE176B01034,,previous_version
+158,MIDCAP,HEROMOTOCO,Hero MotoCorp Ltd.,Automobile and Auto Components,EQ,INE158A01026,,previous_version
+159,MIDCAP,HEXT,Hexaware Technologies Ltd.,Information Technology,EQ,INE093A01041,,previous_version
+160,MIDCAP,HINDCOPPER,Hindustan Copper Ltd.,Metals & Mining,EQ,INE531E01026,,previous_version
+161,MIDCAP,HINDPETRO,Hindustan Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,EQ,INE094A01015,,previous_version
+162,MIDCAP,HUDCO,Housing & Urban Development Corporation Ltd.,Financial Services,EQ,INE031A01017,,previous_version
+163,MIDCAP,ICICIGI,ICICI Lombard General Insurance Company Ltd.,Financial Services,EQ,INE765G01017,,previous_version
+164,MIDCAP,ICICIAMC,ICICI Prudential Asset Management Company Ltd.,Financial Services,EQ,INE346A01027,,previous_version
+165,MIDCAP,ICICIPRULI,ICICI Prudential Life Insurance Company Ltd.,Financial Services,EQ,INE726G01019,,previous_version
+166,MIDCAP,IDFCFIRSTB,IDFC First Bank Ltd.,Financial Services,EQ,INE092T01019,,previous_version
+167,MIDCAP,ITCHOTELS,ITC Hotels Ltd.,Consumer Services,EQ,INE379A01028,,previous_version
+168,MIDCAP,INDIANB,Indian Bank,Financial Services,EQ,INE562A01011,,previous_version
+169,MIDCAP,INDHOTEL,Indian Hotels Co. Ltd.,Consumer Services,EQ,INE053A01029,,previous_version
+170,MIDCAP,IOB,Indian Overseas Bank,Financial Services,EQ,INE565A01014,,previous_version
+171,MIDCAP,IRCTC,Indian Railway Catering And Tourism Corporation Ltd.,Consumer Services,EQ,INE335Y01020,,previous_version
+172,MIDCAP,IREDA,Indian Renewable Energy Development Agency Ltd.,Financial Services,EQ,INE202E01016,,previous_version
+173,MIDCAP,INDUSTOWER,Indus Towers Ltd.,Telecommunication,EQ,INE121J01017,,previous_version
+174,MIDCAP,INDUSINDBK,IndusInd Bank Ltd.,Financial Services,EQ,INE095A01012,,previous_version
+175,MIDCAP,NAUKRI,Info Edge (India) Ltd.,Consumer Services,EQ,INE663F01032,,previous_version
+176,MIDCAP,IPCALAB,Ipca Laboratories Ltd.,Healthcare,EQ,INE571A01038,,previous_version
+177,MIDCAP,JKCEMENT,J.K. Cement Ltd.,Construction Materials,EQ,INE823G01014,,previous_version
+178,MIDCAP,JSWENERGY,JSW Energy Ltd.,Power,EQ,INE121E01018,,previous_version
+179,MIDCAP,JSWINFRA,JSW Infrastructure Ltd.,Services,EQ,INE880J01026,,previous_version
+180,MIDCAP,JSL,Jindal Stainless Ltd.,Metals & Mining,EQ,INE220G01021,,previous_version
+181,MIDCAP,JUBLFOOD,Jubilant Foodworks Ltd.,Consumer Services,EQ,INE797F01020,,previous_version
+182,MIDCAP,KPRMILL,K.P.R. Mill Ltd.,Textiles,EQ,INE930H01031,,previous_version
+183,MIDCAP,KEI,KEI Industries Ltd.,Capital Goods,EQ,INE878B01027,,previous_version
+184,MIDCAP,KALYANKJIL,Kalyan Jewellers India Ltd.,Consumer Durables,EQ,INE303R01014,,previous_version
+185,MIDCAP,LTF,L&T Finance Ltd.,Financial Services,EQ,INE498L01015,,previous_version
+186,MIDCAP,LTTS,L&T Technology Services Ltd.,Information Technology,EQ,INE010V01017,,previous_version
+187,MIDCAP,LGEINDIA,LG Electronics India Ltd.,Consumer Durables,EQ,INE324D01010,,previous_version
+188,MIDCAP,LICHSGFIN,LIC Housing Finance Ltd.,Financial Services,EQ,INE115A01026,,previous_version
+189,MIDCAP,LAURUSLABS,Laurus Labs Ltd.,Healthcare,EQ,INE947Q01028,,previous_version
+190,MIDCAP,LENSKART,Lenskart Solutions Ltd.,Consumer Services,EQ,INE956O01016,,previous_version
+191,MIDCAP,LICI,Life Insurance Corporation of India,Financial Services,EQ,INE0J1Y01017,,previous_version
+192,MIDCAP,LINDEINDIA,Linde India Ltd.,Chemicals,EQ,INE473A01011,,previous_version
+193,MIDCAP,LLOYDSME,Lloyds Metals And Energy Ltd.,Metals & Mining,EQ,INE281B01032,,previous_version
+194,MIDCAP,LODHA,Lodha Developers Ltd.,Realty,EQ,INE670K01029,,previous_version
+195,MIDCAP,LUPIN,Lupin Ltd.,Healthcare,EQ,INE326A01037,,previous_version
+196,MIDCAP,MRF,MRF Ltd.,Automobile and Auto Components,EQ,INE883A01011,,previous_version
+197,MIDCAP,M&MFIN,Mahindra & Mahindra Financial Services Ltd.,Financial Services,EQ,INE774D01024,,previous_version
+198,MIDCAP,MANKIND,Mankind Pharma Ltd.,Healthcare,EQ,INE634S01028,,previous_version
+199,MIDCAP,MARICO,Marico Ltd.,Fast Moving Consumer Goods,EQ,INE196A01026,,previous_version
+200,MIDCAP,MFSL,Max Financial Services Ltd.,Financial Services,EQ,INE180A01020,,previous_version
+201,MIDCAP,MEESHO,Meesho Ltd.,Consumer Services,EQ,INE0VDM01015,,previous_version
+202,MIDCAP,MOTILALOFS,Motilal Oswal Financial Services Ltd.,Financial Services,EQ,INE338I01027,,previous_version
+203,MIDCAP,MPHASIS,MphasiS Ltd.,Information Technology,EQ,INE356A01018,,previous_version
+204,MIDCAP,MCX,Multi Commodity Exchange of India Ltd.,Financial Services,EQ,INE745G01043,,previous_version
+205,MIDCAP,NHPC,NHPC Ltd.,Power,EQ,INE848E01016,,previous_version
+206,MIDCAP,NLCINDIA,NLC India Ltd.,Power,EQ,INE589A01014,,previous_version
+207,MIDCAP,NMDC,NMDC Ltd.,Metals & Mining,EQ,INE584A01023,,previous_version
+208,MIDCAP,NTPCGREEN,NTPC Green Energy Ltd.,Power,EQ,INE0ONG01011,,previous_version
+209,MIDCAP,NH,Narayana Hrudayalaya Ltd.,Healthcare,EQ,INE410P01011,,previous_version
+210,MIDCAP,NATIONALUM,National Aluminium Co. Ltd.,Metals & Mining,EQ,INE139A01034,,previous_version
+211,MIDCAP,NAM-INDIA,Nippon Life India Asset Management Ltd.,Financial Services,EQ,INE298J01013,,previous_version
+212,MIDCAP,OBEROIRLTY,Oberoi Realty Ltd.,Realty,EQ,INE093I01010,,previous_version
+213,MIDCAP,OIL,Oil India Ltd.,Oil Gas & Consumable Fuels,EQ,INE274J01014,,previous_version
+214,MIDCAP,PAYTM,One 97 Communications Ltd.,Financial Services,EQ,INE982J01020,,previous_version
+215,MIDCAP,OFSS,Oracle Financial Services Software Ltd.,Information Technology,EQ,INE881D01027,,previous_version
+216,MIDCAP,POLICYBZR,PB Fintech Ltd.,Financial Services,EQ,INE417T01026,,previous_version
+217,MIDCAP,PIIND,PI Industries Ltd.,Chemicals,EQ,INE603J01030,,previous_version
+218,MIDCAP,PAGEIND,Page Industries Ltd.,Textiles,EQ,INE761H01022,,previous_version
+219,MIDCAP,PATANJALI,Patanjali Foods Ltd.,Fast Moving Consumer Goods,EQ,INE619A01035,,previous_version
+220,MIDCAP,PERSISTENT,Persistent Systems Ltd.,Information Technology,EQ,INE262H01021,,previous_version
+221,MIDCAP,PETRONET,Petronet LNG Ltd.,Oil Gas & Consumable Fuels,EQ,INE347G01014,,previous_version
+222,MIDCAP,PHOENIXLTD,Phoenix Mills Ltd.,Realty,EQ,INE211B01039,,previous_version
+223,MIDCAP,PIRAMALFIN,Piramal Finance Ltd.,Financial Services,EQ,INE202B01038,,previous_version
+224,MIDCAP,PREMIERENE,Premier Energies Ltd.,Capital Goods,EQ,INE0BS701011,,previous_version
+225,MIDCAP,PRESTIGE,Prestige Estates Projects Ltd.,Realty,EQ,INE811K01011,,previous_version
+226,MIDCAP,RECLTD,REC Ltd.,Financial Services,EQ,INE020B01018,,previous_version
+227,MIDCAP,RADICO,Radico Khaitan Ltd,Fast Moving Consumer Goods,EQ,INE944F01028,,previous_version
+228,MIDCAP,RVNL,Rail Vikas Nigam Ltd.,Construction,EQ,INE415G01027,,previous_version
+229,MIDCAP,SBICARD,SBI Cards and Payment Services Ltd.,Financial Services,EQ,INE018E01016,,previous_version
+230,MIDCAP,SRF,SRF Ltd.,Chemicals,EQ,INE647A01010,,previous_version
+231,MIDCAP,SCHAEFFLER,Schaeffler India Ltd.,Automobile and Auto Components,EQ,INE513A01022,,previous_version
+232,MIDCAP,SHREECEM,Shree Cement Ltd.,Construction Materials,EQ,INE070A01015,,previous_version
+233,MIDCAP,SAIL,Steel Authority of India Ltd.,Metals & Mining,EQ,INE114A01011,,previous_version
+234,MIDCAP,SUNDARMFIN,Sundaram Finance Ltd.,Financial Services,EQ,INE660A01013,,previous_version
+235,MIDCAP,SUPREMEIND,Supreme Industries Ltd.,Capital Goods,EQ,INE195A01028,,previous_version
+236,MIDCAP,SUZLON,Suzlon Energy Ltd.,Capital Goods,EQ,INE040H01021,,previous_version
+237,MIDCAP,SWIGGY,Swiggy Ltd.,Consumer Services,EQ,INE00H001014,,previous_version
+238,MIDCAP,TATACOMM,Tata Communications Ltd.,Telecommunication,EQ,INE151A01013,,previous_version
+239,MIDCAP,TATAINVEST,Tata Investment Corporation Ltd.,Financial Services,EQ,INE672A01026,,previous_version
+240,MIDCAP,THERMAX,Thermax Ltd.,Capital Goods,EQ,INE152A01029,,previous_version
+241,MIDCAP,TORNTPOWER,Torrent Power Ltd.,Power,EQ,INE813H01021,,previous_version
+242,MIDCAP,TIINDIA,Tube Investments of India Ltd.,Automobile and Auto Components,EQ,INE974X01010,,previous_version
+243,MIDCAP,UNOMINDA,UNO Minda Ltd.,Automobile and Auto Components,EQ,INE405E01023,,previous_version
+244,MIDCAP,UPL,UPL Ltd.,Chemicals,EQ,INE628A01036,,previous_version
+245,MIDCAP,UBL,United Breweries Ltd.,Fast Moving Consumer Goods,EQ,INE686F01025,,previous_version
+246,MIDCAP,UNITDSPR,United Spirits Ltd.,Fast Moving Consumer Goods,EQ,INE854D01024,,previous_version
+247,MIDCAP,VMM,Vishal Mega Mart Ltd.,Consumer Services,EQ,INE01EA01019,,previous_version
+248,MIDCAP,VOLTAS,Voltas Ltd.,Consumer Durables,EQ,INE226A01021,,previous_version
+249,MIDCAP,WAAREEENER,Waaree Energies Ltd.,Capital Goods,EQ,INE377N01017,,previous_version
+250,MIDCAP,YESBANK,Yes Bank Ltd.,Financial Services,EQ,INE528G01035,,previous_version
+251,SMALLCAP,ACC,ACC Ltd.,Construction Materials,EQ,INE012A01025,,previous_version
+252,SMALLCAP,ACMESOLAR,ACME Solar Holdings Ltd.,Power,EQ,INE622W01025,,previous_version
+253,SMALLCAP,AWL,AWL Agri Business Ltd.,Fast Moving Consumer Goods,EQ,INE699H01024,,previous_version
+254,SMALLCAP,AADHARHFC,Aadhar Housing Finance Ltd.,Financial Services,EQ,INE883F01010,,previous_version
+255,SMALLCAP,AARTIIND,Aarti Industries Ltd.,Chemicals,EQ,INE769A01020,,previous_version
+256,SMALLCAP,AAVAS,Aavas Financiers Ltd.,Financial Services,EQ,INE216P01012,,previous_version
+257,SMALLCAP,ACE,Action Construction Equipment Ltd.,Capital Goods,EQ,INE731H01025,,previous_version
+258,SMALLCAP,ACUTAAS,Acutaas Chemicals Ltd.,Healthcare,EQ,INE00FF01025,,previous_version
+259,SMALLCAP,ABREL,Aditya Birla Real Estate Ltd.,Realty,EQ,INE055A01016,,previous_version
+260,SMALLCAP,ABSLAMC,Aditya Birla Sun Life AMC Ltd.,Financial Services,EQ,INE404A01024,,previous_version
+261,SMALLCAP,CPPLUS,Aditya Infotech Ltd.,Capital Goods,EQ,INE819V01029,,previous_version
+262,SMALLCAP,AEGISLOG,Aegis Logistics Ltd.,Oil Gas & Consumable Fuels,EQ,INE208C01025,,previous_version
+263,SMALLCAP,AEGISVOPAK,Aegis Vopak Terminals Ltd.,Oil Gas & Consumable Fuels,EQ,INE0INX01018,,previous_version
+264,SMALLCAP,AETHER,Aether Industries Ltd.,Chemicals,EQ,INE0BWX01014,,previous_version
+265,SMALLCAP,AFCONS,Afcons Infrastructure Ltd.,Construction,EQ,INE101I01011,,previous_version
+266,SMALLCAP,AFFLE,Affle 3i Ltd.,Information Technology,EQ,INE00WC01027,,previous_version
+267,SMALLCAP,ABDL,Allied Blenders and Distillers Ltd.,Fast Moving Consumer Goods,EQ,INE552Z01027,,previous_version
+268,SMALLCAP,ARE&M,Amara Raja Energy & Mobility Ltd.,Automobile and Auto Components,EQ,INE885A01032,,previous_version
+269,SMALLCAP,AMBER,Amber Enterprises India Ltd.,Consumer Durables,EQ,INE371P01015,,previous_version
+270,SMALLCAP,ANANDRATHI,Anand Rathi Wealth Ltd.,Financial Services,EQ,INE463V01026,,previous_version
+271,SMALLCAP,ANANTRAJ,Anant Raj Ltd.,Realty,EQ,INE242C01024,,previous_version
+272,SMALLCAP,ANGELONE,Angel One Ltd.,Financial Services,EQ,INE732I01021,,previous_version
+273,SMALLCAP,ANURAS,Anupam Rasayan India Ltd.,Chemicals,EQ,INE930P01018,,previous_version
+274,SMALLCAP,APOLLOTYRE,Apollo Tyres Ltd.,Automobile and Auto Components,EQ,INE438A01022,,previous_version
+275,SMALLCAP,APTUS,Aptus Value Housing Finance India Ltd.,Financial Services,EQ,INE852O01025,,previous_version
+276,SMALLCAP,ASAHIINDIA,Asahi India Glass Ltd.,Automobile and Auto Components,EQ,INE439A01020,,previous_version
+277,SMALLCAP,ATHERENERG,Ather Energy Ltd.,Automobile and Auto Components,EQ,INE0LEZ01016,,previous_version
+278,SMALLCAP,ATUL,Atul Ltd.,Chemicals,EQ,INE100A01010,,previous_version
+279,SMALLCAP,AVANTIFEED,Avanti Feeds Ltd.,Fast Moving Consumer Goods,EQ,INE871C01038,,previous_version
+280,SMALLCAP,AZAD,Azad Engineering Ltd.,Capital Goods,EQ,INE02IJ01035,,previous_version
+281,SMALLCAP,BEML,BEML Ltd.,Capital Goods,EQ,INE258A01024,,previous_version
+282,SMALLCAP,BLS,BLS International Services Ltd.,Consumer Services,EQ,INE153T01027,,previous_version
+283,SMALLCAP,BAGMANE,Bagmane Prime Office REIT,Realty,RR,INE2OVN25015,,previous_version
+284,SMALLCAP,BALRAMCHIN,Balrampur Chini Mills Ltd.,Fast Moving Consumer Goods,EQ,INE119A01028,,previous_version
+285,SMALLCAP,BANDHANBNK,Bandhan Bank Ltd.,Financial Services,EQ,INE545U01014,,previous_version
+286,SMALLCAP,BATAINDIA,Bata India Ltd.,Consumer Durables,EQ,INE176A01028,,previous_version
+287,SMALLCAP,BELRISE,Belrise Industries Ltd.,Automobile and Auto Components,EQ,INE894V01022,,previous_version
+288,SMALLCAP,BHARATCOAL,Bharat Coking Coal Ltd.,Oil Gas & Consumable Fuels,EQ,INE05XR01022,,previous_version
+289,SMALLCAP,BSOFT,Birlasoft Ltd.,Information Technology,EQ,INE836A01035,,previous_version
+290,SMALLCAP,BBOX,Black Box Ltd.,Information Technology,EQ,INE676A01027,,previous_version
+291,SMALLCAP,FIRSTCRY,Brainbees Solutions Ltd.,Consumer Services,EQ,INE02RE01045,,previous_version
+292,SMALLCAP,BRIGADE,Brigade Enterprises Ltd.,Realty,EQ,INE791I01019,,previous_version
+293,SMALLCAP,BIRET,Brookfield India Real Estate Trust,Realty,RR,INE0FDU25010,,previous_version
+294,SMALLCAP,CCL,CCL Products (I) Ltd.,Fast Moving Consumer Goods,EQ,INE421D01022,,previous_version
+295,SMALLCAP,CESC,CESC Ltd.,Power,EQ,INE486A01021,,previous_version
+296,SMALLCAP,CIEINDIA,CIE Automotive India Ltd.,Automobile and Auto Components,EQ,INE536H01010,,previous_version
+297,SMALLCAP,CANFINHOME,Can Fin Homes Ltd.,Financial Services,EQ,INE477A01020,,previous_version
+298,SMALLCAP,CANHLIFE,Canara HSBC Life Insurance Company Ltd.,Financial Services,EQ,INE01TY01017,,previous_version
+299,SMALLCAP,CAPLIPOINT,Caplin Point Laboratories Ltd.,Healthcare,EQ,INE475E01026,,previous_version
+300,SMALLCAP,CGCL,Capri Global Capital Ltd.,Financial Services,EQ,INE180C01042,,previous_version
+301,SMALLCAP,CARBORUNIV,Carborundum Universal Ltd.,Capital Goods,EQ,INE120A01034,,previous_version
+302,SMALLCAP,CARTRADE,Cartrade Tech Ltd.,Consumer Services,EQ,INE290S01011,,previous_version
+303,SMALLCAP,CASTROLIND,Castrol India Ltd.,Oil Gas & Consumable Fuels,EQ,INE172A01027,,previous_version
+304,SMALLCAP,CEATLTD,Ceat Ltd.,Automobile and Auto Components,EQ,INE482A01020,,previous_version
+305,SMALLCAP,CEMPRO,Cemindia Projects Ltd.,Construction,EQ,INE686A01026,,previous_version
+306,SMALLCAP,CENTRALBK,Central Bank of India,Financial Services,EQ,INE483A01010,,previous_version
+307,SMALLCAP,CDSL,Central Depository Services (India) Ltd.,Financial Services,EQ,INE736A01011,,previous_version
+308,SMALLCAP,CMPDI,Central Mine Planning & Design Institute Ltd.,Services,EQ,INE05HV01027,,previous_version
+309,SMALLCAP,CHAMBLFERT,Chambal Fertilizers & Chemicals Ltd.,Chemicals,EQ,INE085A01013,,previous_version
+310,SMALLCAP,CHENNPETRO,Chennai Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,EQ,INE178A01016,,previous_version
+311,SMALLCAP,CHOICEIN,Choice International Ltd.,Financial Services,EQ,INE102B01014,,previous_version
+312,SMALLCAP,CHOLAHLDNG,Cholamandalam Financial Holdings Ltd.,Financial Services,EQ,INE149A01033,,previous_version
+313,SMALLCAP,CUB,City Union Bank Ltd.,Financial Services,EQ,INE491A01021,,previous_version
+314,SMALLCAP,CLEANMAX,Clean Max Enviro Energy Solutions Ltd.,Power,EQ,INE647U01026,,previous_version
+315,SMALLCAP,CLEAN,Clean Science and Technology Ltd.,Chemicals,EQ,INE227W01023,,previous_version
+316,SMALLCAP,COHANCE,Cohance Lifesciences Ltd.,Healthcare,EQ,INE03QK01018,,previous_version
+317,SMALLCAP,CAMS,Computer Age Management Services Ltd.,Financial Services,EQ,INE596I01020,,previous_version
+318,SMALLCAP,CONCORDBIO,Concord Biotech Ltd.,Healthcare,EQ,INE338H01029,,previous_version
+319,SMALLCAP,CRAFTSMAN,Craftsman Automation Ltd.,Automobile and Auto Components,EQ,INE00LO01017,,previous_version
+320,SMALLCAP,CREDITACC,CreditAccess Grameen Ltd.,Financial Services,EQ,INE741K01010,,previous_version
+321,SMALLCAP,CROMPTON,Crompton Greaves Consumer Electricals Ltd.,Consumer Durables,EQ,INE299U01018,,previous_version
+322,SMALLCAP,CUPID,Cupid Ltd.,Fast Moving Consumer Goods,EQ,INE509F01029,,previous_version
+323,SMALLCAP,CYIENT,Cyient Ltd.,Information Technology,EQ,INE136B01020,,previous_version
+324,SMALLCAP,DOMS,DOMS Industries Ltd.,Fast Moving Consumer Goods,EQ,INE321T01012,,previous_version
+325,SMALLCAP,DATAPATTNS,Data Patterns (India) Ltd.,Capital Goods,EQ,INE0IX101010,,previous_version
+326,SMALLCAP,DEEPAKFERT,Deepak Fertilisers & Petrochemicals Corp. Ltd.,Chemicals,EQ,INE501A01019,,previous_version
+327,SMALLCAP,DEEPAKNTR,Deepak Nitrite Ltd.,Chemicals,EQ,INE288B01029,,previous_version
+328,SMALLCAP,DELHIVERY,Delhivery Ltd.,Services,EQ,INE148O01028,,previous_version
+329,SMALLCAP,DEVYANI,Devyani International Ltd.,Consumer Services,EQ,INE872J01023,,previous_version
+330,SMALLCAP,LALPATHLAB,Dr. Lal Path Labs Ltd.,Healthcare,EQ,INE600L01024,,previous_version
+331,SMALLCAP,EIDPARRY,E.I.D. Parry (India) Ltd.,Fast Moving Consumer Goods,EQ,INE126A01031,,previous_version
+332,SMALLCAP,EIHOTEL,EIH Ltd.,Consumer Services,EQ,INE230A01023,,previous_version
+333,SMALLCAP,ELECON,Elecon Engineering Co. Ltd.,Capital Goods,EQ,INE205B01031,,previous_version
+334,SMALLCAP,ELGIEQUIP,Elgi Equipments Ltd.,Capital Goods,EQ,INE285A01027,,previous_version
+335,SMALLCAP,EMAMILTD,Emami Ltd.,Fast Moving Consumer Goods,EQ,INE548C01032,,previous_version
+336,SMALLCAP,EMCURE,Emcure Pharmaceuticals Ltd.,Healthcare,EQ,INE168P01015,,previous_version
+337,SMALLCAP,EMMVEE,Emmvee Photovoltaic Power Ltd.,Capital Goods,EQ,INE1C6T01020,,previous_version
+338,SMALLCAP,ENGINERSIN,Engineers India Ltd.,Construction,EQ,INE510A01028,,previous_version
+339,SMALLCAP,FINCABLES,Finolex Cables Ltd.,Capital Goods,EQ,INE235A01022,,previous_version
+340,SMALLCAP,FSL,Firstsource Solutions Ltd.,Services,EQ,INE684F01012,,previous_version
+341,SMALLCAP,FIVESTAR,Five-Star Business Finance Ltd.,Financial Services,EQ,INE128S01021,,previous_version
+342,SMALLCAP,FORCEMOT,Force Motors Ltd.,Automobile and Auto Components,EQ,INE451A01017,,previous_version
+343,SMALLCAP,FRACTAL,Fractal Analytics Ltd.,Information Technology,EQ,INE212S01015,,previous_version
+344,SMALLCAP,GABRIEL,Gabriel India Ltd.,Automobile and Auto Components,EQ,INE524A01029,,previous_version
+345,SMALLCAP,GALLANTT,Gallantt Ispat Ltd.,Capital Goods,EQ,INE297H01019,,previous_version
+346,SMALLCAP,GRSE,Garden Reach Shipbuilders & Engineers Ltd.,Capital Goods,EQ,INE382Z01011,,previous_version
+347,SMALLCAP,GILLETTE,Gillette India Ltd.,Fast Moving Consumer Goods,EQ,INE322A01010,,previous_version
+348,SMALLCAP,GLAND,Gland Pharma Ltd.,Healthcare,EQ,INE068V01023,,previous_version
+349,SMALLCAP,GPIL,Godawari Power & Ispat Ltd.,Capital Goods,EQ,INE177H01039,,previous_version
+350,SMALLCAP,GRANULES,Granules India Ltd.,Healthcare,EQ,INE101D01020,,previous_version
+351,SMALLCAP,GRAPHITE,Graphite India Ltd.,Capital Goods,EQ,INE371A01025,,previous_version
+352,SMALLCAP,GRAVITA,Gravita India Ltd.,Metals & Mining,EQ,INE024L01027,,previous_version
+353,SMALLCAP,GESHIP,Great Eastern Shipping Co. Ltd.,Services,EQ,INE017A01032,,previous_version
+354,SMALLCAP,GMDCLTD,Gujarat Mineral Development Corporation Ltd.,Metals & Mining,EQ,INE131A01031,,previous_version
+355,SMALLCAP,HBLENGINE,HBL Engineering Ltd.,Capital Goods,EQ,INE292B01021,,previous_version
+356,SMALLCAP,HEGAM,HEG Advanced Materials Ltd.,Capital Goods,EQ,INE545A01024,,previous_version
+357,SMALLCAP,HFCL,HFCL Ltd.,Telecommunication,BE,INE548A01028,,previous_version
+358,SMALLCAP,HSCL,Himadri Speciality Chemical Ltd.,Chemicals,EQ,INE019C01026,,previous_version
+359,SMALLCAP,HOMEFIRST,Home First Finance Company India Ltd.,Financial Services,EQ,INE481N01025,,previous_version
+360,SMALLCAP,HONASA,Honasa Consumer Ltd.,Fast Moving Consumer Goods,EQ,INE0J5401028,,previous_version
+361,SMALLCAP,HONAUT,Honeywell Automation India Ltd.,Capital Goods,EQ,INE671A01010,,previous_version
+362,SMALLCAP,IDBI,IDBI Bank Ltd.,Financial Services,EQ,INE008A01015,,previous_version
+363,SMALLCAP,IFCI,IFCI Ltd.,Financial Services,EQ,INE039A01010,,previous_version
+364,SMALLCAP,IIFL,IIFL Finance Ltd.,Financial Services,EQ,INE530B01024,,previous_version
+365,SMALLCAP,INOXINDIA,INOX India Ltd.,Capital Goods,EQ,INE616N01034,,previous_version
+366,SMALLCAP,IRB,IRB Infrastructure Developers Ltd.,Construction,EQ,INE821I01022,,previous_version
+367,SMALLCAP,IRCON,IRCON International Ltd.,Construction,EQ,INE962Y01021,,previous_version
+368,SMALLCAP,ITI,ITI Ltd.,Telecommunication,EQ,INE248A01017,,previous_version
+369,SMALLCAP,INDIACEM,India Cements Ltd.,Construction Materials,EQ,INE383A01012,,previous_version
+370,SMALLCAP,INDIAMART,Indiamart Intermesh Ltd.,Consumer Services,EQ,INE933S01016,,previous_version
+371,SMALLCAP,IEX,Indian Energy Exchange Ltd.,Financial Services,EQ,INE022Q01020,,previous_version
+372,SMALLCAP,IGL,Indraprastha Gas Ltd.,Oil Gas & Consumable Fuels,EQ,INE203G01027,,previous_version
+373,SMALLCAP,INOXWIND,Inox Wind Ltd.,Capital Goods,EQ,INE066P01011,,previous_version
+374,SMALLCAP,INTELLECT,Intellect Design Arena Ltd.,Information Technology,EQ,INE306R01017,,previous_version
+375,SMALLCAP,IGIL,International Gemological Institute Ltd.,Services,EQ,INE0Q9301021,,previous_version
+376,SMALLCAP,IKS,Inventurus Knowledge Solutions Ltd.,Information Technology,EQ,INE115Q01022,,previous_version
+377,SMALLCAP,JBMA,JBM Auto Ltd.,Automobile and Auto Components,EQ,INE927D01051,,previous_version
+378,SMALLCAP,JKTYRE,JK Tyre & Industries Ltd.,Automobile and Auto Components,EQ,INE573A01042,,previous_version
+379,SMALLCAP,JMFINANCIL,JM Financial Ltd.,Financial Services,EQ,INE780C01023,,previous_version
+380,SMALLCAP,JSWCEMENT,JSW Cement Ltd.,Construction Materials,EQ,INE718I01012,,previous_version
+381,SMALLCAP,JAINREC,Jain Resource Recycling Ltd.,Metals & Mining,EQ,INE0YD401026,,previous_version
+382,SMALLCAP,JPPOWER,Jaiprakash Power Ventures Ltd.,Power,EQ,INE351F01018,,previous_version
+383,SMALLCAP,J&KBANK,Jammu & Kashmir Bank Ltd.,Financial Services,EQ,INE168A01041,,previous_version
+384,SMALLCAP,JINDALSAW,Jindal Saw Ltd.,Capital Goods,EQ,INE324A01032,,previous_version
+385,SMALLCAP,JUBLINGREA,Jubilant Ingrevia Ltd.,Chemicals,EQ,INE0BY001018,,previous_version
+386,SMALLCAP,JWL,Jupiter Wagons Ltd.,Capital Goods,EQ,INE209L01016,,previous_version
+387,SMALLCAP,JYOTICNC,Jyoti CNC Automation Ltd.,Capital Goods,EQ,INE980O01024,,previous_version
+388,SMALLCAP,KPITTECH,KPIT Technologies Ltd.,Information Technology,EQ,INE04I401011,,previous_version
+389,SMALLCAP,KSB,KSB Ltd.,Capital Goods,EQ,INE999A01023,,previous_version
+390,SMALLCAP,KAJARIACER,Kajaria Ceramics Ltd.,Consumer Durables,EQ,INE217B01036,,previous_version
+391,SMALLCAP,KPIL,Kalpataru Projects International Ltd.,Construction,EQ,INE220B01022,,previous_version
+392,SMALLCAP,KARURVYSYA,Karur Vysya Bank Ltd.,Financial Services,EQ,INE036D01028,,previous_version
+393,SMALLCAP,KAYNES,Kaynes Technology India Ltd.,Capital Goods,EQ,INE918Z01012,,previous_version
+394,SMALLCAP,KEC,Kec International Ltd.,Construction,EQ,INE389H01022,,previous_version
+395,SMALLCAP,KFINTECH,Kfin Technologies Ltd.,Financial Services,EQ,INE138Y01010,,previous_version
+396,SMALLCAP,KIRLOSBROS,Kirloskar Brothers Ltd.,Capital Goods,EQ,INE732A01036,,previous_version
+397,SMALLCAP,KIRLOSENG,Kirloskar Oil Eng Ltd.,Capital Goods,EQ,INE146L01010,,previous_version
+398,SMALLCAP,KIMS,Krishna Institute of Medical Sciences Ltd.,Healthcare,EQ,INE967H01025,,previous_version
+399,SMALLCAP,LTFOODS,LT Foods Ltd.,Fast Moving Consumer Goods,EQ,INE818H01020,,previous_version
+400,SMALLCAP,LEMONTREE,Lemon Tree Hotels Ltd.,Consumer Services,EQ,INE970X01018,,previous_version
+401,SMALLCAP,MMTC,MMTC Ltd.,Services,EQ,INE123F01029,,previous_version
+402,SMALLCAP,MTARTECH,MTAR Technologies Ltd.,Capital Goods,BE,INE864I01014,,previous_version
+403,SMALLCAP,MGL,Mahanagar Gas Ltd.,Oil Gas & Consumable Fuels,EQ,INE002S01010,,previous_version
+404,SMALLCAP,MANAPPURAM,Manappuram Finance Ltd.,Financial Services,EQ,INE522D01027,,previous_version
+405,SMALLCAP,MRPL,Mangalore Refinery & Petrochemicals Ltd.,Oil Gas & Consumable Fuels,EQ,INE103A01014,,previous_version
+406,SMALLCAP,MINDACORP,Minda Corporation Ltd.,Automobile and Auto Components,EQ,INE842C01021,,previous_version
+407,SMALLCAP,MSUMI,Motherson Sumi Wiring India Ltd.,Automobile and Auto Components,EQ,INE0FS801015,,previous_version
+408,SMALLCAP,NATCOPHARM,NATCO Pharma Ltd.,Healthcare,EQ,INE987B01026,,previous_version
+409,SMALLCAP,NBCC,NBCC (India) Ltd.,Construction,EQ,INE095N01031,,previous_version
+410,SMALLCAP,NCC,NCC Ltd.,Construction,EQ,INE868B01028,,previous_version
+411,SMALLCAP,NSLNISP,NMDC Steel Ltd.,Metals & Mining,EQ,INE0NNS01018,,previous_version
+412,SMALLCAP,NAVA,Nava Ltd.,Power,EQ,INE725A01030,,previous_version
+413,SMALLCAP,NAVINFLUOR,Navin Fluorine International Ltd.,Chemicals,EQ,INE048G01026,,previous_version
+414,SMALLCAP,NETWEB,Netweb Technologies India Ltd.,Information Technology,EQ,INE0NT901020,,previous_version
+415,SMALLCAP,NEULANDLAB,Neuland Laboratories Ltd.,Healthcare,EQ,INE794A01010,,previous_version
+416,SMALLCAP,NUVAMA,Nuvama Wealth Management Ltd.,Financial Services,EQ,INE531F01023,,previous_version
+417,SMALLCAP,NUVOCO,Nuvoco Vistas Corporation Ltd.,Construction Materials,EQ,INE118D01016,,previous_version
+418,SMALLCAP,OLAELEC,Ola Electric Mobility Ltd.,Automobile and Auto Components,EQ,INE0LXG01040,,previous_version
+419,SMALLCAP,OLECTRA,Olectra Greentech Ltd.,Automobile and Auto Components,EQ,INE260D01016,,previous_version
+420,SMALLCAP,ONESOURCE,Onesource Specialty Pharma Ltd.,Healthcare,EQ,INE013P01021,,previous_version
+421,SMALLCAP,PCBL,PCBL Chemical Ltd.,Chemicals,EQ,INE602A01031,,previous_version
+422,SMALLCAP,PGEL,PG Electroplast Ltd.,Consumer Durables,EQ,INE457L01029,,previous_version
+423,SMALLCAP,PNBHOUSING,PNB Housing Finance Ltd.,Financial Services,EQ,INE572E01012,,previous_version
+424,SMALLCAP,PTCIL,PTC Industries Ltd.,Capital Goods,EQ,INE596F01018,,previous_version
+425,SMALLCAP,PVRINOX,PVR INOX Ltd.,Media Entertainment & Publication,EQ,INE191H01014,,previous_version
+426,SMALLCAP,PARADEEP,Paradeep Phosphates Ltd.,Chemicals,EQ,INE088F01024,,previous_version
+427,SMALLCAP,PWL,Physicswallah Ltd.,Consumer Services,EQ,INE0LP301011,,previous_version
+428,SMALLCAP,PINELABS,Pine Labs Ltd.,Financial Services,EQ,INE15B701018,,previous_version
+429,SMALLCAP,PPLPHARMA,Piramal Pharma Ltd.,Healthcare,EQ,INE0DK501011,,previous_version
+430,SMALLCAP,POLYMED,Poly Medicure Ltd.,Healthcare,EQ,INE205C01021,,previous_version
+431,SMALLCAP,POONAWALLA,Poonawalla Fincorp Ltd.,Financial Services,EQ,INE511C01022,,previous_version
+432,SMALLCAP,PFOCUS,Prime Focus Ltd.,Media Entertainment & Publication,EQ,INE367G01038,,previous_version
+433,SMALLCAP,PRIVISCL,Privi Speciality Chemicals Ltd.,Chemicals,EQ,INE959A01019,,previous_version
+434,SMALLCAP,RRKABEL,R R Kabel Ltd.,Capital Goods,EQ,INE777K01022,,previous_version
+435,SMALLCAP,RBLBANK,RBL Bank Ltd.,Financial Services,EQ,INE976G01028,,previous_version
+436,SMALLCAP,RHIM,RHI MAGNESITA INDIA LTD.,Capital Goods,EQ,INE743M01012,,previous_version
+437,SMALLCAP,RITES,RITES Ltd.,Construction,EQ,INE320J01015,,previous_version
+438,SMALLCAP,RAILTEL,Railtel Corporation Of India Ltd.,Telecommunication,EQ,INE0DD101019,,previous_version
+439,SMALLCAP,RAINBOW,Rainbow Childrens Medicare Ltd.,Healthcare,EQ,INE961O01016,,previous_version
+440,SMALLCAP,RKFORGE,Ramkrishna Forgings Ltd.,Automobile and Auto Components,EQ,INE399G01023,,previous_version
+441,SMALLCAP,REDINGTON,Redington Ltd.,Services,EQ,INE891D01026,,previous_version
+442,SMALLCAP,RPOWER,Reliance Power Ltd.,Power,EQ,INE614G01033,,previous_version
+443,SMALLCAP,RUBICON,Rubicon Research Ltd.,Healthcare,EQ,INE506V01022,,previous_version
+444,SMALLCAP,SJVN,SJVN Ltd.,Power,EQ,INE002L01015,,previous_version
+445,SMALLCAP,SHRIPISTON,SPR Auto Technologies Ltd.,Automobile and Auto Components,EQ,INE526E01018,,previous_version
+446,SMALLCAP,SAGILITY,Sagility Ltd.,Information Technology,EQ,INE0W2G01015,,previous_version
+447,SMALLCAP,SAILIFE,Sai Life Sciences Ltd.,Healthcare,EQ,INE570L01029,,previous_version
+448,SMALLCAP,SAMMAANCAP,Sammaan Capital Ltd.,Financial Services,EQ,INE148I01020,,previous_version
+449,SMALLCAP,SANSERA,Sansera Engineering Ltd.,Automobile and Auto Components,EQ,INE953O01021,,previous_version
+450,SMALLCAP,SARDAEN,Sarda Energy and Minerals Ltd.,Metals & Mining,EQ,INE385C01021,,previous_version
+451,SMALLCAP,SCHNEIDER,Schneider Electric Infrastructure Ltd.,Capital Goods,EQ,INE839M01018,,previous_version
+452,SMALLCAP,SCI,Shipping Corporation of India Ltd.,Services,EQ,INE109A01011,,previous_version
+453,SMALLCAP,SHYAMMETL,Shyam Metalics and Energy Ltd.,Capital Goods,EQ,INE810G01011,,previous_version
+454,SMALLCAP,SIGNATURE,Signatureglobal (India) Ltd.,Realty,EQ,INE903U01023,,previous_version
+455,SMALLCAP,SOBHA,Sobha Ltd.,Realty,EQ,INE671H01015,,previous_version
+456,SMALLCAP,SONACOMS,Sona BLW Precision Forgings Ltd.,Automobile and Auto Components,EQ,INE073K01018,,previous_version
+457,SMALLCAP,STARHEALTH,Star Health and Allied Insurance Company Ltd.,Financial Services,EQ,INE575P01011,,previous_version
+458,SMALLCAP,STLTECH,Sterlite Technologies Ltd.,Telecommunication,BE,INE089C01029,,previous_version
+459,SMALLCAP,SUMICHEM,Sumitomo Chemical India Ltd.,Chemicals,EQ,INE258G01013,,previous_version
+460,SMALLCAP,SUNTV,Sun TV Network Ltd.,Media Entertainment & Publication,EQ,INE424H01027,,previous_version
+461,SMALLCAP,SWANCORP,Swan Corp Ltd.,Chemicals,EQ,INE665A01038,,previous_version
+462,SMALLCAP,SYNGENE,Syngene International Ltd.,Healthcare,EQ,INE398R01022,,previous_version
+463,SMALLCAP,SYRMA,Syrma SGS Technology Ltd.,Capital Goods,EQ,INE0DYJ01015,,previous_version
+464,SMALLCAP,TBOTEK,TBO Tek Ltd.,Consumer Services,EQ,INE673O01025,,previous_version
+465,SMALLCAP,TDPOWERSYS,TD Power Systems Ltd.,Capital Goods,EQ,INE419M01035,,previous_version
+466,SMALLCAP,TATACHEM,Tata Chemicals Ltd.,Chemicals,EQ,INE092A01019,,previous_version
+467,SMALLCAP,TATAELXSI,Tata Elxsi Ltd.,Information Technology,EQ,INE670A01012,,previous_version
+468,SMALLCAP,TATATECH,Tata Technologies Ltd.,Information Technology,EQ,INE142M01025,,previous_version
+469,SMALLCAP,TTML,Tata Teleservices (Maharashtra) Ltd.,Telecommunication,EQ,INE517B01013,,previous_version
+470,SMALLCAP,TECHNOE,Techno Electric & Engineering Company Ltd.,Construction,EQ,INE285K01026,,previous_version
+471,SMALLCAP,TEGA,Tega Industries Ltd.,Capital Goods,EQ,INE011K01018,,previous_version
+472,SMALLCAP,TEJASNET,Tejas Networks Ltd.,Telecommunication,EQ,INE010J01012,,previous_version
+473,SMALLCAP,TENNIND,Tenneco Clean Air India Ltd.,Automobile and Auto Components,EQ,INE19RI01016,,previous_version
+474,SMALLCAP,THANGAMAYL,Thangamayil Jewellery Ltd.,Consumer Durables,EQ,INE085J01014,,previous_version
+475,SMALLCAP,NIACL,The New India Assurance Company Ltd.,Financial Services,EQ,INE470Y01017,,previous_version
+476,SMALLCAP,RAMCOCEM,The Ramco Cements Ltd.,Construction Materials,EQ,INE331A01037,,previous_version
+477,SMALLCAP,TIMKEN,Timken India Ltd.,Capital Goods,EQ,INE325A01013,,previous_version
+478,SMALLCAP,TITAGARH,Titagarh Rail Systems Ltd.,Capital Goods,EQ,INE615H01020,,previous_version
+479,SMALLCAP,TARIL,Transformers And Rectifiers (India) Ltd.,Capital Goods,EQ,INE763I01026,,previous_version
+480,SMALLCAP,TRIDENT,Trident Ltd.,Textiles,EQ,INE064C01022,,previous_version
+481,SMALLCAP,TRITURBINE,Triveni Turbine Ltd.,Capital Goods,EQ,INE152M01016,,previous_version
+482,SMALLCAP,UCOBANK,UCO Bank,Financial Services,EQ,INE691A01018,,previous_version
+483,SMALLCAP,UTIAMC,UTI Asset Management Company Ltd.,Financial Services,EQ,INE094J01016,,previous_version
+484,SMALLCAP,URBANCO,Urban Company Ltd.,Consumer Services,EQ,INE0CAZ01013,,previous_version
+485,SMALLCAP,USHAMART,Usha Martin Ltd.,Capital Goods,EQ,INE228A01035,,previous_version
+486,SMALLCAP,VTL,Vardhman Textiles Ltd.,Textiles,EQ,INE825A01020,,previous_version
+487,SMALLCAP,VISL,Vedanta Iron and Steel Ltd.,Metals & Mining,EQ,INE1CLE01013,,previous_version
+488,SMALLCAP,VOGL,Vedanta Oil and Gas Ltd.,Oil Gas & Consumable Fuels,EQ,INE704J01044,,previous_version
+489,SMALLCAP,VEDPOWER,Vedanta Power Ltd.,Power,EQ,INE694L01019,,previous_version
+490,SMALLCAP,VIJAYA,Vijaya Diagnostic Centre Ltd.,Healthcare,EQ,INE043W01024,,previous_version
+491,SMALLCAP,WELCORP,Welspun Corp Ltd.,Capital Goods,EQ,INE191B01025,,previous_version
+492,SMALLCAP,WELSPUNLIV,Welspun Living Ltd.,Textiles,EQ,INE192B01031,,previous_version
+493,SMALLCAP,WHIRLPOOL,Whirlpool of India Ltd.,Consumer Durables,EQ,INE716A01013,,previous_version
+494,SMALLCAP,WOCKPHARMA,Wockhardt Ltd.,Healthcare,EQ,INE049B01025,,previous_version
+495,SMALLCAP,ZFCVINDIA,ZF Commercial Vehicle Control Systems India Ltd.,Automobile and Auto Components,EQ,INE342J01019,,previous_version
+496,SMALLCAP,ZEEL,Zee Entertainment Enterprises Ltd.,Media Entertainment & Publication,EQ,INE256A01028,,previous_version
+497,SMALLCAP,ZENTEC,Zen Technologies Ltd.,Capital Goods,EQ,INE251B01027,,previous_version
+498,SMALLCAP,ZENSARTECH,Zensar Technolgies Ltd.,Information Technology,EQ,INE520A01027,,previous_version
+499,SMALLCAP,ZYDUSWELL,Zydus Wellness Ltd.,Fast Moving Consumer Goods,EQ,INE768C01028,,previous_version
+500,SMALLCAP,ECLERX,eClerx Services Ltd.,Services,EQ,INE738I01010,,previous_version
+501,MICROCAP,AXISCADES,AXISCADES Technologies Ltd.,Capital Goods,EQ,INE555B01013,,previous_version
+502,MICROCAP,AARTIPHARM,Aarti Pharmalabs Ltd.,Healthcare,EQ,INE0LRU01027,,previous_version
+503,MICROCAP,ABFRL,Aditya Birla Fashion and Retail Ltd.,Consumer Services,EQ,INE647O01011,,previous_version
+504,MICROCAP,ABLBL,Aditya Birla Lifestyle Brands Ltd.,Consumer Services,EQ,INE14LE01019,,previous_version
+505,MICROCAP,AVL,Aditya Vision Ltd.,Consumer Services,EQ,INE679V01027,,previous_version
+506,MICROCAP,ADVENZYMES,Advanced Enzyme Tech Ltd.,Healthcare,EQ,INE837H01020,,previous_version
+507,MICROCAP,AEQUS,Aequs Ltd.,Capital Goods,EQ,INE947N01017,,previous_version
+508,MICROCAP,AEROFLEX,Aeroflex Industries Ltd.,Capital Goods,EQ,INE024001021,,previous_version
+509,MICROCAP,AKUMS,Akums Drugs and Pharmaceuticals Ltd.,Healthcare,EQ,INE09XN01023,,previous_version
+510,MICROCAP,ALKYLAMINE,Alkyl Amines Chemicals Ltd.,Chemicals,EQ,INE150B01039,,previous_version
+511,MICROCAP,AMAGI,Amagi Media Labs Ltd.,Information Technology,EQ,INE121R01077,,previous_version
+512,MICROCAP,APOLLO,Apollo Micro Systems Ltd.,Capital Goods,EQ,INE713T01028,,previous_version
+513,MICROCAP,ACI,Archean Chemical Industries Ltd.,Chemicals,EQ,INE128X01021,,previous_version
+514,MICROCAP,ARVINDFASN,Arvind Fashions Ltd.,Consumer Services,EQ,INE955V01021,,previous_version
+515,MICROCAP,ARVIND,Arvind Ltd.,Textiles,EQ,INE034A01011,,previous_version
+516,MICROCAP,ASHAPURMIN,Ashapura Minechem Ltd.,Metals & Mining,EQ,INE348A01023,,previous_version
+517,MICROCAP,ASHOKA,Ashoka Buildcon Ltd.,Construction,EQ,INE442H01029,,previous_version
+518,MICROCAP,ASTRAMICRO,Astra Microwave Products Ltd.,Capital Goods,EQ,INE386C01029,,previous_version
+519,MICROCAP,ATLANTAELE,Atlanta Electricals Ltd.,Capital Goods,EQ,INE0Z4F01028,,previous_version
+520,MICROCAP,AURIONPRO,Aurionpro Solution Ltd.,Information Technology,EQ,INE132H01018,,previous_version
+521,MICROCAP,AVALON,Avalon Technologies Ltd.,Capital Goods,EQ,INE0LCL01028,,previous_version
+522,MICROCAP,CCAVENUE,AvenuesAI Ltd.,Financial Services,EQ,INE483S01020,,previous_version
+523,MICROCAP,BAJAJCON,Bajaj Consumer Care Ltd.,Fast Moving Consumer Goods,EQ,INE933K01021,,previous_version
+524,MICROCAP,BALAMINES,Balaji Amines Ltd.,Chemicals,EQ,INE050E01027,,previous_version
+525,MICROCAP,BALUFORGE,Balu Forge Industries Ltd.,Capital Goods,EQ,INE011E01029,,previous_version
+526,MICROCAP,BANCOINDIA,Banco Products (India) Ltd.,Automobile and Auto Components,EQ,INE213C01025,,previous_version
+527,MICROCAP,BIRLACORPN,Birla Corporation Ltd.,Construction Materials,EQ,INE340A01012,,previous_version
+528,MICROCAP,BLACKBUCK,Blackbuck Ltd.,Services,EQ,INE0UIZ01018,,previous_version
+529,MICROCAP,BLUEJET,Blue Jet Healthcare Ltd.,Healthcare,EQ,INE0KBH01020,,previous_version
+530,MICROCAP,BLUESTONE,BlueStone Jewellery and Lifestyle Ltd.,Consumer Durables,EQ,INE304W01038,,previous_version
+531,MICROCAP,BORORENEW,Borosil Renewables Ltd.,Capital Goods,EQ,INE666D01022,,previous_version
+532,MICROCAP,MAPMYINDIA,C.E. Info Systems Ltd.,Information Technology,EQ,INE0BV301023,,previous_version
+533,MICROCAP,CMRGREEN,CMR Green Technologies Ltd.,Capital Goods,EQ,INE00WV01027,,previous_version
+534,MICROCAP,CMSINFO,CMS Info Systems Ltd.,Services,EQ,INE925R01014,,previous_version
+535,MICROCAP,CSBBANK,CSB Bank Ltd.,Financial Services,EQ,INE679A01013,,previous_version
+536,MICROCAP,CAMPUS,Campus Activewear Ltd.,Consumer Durables,EQ,INE278Y01022,,previous_version
+537,MICROCAP,CRAMC,Canara Robeco Asset Management Company Ltd.,Financial Services,EQ,INE218I01013,,previous_version
+538,MICROCAP,CAPILLARY,Capillary Technologies India Ltd.,Information Technology,EQ,INE0ILV01024,,previous_version
+539,MICROCAP,CEIGALL,Ceigall India Ltd.,Construction,EQ,INE0AG901020,,previous_version
+540,MICROCAP,CELLO,Cello World Ltd.,Consumer Durables,EQ,INE0LMW01024,,previous_version
+541,MICROCAP,CENTUM,Centum Electronics Ltd.,Capital Goods,EQ,INE320B01020,,previous_version
+542,MICROCAP,CERA,Cera Sanitaryware Ltd,Consumer Durables,EQ,INE739E01017,,previous_version
+543,MICROCAP,CHALET,Chalet Hotels Ltd.,Consumer Services,EQ,INE427F01016,,previous_version
+544,MICROCAP,DCBBANK,DCB Bank Ltd.,Financial Services,EQ,INE503A01015,,previous_version
+545,MICROCAP,DATAMATICS,Datamatics Global Services Ltd.,Information Technology,EQ,INE365B01017,,previous_version
+546,MICROCAP,DIACABS,Diamond Power Infrastructure Ltd.,Capital Goods,BE,INE989C01038,,previous_version
+547,MICROCAP,DBL,Dilip Buildcon Ltd.,Construction,EQ,INE917M01012,,previous_version
+548,MICROCAP,DYNAMATECH,Dynamatic Technologies Ltd.,Capital Goods,EQ,INE221B01012,,previous_version
+549,MICROCAP,E2E,E2E NETWORKS Ltd.,Information Technology,BE,INE255Z01027,,previous_version
+550,MICROCAP,EPL,EPL Ltd.,Capital Goods,EQ,INE255A01020,,previous_version
+551,MICROCAP,EDELWEISS,Edelweiss Financial Services Ltd.,Financial Services,EQ,INE532F01054,,previous_version
+552,MICROCAP,EMIL,Electronics Mart India Ltd.,Consumer Services,EQ,INE02YR01019,,previous_version
+553,MICROCAP,ELECTCAST,Electrosteel Castings Ltd.,Capital Goods,EQ,INE086A01029,,previous_version
+554,MICROCAP,ELLEN,Ellenbarrie Industrial Gases Ltd.,Chemicals,EQ,INE236E01022,,previous_version
+555,MICROCAP,EMBDL,Embassy Developments Ltd.,Realty,EQ,INE069I01010,,previous_version
+556,MICROCAP,ENTERO,Entero Healthcare Solutions Ltd.,Consumer Services,EQ,INE010601016,,previous_version
+557,MICROCAP,EIEL,Enviro Infra Engineers Ltd.,Utilities,EQ,INE0LLY01014,,previous_version
+558,MICROCAP,EQUITASBNK,Equitas Small Finance Bank Ltd.,Financial Services,EQ,INE063P01018,,previous_version
+559,MICROCAP,ERIS,Eris Lifesciences Ltd.,Healthcare,EQ,INE406M01024,,previous_version
+560,MICROCAP,FEDFINA,Fedbank Financial Services Ltd.,Financial Services,EQ,INE007N01010,,previous_version
+561,MICROCAP,FIEMIND,Fiem Industries Ltd,Automobile and Auto Components,EQ,INE737H01014,,previous_version
+562,MICROCAP,FINPIPE,Finolex Industries Ltd.,Capital Goods,EQ,INE183A01024,,previous_version
+563,MICROCAP,UTLSOLAR,Fujiyama Power Systems Ltd.,Capital Goods,EQ,INE12UR01024,,previous_version
+564,MICROCAP,GMRP&UI,GMR Power and Urban Infra Ltd.,Power,EQ,INE0CU601026,,previous_version
+565,MICROCAP,EBGNG,GNG Electronics Ltd.,Information Technology,EQ,INE18JU01028,,previous_version
+566,MICROCAP,GRWRHITECH,Garware Hi-Tech Films Ltd.,Capital Goods,EQ,INE291A01017,,previous_version
+567,MICROCAP,GENUSPOWER,Genus Power Infrastructures Ltd.,Capital Goods,EQ,INE955D01029,,previous_version
+568,MICROCAP,GODREJAGRO,Godrej Agrovet Ltd.,Fast Moving Consumer Goods,EQ,INE850D01014,,previous_version
+569,MICROCAP,GOKEX,Gokaldas Exports Ltd.,Textiles,EQ,INE887G01027,,previous_version
+570,MICROCAP,GOKULAGRO,Gokul Agro Resources Ltd.,Fast Moving Consumer Goods,EQ,INE314T01033,,previous_version
+571,MICROCAP,GOLDIAM,Goldiam International Ltd.,Consumer Durables,EQ,INE025B01025,,previous_version
+572,MICROCAP,GREAVESCOT,Greaves Cotton Ltd.,Capital Goods,EQ,INE224A01026,,previous_version
+573,MICROCAP,GRINDWELL,Grindwell Norton Ltd.,Capital Goods,EQ,INE536A01023,,previous_version
+574,MICROCAP,GUJALKALI,Gujarat Alkalies & Chemicals Ltd.,Chemicals,EQ,INE186A01019,,previous_version
+575,MICROCAP,GAEL,Gujarat Ambuja Exports Ltd.,Fast Moving Consumer Goods,EQ,INE036B01030,,previous_version
+576,MICROCAP,GNFC,Gujarat Narmada Valley Fertilizers and Chemicals Ltd.,Chemicals,EQ,INE113A01013,,previous_version
+577,MICROCAP,GPPL,Gujarat Pipavav Port Ltd.,Services,EQ,INE517F01014,,previous_version
+578,MICROCAP,GSFC,Gujarat State Fertilizers & Chemicals Ltd.,Chemicals,EQ,INE026A01025,,previous_version
+579,MICROCAP,HGINFRA,H.G. Infra Engineering Ltd.,Construction,EQ,INE926X01010,,previous_version
+580,MICROCAP,HAPPSTMNDS,Happiest Minds Technologies Ltd.,Information Technology,EQ,INE419U01012,,previous_version
+581,MICROCAP,HAPPYFORGE,Happy Forgings Ltd.,Capital Goods,EQ,INE330T01021,,previous_version
+582,MICROCAP,HCG,Healthcare Global Enterprises Ltd.,Healthcare,EQ,INE075I01017,,previous_version
+583,MICROCAP,HERITGFOOD,Heritage Foods Ltd.,Fast Moving Consumer Goods,EQ,INE978A01027,,previous_version
+584,MICROCAP,HCC,Hindustan Construction Co. Ltd.,Construction,EQ,INE549A01026,,previous_version
+585,MICROCAP,IFBIND,IFB Industries Ltd.,Consumer Durables,EQ,INE559A01017,,previous_version
+586,MICROCAP,IIFLCAPS,IIFL Capital Services Ltd.,Financial Services,EQ,INE489L01022,,previous_version
+587,MICROCAP,INDGN,Indegene Ltd.,Healthcare,EQ,INE065X01017,,previous_version
+588,MICROCAP,INDIAGLYCO,India Glycols Ltd.,Fast Moving Consumer Goods,EQ,INE560A01023,,previous_version
+589,MICROCAP,IMFA,Indian Metals & Ferro Alloys Ltd.,Metals & Mining,EQ,INE919H01018,,previous_version
+590,MICROCAP,INDIGOPNTS,Indigo Paints Ltd.,Consumer Durables,EQ,INE09VQ01012,,previous_version
+591,MICROCAP,ICIL,Indo Count Industries Ltd.,Textiles,EQ,INE483B01026,,previous_version
+592,MICROCAP,IONEXCHANG,Ion Exchange (India) Ltd.,Utilities,EQ,INE570A01022,,previous_version
+593,MICROCAP,JAIBALAJI,JAI BALAJI INDUSTRIES Ltd.,Metals & Mining,EQ,INE091G01026,,previous_version
+594,MICROCAP,JKPAPER,JK Paper Ltd.,Forest Materials,EQ,INE789E01012,,previous_version
+595,MICROCAP,JAMNAAUTO,Jamna Auto Industries Ltd.,Automobile and Auto Components,EQ,INE039C01032,,previous_version
+596,MICROCAP,JSFB,Jana Small Finance Bank Ltd.,Financial Services,EQ,INE953L01027,,previous_version
+597,MICROCAP,JAYNECOIND,Jayaswal Neco Industries Ltd.,Capital Goods,EQ,INE854B01010,,previous_version
+598,MICROCAP,JSLL,Jeena Sikho Lifecare Ltd.,Consumer Services,EQ,INE0J5801029,,previous_version
+599,MICROCAP,JUBLPHARMA,Jubilant Pharmova Ltd.,Healthcare,EQ,INE700A01033,,previous_version
+600,MICROCAP,JUSTDIAL,Justdial Ltd.,Consumer Services,EQ,INE599M01018,,previous_version
+601,MICROCAP,JYOTHYLAB,Jyothy Labs Ltd.,Fast Moving Consumer Goods,EQ,INE668F01031,,previous_version
+602,MICROCAP,KNRCON,KNR Constructions Ltd.,Construction,EQ,INE634I01029,,previous_version
+603,MICROCAP,KPIGREEN,KPI Green Energy Ltd.,Power,EQ,INE542W01025,,previous_version
+604,MICROCAP,KRBL,KRBL Ltd.,Fast Moving Consumer Goods,EQ,INE001B01026,,previous_version
+605,MICROCAP,KRN,KRN HEAT EXCHANGER AND REFRIGERATION Ltd.,Capital Goods,EQ,INE0Q3J01015,,previous_version
+606,MICROCAP,KANSAINER,Kansai Nerolac Paints Ltd.,Consumer Durables,EQ,INE531A01024,,previous_version
+607,MICROCAP,KTKBANK,Karnataka Bank Ltd.,Financial Services,EQ,INE614B01018,,previous_version
+608,MICROCAP,KSCL,Kaveri Seed Company Ltd.,Fast Moving Consumer Goods,EQ,INE455I01029,,previous_version
+609,MICROCAP,KIRLPNU,Kirloskar Pneumatic Company Ltd.,Capital Goods,EQ,INE811A01038,,previous_version
+610,MICROCAP,KITEX,Kitex Garments Ltd.,Textiles,EQ,INE602G01020,,previous_version
+611,MICROCAP,KMEW,Knowledge Marine & Engineering Works Ltd.,Services,EQ,INE0CJD01029,,previous_version
+612,MICROCAP,KWIL,Kwality Wall's (India) Ltd.,Fast Moving Consumer Goods,EQ,INE2KCE01013,,previous_version
+613,MICROCAP,LATENTVIEW,Latent View Analytics Ltd.,Information Technology,EQ,INE0I7C01011,,previous_version
+614,MICROCAP,LXCHEM,Laxmi Organic Industries Ltd.,Chemicals,EQ,INE576O01020,,previous_version
+615,MICROCAP,IXIGO,Le Travenues Technology Ltd.,Consumer Services,EQ,INE0HV901016,,previous_version
+616,MICROCAP,THELEELA,Leela Palaces Hotels & Resorts Ltd.,Consumer Services,EQ,INE0AQ201015,,previous_version
+617,MICROCAP,LLOYDSENGG,Lloyds Engineering Works Ltd.,Capital Goods,EQ,INE093R01011,,previous_version
+618,MICROCAP,LLOYDSENT,Lloyds Enterprises Ltd.,Metals & Mining,EQ,INE080I01025,,previous_version
+619,MICROCAP,LUMAXTECH,Lumax Auto Technologies Ltd.,Automobile and Auto Components,EQ,INE872H01027,,previous_version
+620,MICROCAP,LUMAXIND,Lumax Industries Ltd.,Automobile and Auto Components,EQ,INE162B01018,,previous_version
+621,MICROCAP,MOIL,MOIL Ltd.,Metals & Mining,EQ,INE490G01020,,previous_version
+622,MICROCAP,MSTCLTD,MSTC Ltd.,Services,EQ,INE255X01014,,previous_version
+623,MICROCAP,MBAPL,Madhya Bharat Agro Products Ltd.,Chemicals,EQ,INE900L01028,,previous_version
+624,MICROCAP,MANORAMA,Manorama Industries Ltd.,Fast Moving Consumer Goods,EQ,INE00VM01036,,previous_version
+625,MICROCAP,MARKSANS,Marksans Pharma Ltd.,Healthcare,EQ,INE750C01026,,previous_version
+626,MICROCAP,MASTEK,Mastek Ltd.,Information Technology,EQ,INE759A01021,,previous_version
+627,MICROCAP,MEDPLUS,Medplus Health Services Ltd.,Consumer Services,EQ,INE804L01022,,previous_version
+628,MICROCAP,METROPOLIS,Metropolis Healthcare Ltd.,Healthcare,EQ,INE112L01020,,previous_version
+629,MICROCAP,MIDHANI,Mishra Dhatu Nigam Ltd.,Capital Goods,EQ,INE099Z01011,,previous_version
+630,MICROCAP,BECTORFOOD,Mrs. Bectors Food Specialities Ltd.,Fast Moving Consumer Goods,EQ,INE495P01020,,previous_version
+631,MICROCAP,NEOGEN,NEOGEN CHEMICALS LTD.,Chemicals,EQ,INE136S01016,,previous_version
+632,MICROCAP,NFL,National Fertilizers Ltd.,Chemicals,EQ,INE870D01012,,previous_version
+633,MICROCAP,NAZARA,Nazara Technologies Ltd.,Media Entertainment & Publication,EQ,INE418L01047,,previous_version
+634,MICROCAP,NEPHROPLUS,Nephrocare Health Services Ltd.,Healthcare,EQ,INE428V01029,,previous_version
+635,MICROCAP,NETWORK18,Network18 Media & Investments Ltd.,Media Entertainment & Publication,EQ,INE870H01013,,previous_version
+636,MICROCAP,NEWGEN,Newgen Software Technologies Ltd.,Information Technology,EQ,INE619B01017,,previous_version
+637,MICROCAP,NIVABUPA,Niva Bupa Health Insurance Company Ltd.,Financial Services,EQ,INE995S01015,,previous_version
+638,MICROCAP,NORTHARC,Northern Arc Capital Ltd.,Financial Services,EQ,INE850M01015,,previous_version
+639,MICROCAP,OMNI,Omnitech Engineering Ltd.,Capital Goods,EQ,INE0UH301010,,previous_version
+640,MICROCAP,KISSHT,OnEMI Technology Solutions Ltd.,Financial Services,EQ,INE12F801023,,previous_version
+641,MICROCAP,OSWALPUMPS,Oswal Pumps Ltd.,Capital Goods,EQ,INE0BYP01024,,previous_version
+642,MICROCAP,PNGJL,P N Gadgil Jewellers Ltd.,Consumer Durables,EQ,INE953R01016,,previous_version
+643,MICROCAP,PCJEWELLER,PC Jeweller Ltd.,Consumer Durables,EQ,INE785M01021,,previous_version
+644,MICROCAP,PDSL,PDS Ltd.,Textiles,EQ,INE111Q01021,,previous_version
+645,MICROCAP,PNCINFRA,PNC Infratech Ltd.,Construction,EQ,INE195J01029,,previous_version
+646,MICROCAP,PTC,PTC India Ltd.,Power,EQ,INE877F01012,,previous_version
+647,MICROCAP,PAISALO,Paisalo Digital Ltd.,Financial Services,EQ,INE420C01059,,previous_version
+648,MICROCAP,PARAS,Paras Defence and Space Technologies Ltd.,Capital Goods,EQ,INE045601023,,previous_version
+649,MICROCAP,PARKHOSPS,Park Medi World Ltd.,Healthcare,EQ,INE119201023,,previous_version
+650,MICROCAP,PGIL,Pearl Global Industries Ltd.,Textiles,EQ,INE940H01022,,previous_version
+651,MICROCAP,PICCADIL,Piccadily Agro Industries Ltd.,Fast Moving Consumer Goods,EQ,INE546C01010,,previous_version
+652,MICROCAP,POWERMECH,Power Mech Projects Ltd.,Construction,EQ,INE211R01019,,previous_version
+653,MICROCAP,POWERICA,Powerica Ltd.,Capital Goods,EQ,INE921L01032,,previous_version
+654,MICROCAP,PRAJIND,Praj Industries Ltd.,Capital Goods,EQ,INE074A01025,,previous_version
+655,MICROCAP,PRECWIRE,Precision Wires India Ltd.,Capital Goods,EQ,INE372C01037,,previous_version
+656,MICROCAP,PRICOLLTD,Pricol Ltd.,Automobile and Auto Components,EQ,INE726V01018,,previous_version
+657,MICROCAP,PGHL,Procter & Gamble Health Ltd.,Healthcare,EQ,INE199A01012,,previous_version
+658,MICROCAP,PURVA,Puravankara Ltd.,Realty,EQ,INE323I01011,,previous_version
+659,MICROCAP,QPOWER,QUALITY POWER ELECTRICAL EQUIPMENTS Ltd.,Capital Goods,EQ,INE0SII01026,,previous_version
+660,MICROCAP,QUESS,Quess Corp Ltd.,Services,EQ,INE615P01015,,previous_version
+661,MICROCAP,RAIN,Rain Industries Ltd,Chemicals,EQ,INE855B01025,,previous_version
+662,MICROCAP,RALLIS,Rallis India Ltd.,Chemicals,EQ,INE613A01020,,previous_version
+663,MICROCAP,RCF,Rashtriya Chemicals & Fertilizers Ltd.,Chemicals,EQ,INE027A01015,,previous_version
+664,MICROCAP,RATEGAIN,Rategain Travel Technologies Ltd.,Information Technology,EQ,INE0CLI01024,,previous_version
+665,MICROCAP,RATNAMANI,Ratnamani Metals & Tubes Ltd.,Capital Goods,EQ,INE703B01027,,previous_version
+666,MICROCAP,RTNPOWER,RattanIndia Power Ltd.,Power,EQ,INE399K01017,,previous_version
+667,MICROCAP,RAYMONDLSL,Raymond Lifestyle Ltd.,Textiles,EQ,INE02ID01020,,previous_version
+668,MICROCAP,REFEX,Refex Industries Ltd.,Utilities,EQ,INE056I01025,,previous_version
+669,MICROCAP,RELAXO,Relaxo Footwears Ltd.,Consumer Durables,EQ,INE131B01039,,previous_version
+670,MICROCAP,RELIGARE,Religare Enterprises Ltd.,Financial Services,EQ,INE621H01010,,previous_version
+671,MICROCAP,RESPONIND,Responsive Industries Ltd.,Consumer Durables,EQ,INE688D01026,,previous_version
+672,MICROCAP,RBA,Restaurant Brands Asia Ltd.,Consumer Services,EQ,INE07T201019,,previous_version
+673,MICROCAP,ROUTE,Route Mobile Ltd.,Telecommunication,EQ,INE450U01017,,previous_version
+674,MICROCAP,SJS,S.J.S. Enterprises Ltd.,Automobile and Auto Components,EQ,INE284S01014,,previous_version
+675,MICROCAP,SBFC,SBFC Finance Ltd.,Financial Services,EQ,INE423Y01016,,previous_version
+676,MICROCAP,SEDEMAC,SEDEMAC Mechatronics Ltd.,Automobile and Auto Components,EQ,INE00XB01019,,previous_version
+677,MICROCAP,SGMART,SG Mart Ltd.,Metals & Mining,EQ,INE385F01024,,previous_version
+678,MICROCAP,SIGMAADV,SIGMA ADVANCED SYSTEMS LTD.,Capital Goods,BE,INE933B01012,,previous_version
+679,MICROCAP,SKYGOLD,SKY GOLD AND DIAMONDS Ltd.,Consumer Durables,EQ,INE01IU01018,,previous_version
+680,MICROCAP,SMLMAH,SML Mahindra Ltd.,Capital Goods,EQ,INE294B01019,,previous_version
+681,MICROCAP,LOTUSDEV,SRI LOTUS DEVELOPERS AND REALTY Ltd.,Realty,BE,INE0V9Q01010,,previous_version
+682,MICROCAP,SAFARI,Safari Industries (India) Ltd.,Consumer Durables,EQ,INE429E01023,,previous_version
+683,MICROCAP,SAMHI,Samhi Hotels Ltd.,Consumer Services,EQ,INE08U801020,,previous_version
+684,MICROCAP,SANDUMA,Sandur Manganese & Iron Ores Ltd.,Metals & Mining,EQ,INE149K01016,,previous_version
+685,MICROCAP,SAPPHIRE,Sapphire Foods India Ltd.,Consumer Services,EQ,INE806T01020,,previous_version
+686,MICROCAP,SAREGAMA,Saregama India Ltd,Media Entertainment & Publication,EQ,INE979A01025,,previous_version
+687,MICROCAP,SENCO,Senco Gold Ltd.,Consumer Durables,EQ,INE602W01027,,previous_version
+688,MICROCAP,SENORES,Senores Pharmaceuticals Ltd.,Healthcare,EQ,INE0RB801010,,previous_version
+689,MICROCAP,SHADOWFAX,Shadowfax Technologies Ltd.,Services,EQ,INE12UN01015,,previous_version
+690,MICROCAP,SHAILY,Shaily Engineering Plastics Ltd.,Consumer Durables,EQ,INE151G01028,,previous_version
+691,MICROCAP,SHAKTIPUMP,Shakti Pumps (India) Ltd.,Capital Goods,EQ,INE908D01010,,previous_version
+692,MICROCAP,SHARDACROP,Sharda Cropchem Ltd.,Chemicals,EQ,INE221J01015,,previous_version
+693,MICROCAP,SHAREINDIA,Share India Securities Ltd.,Financial Services,EQ,INE932X01026,,previous_version
+694,MICROCAP,SFL,Sheela Foam Ltd.,Consumer Durables,EQ,INE916U01025,,previous_version
+695,MICROCAP,SHILCTECH,Shilchar Technologies Ltd.,Capital Goods,EQ,INE024F01011,,previous_version
+696,MICROCAP,SHILPAMED,Shilpa Medicare Ltd.,Healthcare,EQ,INE790G01031,,previous_version
+697,MICROCAP,RENUKA,Shree Renuka Sugars Ltd.,Fast Moving Consumer Goods,EQ,INE087H01022,,previous_version
+698,MICROCAP,SHREEJISPG,Shreeji Shipping Global Ltd.,Services,EQ,INE1B6101010,,previous_version
+699,MICROCAP,SKIPPER,Skipper Ltd.,Capital Goods,EQ,INE439E01022,,previous_version
+700,MICROCAP,SONATSOFTW,Sonata Software Ltd.,Information Technology,EQ,INE269A01021,,previous_version
+701,MICROCAP,SOUTHBANK,South Indian Bank Ltd.,Financial Services,EQ,INE683A01023,,previous_version
+702,MICROCAP,SWSOLAR,Sterling and Wilson Renewable Energy Ltd.,Construction,EQ,INE00M201021,,previous_version
+703,MICROCAP,STAR,Strides Pharma Science Ltd.,Healthcare,EQ,INE939A01011,,previous_version
+704,MICROCAP,STYLAMIND,Stylam Industries Ltd.,Consumer Durables,EQ,INE239C01020,,previous_version
+705,MICROCAP,SUBROS,Subros Ltd.,Capital Goods,EQ,INE287B01021,,previous_version
+706,MICROCAP,SUDARSCHEM,Sudarshan Chemical Industries Ltd.,Chemicals,EQ,INE659A01023,,previous_version
+707,MICROCAP,SUDEEPPHRM,Sudeep Pharma Ltd.,Chemicals,EQ,INE0QPI01025,,previous_version
+708,MICROCAP,SPARC,Sun Pharma Advanced Research Company Ltd.,Healthcare,EQ,INE232I01014,,previous_version
+709,MICROCAP,SUNDRMFAST,Sundram Fasteners Ltd.,Automobile and Auto Components,EQ,INE387A01021,,previous_version
+710,MICROCAP,SUNFLAG,Sunflag Iron & Steel Company Ltd.,Capital Goods,EQ,INE947A01014,,previous_version
+711,MICROCAP,SUNTECK,Sunteck Realty Ltd.,Realty,EQ,INE805D01034,,previous_version
+712,MICROCAP,SPLPETRO,Supreme Petrochem Ltd.,Chemicals,EQ,INE663A01033,,previous_version
+713,MICROCAP,SUPRIYA,Supriya Lifescience Ltd.,Healthcare,EQ,INE07RO01027,,previous_version
+714,MICROCAP,SURYAROSNI,Surya Roshni Ltd.,Capital Goods,EQ,INE335A01020,,previous_version
+715,MICROCAP,SUVEN,Suven Life Sciences Ltd.,Healthcare,EQ,INE495B01038,,previous_version
+716,MICROCAP,TARC,TARC Ltd.,Realty,EQ,INE0EK901012,,previous_version
+717,MICROCAP,TTKPRESTIG,TTK Prestige Ltd.,Consumer Durables,EQ,INE690A01028,,previous_version
+718,MICROCAP,TVSSCS,TVS Supply Chain Solutions Ltd.,Services,EQ,INE395N01027,,previous_version
+719,MICROCAP,TMB,Tamilnad Mercantile Bank Ltd.,Financial Services,EQ,INE668A01016,,previous_version
+720,MICROCAP,TANLA,Tanla Platforms Ltd.,Information Technology,EQ,INE483C01032,,previous_version
+721,MICROCAP,TEXRAIL,Texmaco Rail & Eng. Ltd.,Capital Goods,EQ,INE621L01012,,previous_version
+722,MICROCAP,THOMASCOOK,Thomas Cook (India) Ltd.,Consumer Services,EQ,INE332A01027,,previous_version
+723,MICROCAP,THYROCARE,Thyrocare Technologies Ltd.,Healthcare,EQ,INE594H01019,,previous_version
+724,MICROCAP,TI,Tilaknagar Industries Ltd.,Fast Moving Consumer Goods,EQ,INE133E01013,,previous_version
+725,MICROCAP,TIMETECHNO,Time Technoplast Ltd.,Capital Goods,EQ,INE508G01029,,previous_version
+726,MICROCAP,TIMEX,Timex Group India Ltd.,Consumer Durables,EQ,INE064A01026,,previous_version
+727,MICROCAP,TIPSMUSIC,Tips Music Ltd.,Media Entertainment & Publication,EQ,INE716B01029,,previous_version
+728,MICROCAP,TRANSRAILL,Transrail Lighting Ltd.,Capital Goods,EQ,INE454P01035,,previous_version
+729,MICROCAP,TRIVENIPT,Triveni Power Transmission Ltd.,Capital Goods,BE,INE2WKE01011,,previous_version
+730,MICROCAP,UJJIVANSFB,Ujjivan Small Finance Bank Ltd.,Financial Services,EQ,INE551W01018,,previous_version
+731,MICROCAP,UNIMECH,Unimech Aerospace and Manufacturing Ltd.,Capital Goods,EQ,INE0U3I01011,,previous_version
+732,MICROCAP,VGUARD,V-Guard Industries Ltd.,Consumer Durables,EQ,INE951I01027,,previous_version
+733,MICROCAP,VMART,V-Mart Retail Ltd.,Consumer Services,EQ,INE665J01013,,previous_version
+734,MICROCAP,VIPIND,V.I.P. Industries Ltd.,Consumer Durables,EQ,INE054A01027,,previous_version
+735,MICROCAP,V2RETAIL,V2 Retail Ltd.,Consumer Services,EQ,INE945H01021,,previous_version
+736,MICROCAP,DBREALTY,VALOR ESTATE Ltd.,Realty,EQ,INE879I01012,,previous_version
+737,MICROCAP,WABAG,Va Tech Wabag Ltd.,Utilities,EQ,INE956G01038,,previous_version
+738,MICROCAP,VAIBHAVGBL,Vaibhav Global Ltd.,Consumer Durables,EQ,INE884A01027,,previous_version
+739,MICROCAP,MANYAVAR,Vedant Fashions Ltd.,Consumer Services,EQ,INE825V01034,,previous_version
+740,MICROCAP,VESUVIUS,Vesuvius India Ltd.,Capital Goods,EQ,INE386A01023,,previous_version
+741,MICROCAP,VIKRAMSOLR,Vikram Solar Ltd.,Capital Goods,EQ,INE078V01014,,previous_version
+742,MICROCAP,VIYASH,Viyash Scientific Ltd.,Healthcare,EQ,INE807F01027,,previous_version
+743,MICROCAP,VOLTAMP,Voltamp Transformers Ltd,Capital Goods,EQ,INE540H01012,,previous_version
+744,MICROCAP,WAAREERTL,Waaree Renewable Technologies Ltd.,Capital Goods,EQ,INE299N01021,,previous_version
+745,MICROCAP,WAKEFIT,Wakefit Innovations Ltd.,Consumer Durables,EQ,INE0E7301029,,previous_version
+746,MICROCAP,WEWORK,WeWork India Management Ltd.,Services,EQ,INE085001019,,previous_version
+747,MICROCAP,WEBELSOLAR,Websol Energy System Ltd.,Capital Goods,EQ,INE855C01023,,previous_version
+748,MICROCAP,WELENT,Welspun Enterprises Ltd.,Construction,EQ,INE625G01013,,previous_version
+749,MICROCAP,WESTLIFE,Westlife Foodworld Ltd.,Consumer Services,EQ,INE274F01020,,previous_version
+750,MICROCAP,YATHARTH,Yatharth Hospital & Trauma Care Services Ltd.,Healthcare,EQ,INE0JO301016,,previous_version
+751,MICROCAP,ZAGGLE,Zaggle Prepaid Ocean Services Ltd.,Information Technology,EQ,INE07K301024,,previous_version
+752,NANOCAP,TATAMOTORS,,,EQ,INE155A01022,149447.42,ranked
+753,NANOCAP,LTIM,,,EQ,INE214T01019,133515.97,ranked
+754,NANOCAP,JBCHEPHARM,,,EQ,INE572A01036,38676.99,ranked
+755,NANOCAP,3MINDIA,,,EQ,INE470A01017,33986.72,ranked
+756,NANOCAP,MEGASOFT,,,BE,INE933B01012,33300.49,ranked
+757,NANOCAP,GUJGASLTD,,,EQ,INE844O01030,30684.84,ranked
+758,NANOCAP,GODIGIT,,,EQ,INE03JT01014,25224.96,ranked
+759,NANOCAP,HATSUN,,,EQ,INE473B01035,24987.9,ranked
+760,NANOCAP,METROBRAND,,,EQ,INE317I01021,23569.73,ranked
+761,NANOCAP,TVSHLTD,,,EQ,INE105A01035,23147.55,ranked
+762,NANOCAP,PGHH,,,EQ,INE179A01014,22535.87,ranked
+763,NANOCAP,KIOCL,,,EQ,INE880L01014,21803.07,ranked
+764,NANOCAP,PFIZER,,,EQ,INE182A01018,17421.65,ranked
+765,NANOCAP,LMW,,,EQ,INE269B01029,17234.88,ranked
+766,NANOCAP,FINEORG,,,EQ,INE686Y01026,16588.58,ranked
+767,NANOCAP,ALIVUS,,,EQ,INE03Q201024,16283.18,ranked
+768,NANOCAP,APLLTD,,,EQ,INE901L01018,15743.72,ranked
+769,NANOCAP,BAYERCROP,,,EQ,INE462A01022,15693.78,ranked
+770,NANOCAP,TRAVELFOOD,,,EQ,INE103V01028,15593.17,ranked
+771,NANOCAP,AGARWALEYE,,,EQ,INE943P01029,15145.93,ranked
+772,NANOCAP,GSPL,,,EQ,INE246F01010,15140.61,ranked
+773,NANOCAP,PSB,,,EQ,INE608A01012,14907.82,ranked
+774,NANOCAP,SWANDEF,,,BE,INE542F01020,14839.51,ranked
+775,NANOCAP,DCMSHRIRAM,,,EQ,INE499A01024,14797.15,ranked
+776,NANOCAP,CENTURYPLY,,,EQ,INE348B01021,14790.06,ranked
+777,NANOCAP,ASTRAZEN,,,EQ,INE203A01020,14592.5,ranked
+778,NANOCAP,BASF,,,EQ,INE373A01013,14489.44,ranked
+779,NANOCAP,MAHSCOOTER,,,EQ,INE288A01013,13891.42,ranked
+780,NANOCAP,AKZOINDIA,,,EQ,INE133A01011,13601.98,ranked
+781,NANOCAP,PRUDENT,,,EQ,INE00F201020,13476.63,ranked
+782,NANOCAP,SKFINDUS,,,EQ,INE2J8701016,13130.23,ranked
+783,NANOCAP,VENTIVE,,,EQ,INE781S01027,12884.49,ranked
+784,NANOCAP,INGERRAND,,,EQ,INE177A01018,12710.86,ranked
+785,NANOCAP,JSWHL,,,EQ,INE824G01012,12592.29,ranked
+786,NANOCAP,VARROC,,,EQ,INE665L01035,12126.16,ranked
+787,NANOCAP,BIKAJI,,,EQ,INE00E101023,11836.01,ranked
+788,NANOCAP,VINATIORGA,,,EQ,INE410B01037,11665.64,ranked
+789,NANOCAP,ASKAUTOLTD,,,EQ,INE491J01022,11594.94,ranked
+790,NANOCAP,BLUEDART,,,EQ,INE233B01017,10820.89,ranked
+791,NANOCAP,GALAXYSURF,,,EQ,INE600K01018,9151.74,ranked
+792,NANOCAP,KINGFA,,,EQ,INE473D01015,8958.82,ranked
+793,NANOCAP,TSFINV,,,EQ,INE202Z01029,8913.74,ranked
+794,NANOCAP,SEQUENT,,,EQ,INE807F01027,8765.42,ranked
+795,NANOCAP,MAXESTATES,,,EQ,INE03EI01018,8662.37,ranked
+796,NANOCAP,BBTC,,,EQ,INE050A01025,8526.82,ranked
+797,NANOCAP,JLHL,,,EQ,INE682M01020,8382.62,ranked
+798,NANOCAP,ESABINDIA,,,EQ,INE284A01012,8303.76,ranked
+799,NANOCAP,MAHSEAMLES,,,EQ,INE271B01025,8282.49,ranked
+800,NANOCAP,SANOFICONR,,,EQ,INE0UOS01011,8260.65,ranked
+801,NANOCAP,IBULLSLTD,,,EQ,INE126M01010,8207.28,ranked
+802,NANOCAP,RPEL,,,EQ,INE912T01018,7963.33,ranked
+803,NANOCAP,RAYMOND,,,EQ,INE301A01014,7896.99,ranked
+804,NANOCAP,ORKLAINDIA,,,EQ,INE16NZ01023,7660.44,ranked
+805,NANOCAP,GRINFRA,,,EQ,INE201P01022,7620.38,ranked
+806,NANOCAP,CYIENTDLM,,,EQ,INE055S01018,7560.08,ranked
+807,NANOCAP,GARFIBRES,,,EQ,INE276A01018,7471.07,ranked
+808,NANOCAP,MAHLIFE,,,EQ,INE813A01018,7457.37,ranked
+809,NANOCAP,OPTIEMUS,,,EQ,INE350C01017,7356.23,ranked
+810,NANOCAP,NESCO,,,EQ,INE317F01035,7317.27,ranked
+811,NANOCAP,MOREPENLAB,,,EQ,INE083A01026,7098.74,ranked
+812,NANOCAP,INDIASHLTR,,,EQ,INE922K01024,7026.28,ranked
+813,NANOCAP,BLISSGVS,,,BE,INE416D01022,6974.75,ranked
+814,NANOCAP,HNDFDS,,,EQ,INE254N01026,6951.01,ranked
+815,NANOCAP,SKFINDIA,,,EQ,INE640A01023,6915.38,ranked
+816,NANOCAP,ETHOSLTD,,,EQ,INE04TZ01018,6858.26,ranked
+817,NANOCAP,STARCEMENT,,,EQ,INE460H01021,6808.82,ranked
+818,NANOCAP,TFCILTD,,,EQ,INE305A01023,6808.08,ranked
+819,NANOCAP,SANOFI,,,EQ,INE058A01010,6783.44,ranked
+820,NANOCAP,FCL,,,EQ,INE045J01034,6747.12,ranked
+821,NANOCAP,ISGEC,,,EQ,INE858B01029,6688.98,ranked
+822,NANOCAP,RAJESHEXPO,,,EQ,INE343B01030,6612.94,ranked
+823,NANOCAP,EUREKAFORB,,,EQ,INE0KCE01017,6565.14,ranked
+824,NANOCAP,TCI,,,EQ,INE688A01022,6541.79,ranked
+825,NANOCAP,AJAXENGG,,,EQ,INE274Y01021,6526.02,ranked
+826,NANOCAP,MANINDS,,,EQ,INE993A01026,6510.08,ranked
+827,NANOCAP,SPECTRUM,,,BE,INE01EO01010,6453.94,ranked
+828,NANOCAP,SSWL,,,EQ,INE802C01033,6397.54,ranked
+829,NANOCAP,MARINE,,,EQ,INE01JE01028,6376.57,ranked
+830,NANOCAP,INNOVACAP,,,EQ,INE0DUT01020,6351.97,ranked
+831,NANOCAP,SUPRAJIT,,,EQ,INE399C01030,6278.01,ranked
+832,NANOCAP,REDTAPE,,,EQ,INE0LXT01019,6234.01,ranked
+833,NANOCAP,KRISHANA,,,EQ,INE506W01020,6093.42,ranked
+834,NANOCAP,DODLA,,,EQ,INE021O01019,6006.84,ranked
+835,NANOCAP,SBCL,,,EQ,INE386D01027,6000.05,ranked
+836,NANOCAP,TIIL,,,EQ,INE545H01011,5965.44,ranked
+837,NANOCAP,ROSSTECH,,,EQ,INE0OJW01016,5959.08,ranked
+838,NANOCAP,WHEELS,,,EQ,INE715A01015,5929.06,ranked
+839,NANOCAP,RPTECH,,,EQ,INE0J1F01024,5908.12,ranked
+840,NANOCAP,IOLCP,,,EQ,INE485C01029,5904.31,ranked
+841,NANOCAP,INFIBEAM,,,EQ,INE483S01020,5903.61,ranked
+842,NANOCAP,GMMPFAUDLR,,,EQ,INE541A01023,5843.54,ranked
+843,NANOCAP,GANESHHOU,,,EQ,INE460C01014,5832.93,ranked
+844,NANOCAP,JKLAKSHMI,,,EQ,INE786A01032,5801.27,ranked
+845,NANOCAP,SIS,,,EQ,INE285J01028,5787.28,ranked
+846,NANOCAP,STYL,,,EQ,INE04VU01023,5647.83,ranked
+847,NANOCAP,ITDC,,,EQ,INE353K01014,5645.34,ranked
+848,NANOCAP,RAMRAT,,,EQ,INE207E01023,5453.92,ranked
+849,NANOCAP,SMARTWORKS,,,EQ,INE0NAZ01010,5425.09,ranked
+850,NANOCAP,INOXGREEN,,,EQ,INE510W01014,5409.52,ranked
+851,NANOCAP,DPABHUSHAN,,,EQ,INE266Y01019,5396.06,ranked
+852,NANOCAP,FDC,,,EQ,INE258B01022,5375.17,ranked
+853,NANOCAP,KALPATARU,,,EQ,INE227J01012,5372.63,ranked
+854,NANOCAP,GULFOILLUB,,,EQ,INE635Q01029,5338.62,ranked
+855,NANOCAP,LGBBROSLTD,,,EQ,INE337A01034,5306.68,ranked
+856,NANOCAP,UNIVCABLES,,,EQ,INE279A01012,5269.53,ranked
+857,NANOCAP,GREENLAM,,,EQ,INE544R01021,5264.72,ranked
+858,NANOCAP,SOTL,,,EQ,INE035D01020,5243.5,ranked
+859,NANOCAP,TRIVENI,,,EQ,INE256C01024,5193.3,ranked
+860,NANOCAP,VADILALIND,,,EQ,INE694D01016,5147.92,ranked
+861,NANOCAP,NRBBEARING,,,EQ,INE349A01021,5087.95,ranked
+862,NANOCAP,SABTNL,,,BE,INE416A01044,5078.47,ranked
+863,NANOCAP,SAATVIKGL,,,EQ,INE13B501022,5032.72,ranked
+864,NANOCAP,SHARDAMOTR,,,EQ,INE597I01028,5007.67,ranked
+865,NANOCAP,ORCHPHARMA,,,EQ,INE191A01027,4990.51,ranked
+866,NANOCAP,GOODLUCK,,,EQ,INE127I01024,4988.27,ranked
+867,NANOCAP,AGI,,,EQ,INE415A01038,4984.61,ranked
+868,NANOCAP,YASHO,,,EQ,INE616Z01012,4973.55,ranked
+869,NANOCAP,VRLLOG,,,EQ,INE366I01010,4970.83,ranked
+870,NANOCAP,BANSALWIRE,,,EQ,INE0B9K01025,4944.04,ranked
+871,NANOCAP,PRSMJOHNSN,,,EQ,INE010A01011,4906.22,ranked
+872,NANOCAP,BAJAJHIND,,,EQ,INE306A01021,4878.11,ranked
+873,NANOCAP,FILATEX,,,EQ,INE816B01035,4842.9,ranked
+874,NANOCAP,MASFIN,,,EQ,INE348L01012,4839.36,ranked
+875,NANOCAP,WSTCSTPAPR,,,EQ,INE976A01021,4806.05,ranked
+876,NANOCAP,HEG,,,BE,INE545A01024,4795.49,ranked
+877,NANOCAP,DEEPINDS,,,EQ,INE0FHS01024,4776.96,ranked
+878,NANOCAP,JUNIPER,,,EQ,INE696F01016,4774.46,ranked
+879,NANOCAP,GUJTHEM,,,EQ,INE942C01045,4731.01,ranked
+880,NANOCAP,SAMBHV,,,EQ,INE12NJ01018,4726.82,ranked
+881,NANOCAP,FOSECOIND,,,EQ,INE519A01011,4723.93,ranked
+882,NANOCAP,EMUDHRA,,,EQ,INE01QM01018,4677.71,ranked
+883,NANOCAP,CARERATING,,,EQ,INE752H01013,4653.08,ranked
+884,NANOCAP,RAYMONDREL,,,EQ,INE1SY401010,4646.62,ranked
+885,NANOCAP,MANINFRA,,,EQ,INE949H01023,4632.99,ranked
+886,NANOCAP,KDDL,,,EQ,INE291D01011,4623.55,ranked
+887,NANOCAP,ZOTA,,,EQ,INE358U01012,4585.7,ranked
+888,NANOCAP,RUSTOMJEE,,,EQ,INE263M01029,4562.7,ranked
+889,NANOCAP,SMLISUZU,,,EQ,INE294B01019,4547.28,ranked
+890,NANOCAP,DEEDEV,,,EQ,INE841L01016,4545.59,ranked
+891,NANOCAP,RPGLIFE,,,EQ,INE105J01010,4497.29,ranked
+892,NANOCAP,UFLEX,,,EQ,INE516A01017,4489.39,ranked
+893,NANOCAP,ALOKINDS,,,EQ,INE270A01029,4468.72,ranked
+894,NANOCAP,SGFIN,,,EQ,INE618R01015,4454.83,ranked
+895,NANOCAP,ROLEXRINGS,,,EQ,INE645S01024,4437.1,ranked
+896,NANOCAP,GVPIL,,,EQ,INE878A01011,4414.49,ranked
+897,NANOCAP,VISHNU,,,EQ,INE270I01022,4408.14,ranked
+898,NANOCAP,PILANIINVS,,,EQ,INE417C01014,4359.92,ranked
+899,NANOCAP,SHANTIGEAR,,,EQ,INE631A01022,4315.87,ranked
+900,NANOCAP,EPIGRAL,,,EQ,INE071N01016,4298.6,ranked
+901,NANOCAP,JINDWORLD,,,EQ,INE247D01039,4273.09,ranked
+902,NANOCAP,ICRA,,,EQ,INE725G01011,4260.55,ranked
+903,NANOCAP,SANATHAN,,,EQ,INE0JPD01013,4247.21,ranked
+904,NANOCAP,SHOPERSTOP,,,EQ,INE498B01024,4244.02,ranked
+905,NANOCAP,VENUSPIPES,,,EQ,INE0JA001018,4228.99,ranked
+906,NANOCAP,TATVA,,,EQ,INE0GK401011,4221.8,ranked
+907,NANOCAP,MPSLTD,,,EQ,INE943D01017,4198.39,ranked
+908,NANOCAP,SWARAJENG,,,EQ,INE277A01016,4178.46,ranked
+909,NANOCAP,SMSPHARMA,,,EQ,INE812G01025,4164.24,ranked
+910,NANOCAP,BANARISUG,,,EQ,INE459A01010,4139.86,ranked
+911,NANOCAP,INDIQUBE,,,EQ,INE06ST01018,4122.72,ranked
+912,NANOCAP,KSL,,,EQ,INE907A01026,4083.96,ranked
+913,NANOCAP,GUFICBIO,,,EQ,INE742B01025,4074.48,ranked
+914,NANOCAP,HARSHA,,,EQ,INE0JUS01029,4023.69,ranked
+915,NANOCAP,SEAMECLTD,,,EQ,INE497B01018,4008.76,ranked
+916,NANOCAP,MAHLOG,,,EQ,INE766P01016,3974.57,ranked
+917,NANOCAP,TBZ,,,BE,INE760L01018,3970.14,ranked
+918,NANOCAP,JCHAC,,,EQ,INE782A01015,3908.51,ranked
+919,NANOCAP,TCPLPACK,,,EQ,INE822C01015,3881.81,ranked
+920,NANOCAP,ANTELOPUS,,,EQ,INE818A01017,3873.13,ranked
+921,NANOCAP,PARAGMILK,,,EQ,INE883N01014,3845.58,ranked
+922,NANOCAP,SINDHUTRAD,,,EQ,INE325D01025,3843.21,ranked
+923,NANOCAP,DHANUKA,,,EQ,INE435G01025,3833.74,ranked
+924,NANOCAP,GREENPLY,,,EQ,INE461C01038,3830.75,ranked
+925,NANOCAP,HIRECT,,,EQ,INE835D01023,3828.04,ranked
+926,NANOCAP,AVANTEL,,,EQ,INE005B01027,3826.64,ranked
+927,NANOCAP,KOLTEPATIL,,,EQ,INE094I01018,3794.62,ranked
+928,NANOCAP,MHRIL,,,EQ,INE998I01010,3791.93,ranked
+929,NANOCAP,PITTIENG,,,EQ,INE450D01021,3778.47,ranked
+930,NANOCAP,AARTIDRUGS,,,EQ,INE767A01016,3772.19,ranked
+931,NANOCAP,ASHIANA,,,EQ,INE365D01021,3745.05,ranked
+932,NANOCAP,UNICHEMLAB,,,EQ,INE351A01035,3739.25,ranked
+933,NANOCAP,AHLUCONT,,,EQ,INE758C01029,3735.23,ranked
+934,NANOCAP,SYMPHONY,,,EQ,INE225D01027,3713.41,ranked
+935,NANOCAP,PREMEXPLN,,,EQ,INE863B01029,3695.24,ranked
+936,NANOCAP,KIRLOSIND,,,EQ,INE250A01039,3693.07,ranked
+937,NANOCAP,MOSCHIP,,,EQ,INE935B01025,3687.18,ranked
+938,NANOCAP,VSTTILLERS,,,EQ,INE764D01017,3664.53,ranked
+939,NANOCAP,TRUALT,,,EQ,INE0MWH01014,3663.35,ranked
+940,NANOCAP,MANGCHEFER,,,EQ,INE558B01017,3659.16,ranked
+941,NANOCAP,NPST,,,EQ,INE0FFK01017,3655.7,ranked
+942,NANOCAP,VSSL,,,EQ,INE050M01012,3610.24,ranked
+943,NANOCAP,STEELCAS,,,EQ,INE124E01038,3607.78,ranked
+944,NANOCAP,MIDWESTLTD,,,EQ,INE0XAD01024,3580.1,ranked
+945,NANOCAP,PACEDIGITK,,,EQ,INE0S3G01027,3564.35,ranked
+946,NANOCAP,GHCL,,,EQ,INE539A01019,3558.55,ranked
+947,NANOCAP,RML,,,EQ,INE050H01012,3551.92,ranked
+948,NANOCAP,KIRIINDUS,,,EQ,INE415I01015,3546.77,ranked
+949,NANOCAP,63MOONS,,,EQ,INE111B01023,3531.0,ranked
+950,NANOCAP,JASH,,,EQ,INE039O01029,3528.66,ranked
+951,NANOCAP,DALMIASUG,,,EQ,INE495A01022,3525.31,ranked
+952,NANOCAP,STYRENIX,,,EQ,INE189B01011,3517.85,ranked
+953,NANOCAP,ORIENTELEC,,,EQ,INE142Z01019,3516.03,ranked
+954,NANOCAP,CIGNITITEC,,,EQ,INE675C01017,3471.74,ranked
+955,NANOCAP,RTNINDIA,,,EQ,INE834M01019,3445.31,ranked
+956,NANOCAP,BAJAJELEC,,,EQ,INE193E01025,3439.62,ranked
+957,NANOCAP,MAYURUNIQ,,,EQ,INE040D01038,3425.8,ranked
+958,NANOCAP,NITINSPIN,,,EQ,INE229H01012,3422.67,ranked
+959,NANOCAP,PRABHA,,,EQ,INE0I0M01023,3421.73,ranked
+960,NANOCAP,UNIPARTS,,,EQ,INE244O01017,3420.11,ranked
+961,NANOCAP,VSTIND,,,EQ,INE710A01016,3417.66,ranked
+962,NANOCAP,ARSSBL,,,EQ,INE549H01021,3403.06,ranked
+963,NANOCAP,SANGHVIMOV,,,EQ,INE989A01032,3398.97,ranked
+964,NANOCAP,LUXIND,,,EQ,INE150G01020,3398.7,ranked
+965,NANOCAP,CHEMPLASTS,,,EQ,INE488A01050,3394.3,ranked
+966,NANOCAP,POCL,,,EQ,INE063E01061,3365.39,ranked
+967,NANOCAP,TVSSRICHAK,,,EQ,INE421C01016,3349.35,ranked
+968,NANOCAP,VINDHYATEL,,,EQ,INE707A01012,3335.31,ranked
+969,NANOCAP,IDEAFORGE,,,EQ,INE349Y01013,3324.1,ranked
+970,NANOCAP,INDOTECH,,,EQ,INE332H01014,3315.25,ranked
+971,NANOCAP,JTLIND,,,EQ,INE391J01032,3301.1,ranked
+972,NANOCAP,JKIL,,,EQ,INE576I01022,3264.59,ranked
+973,NANOCAP,RSYSTEMS,,,EQ,INE411H01032,3250.34,ranked
+974,NANOCAP,JAYKAY,,,EQ,INE903A01025,3250.34,ranked
+975,NANOCAP,BOROLTD,,,EQ,INE02PY01013,3231.26,ranked
+976,NANOCAP,WONDERLA,,,EQ,INE066O01014,3225.36,ranked
+977,NANOCAP,SANDHAR,,,EQ,INE278H01035,3199.58,ranked
+978,NANOCAP,ADFFOODS,,,EQ,INE982B01027,3182.75,ranked
+979,NANOCAP,AGIIL,,,EQ,INE976R01033,3176.18,ranked
+980,NANOCAP,DHANI,,,EQ,INE274G01010,3174.02,ranked
+981,NANOCAP,GOPAL,,,EQ,INE0L9R01028,3158.43,ranked
+982,NANOCAP,HEMIPROP,,,EQ,INE0AJG01018,3146.35,ranked
+983,NANOCAP,POLYPLEX,,,EQ,INE633B01018,3143.33,ranked
+984,NANOCAP,INDSWFTLAB,,,EQ,INE915B01019,3138.44,ranked
+985,NANOCAP,SOLARA,,,EQ,INE624Z01016,3109.02,ranked
+986,NANOCAP,DIVGIITTS,,,EQ,INE753U01022,3108.14,ranked
+987,NANOCAP,BEPL,,,EQ,INE922A01025,3107.99,ranked
+988,NANOCAP,JTEKTINDIA,,,EQ,INE643A01035,3099.91,ranked
+989,NANOCAP,DBCORP,,,EQ,INE950I01011,3082.91,ranked
+990,NANOCAP,KABRAEXTRU,,,BE,INE900B01029,3082.75,ranked
+991,NANOCAP,WINDMACHIN,,,EQ,INE052A01021,3064.47,ranked
+992,NANOCAP,INDOSTAR,,,EQ,INE896L01010,3054.76,ranked
+993,NANOCAP,NACLIND,,,EQ,INE295D01020,3024.32,ranked
+994,NANOCAP,INDRAMEDCO,,,EQ,INE681B01017,3016.5,ranked
+995,NANOCAP,PANAMAPET,,,EQ,INE305C01029,2999.88,ranked
+996,NANOCAP,APCOTEXIND,,,EQ,INE116A01032,2998.45,ranked
+997,NANOCAP,SANGAMIND,,,EQ,INE495C01010,2982.27,ranked
+998,NANOCAP,ANUP,,,EQ,INE294Z01018,2981.08,ranked
+999,NANOCAP,SBC,,,EQ,INE04AK01028,2972.85,ranked
+1000,NANOCAP,PSPPROJECT,,,EQ,INE488V01015,2963.03,ranked
+1001,NANOCAP,RPSGVENT,,,EQ,INE425Y01011,2948.99,ranked
