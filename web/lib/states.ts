@@ -1,4 +1,33 @@
-import type { Bucket, Ema, HistoryRow, StateCode } from "./types";
+import type { Bucket, Ema, HistoryRow, RegimeConfig, StateCode } from "./types";
+
+/** The parts of regime_config.json the rule grid needs; mirrors classifier.DEFAULT_CONFIG. */
+export type RuleGridConfig = Pick<RegimeConfig, "p_zones" | "vr_zones" | "table"> & { null_vr_zone?: string };
+export const DEFAULT_RULES: RuleGridConfig = {
+  p_zones: { L: 20, M: 40, H: 60, VH: 80 },
+  vr_zones: { mid: 0.5, high: 1.0, extreme: 2.0 },
+  table: {
+    VH: { low: "EU", mid: "EU", high: "EU" },
+    H: { low: "LD", mid: "BD", high: "BD" },
+    M: { low: "LD", mid: { state: "LD", alt_state: "BD", alt_when: { vr_min: 0.7, dp_gt: 0 } }, high: "BD" },
+    L: { low: { state: "LS", alt_state: "BR", alt_when: { dp_lt: 0 } }, mid: "BR", high: "BR" },
+    VL: { low: "LS", mid: "BR", high: "PA" },
+  },
+  null_vr_zone: "high",
+};
+export const P_ZONE_ORDER = ["VL", "L", "M", "H", "VH"] as const;
+
+/** Same edges as classifier.p_zone / vr_zone: lower edges inclusive. */
+export function pZoneOf(p: number, cfg: RuleGridConfig): (typeof P_ZONE_ORDER)[number] {
+  const z = cfg.p_zones;
+  return p >= z.VH ? "VH" : p >= z.H ? "H" : p >= z.M ? "M" : p >= z.L ? "L" : "VL";
+}
+export function vrZoneOf(vr: number | null, cfg: RuleGridConfig): "low" | "mid" | "high" {
+  if (vr == null) return (cfg.null_vr_zone as "low" | "mid" | "high") ?? "high";
+  return vr >= cfg.vr_zones.high ? "high" : vr >= cfg.vr_zones.mid ? "mid" : "low";
+}
+export function pZoneWord(z: string): string {
+  return { VH: "Very strong", H: "Strong", M: "Mixed", L: "Weak", VL: "Very weak" }[z] ?? z;
+}
 
 /** Fixed state palette (validated: normal-vision floor passes; CVD sits in the 6-8 band,
  * so every state mark also carries its letter code - colour is never the only cue). */

@@ -54,5 +54,13 @@
     "new_fv": 1.0,
     "factor": 2.0,
     "type": "split"
+  },
+  {
+    "symbol": "BANSALWIRE",
+    "ex_date": "2026-10-16",
+    "old_fv": 5.0,
+    "new_fv": 1.0,
+    "factor": 5.0,
+    "type": "split"
   }
 ]

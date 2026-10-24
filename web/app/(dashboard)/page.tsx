@@ -9,7 +9,8 @@ import { StateStats } from "@/components/StateStats";
 import { DateRange } from "@/components/DateRange";
 import { CompareDays } from "@/components/CompareDays";
 import { KpiTile } from "@/components/charts/KpiTile";
-import { VolumeRatioChart } from "@/components/charts/VolumeRatioChart";
+import { BucketToggles, VolumeRatioChart } from "@/components/charts/VolumeRatioChart";
+import { InfoTip, WithInfo } from "@/components/ui/info";
 import { EmaBreadthChart } from "@/components/charts/EmaBreadthChart";
 import { SmallMultiples } from "@/components/charts/SmallMultiples";
 import { Heatmap } from "@/components/charts/Heatmap";
@@ -45,6 +46,19 @@ export default function Dashboard() {
   const [log, setLog] = useState(true);
   const [emaView, setEmaView] = useState<"single" | "multiples">("single");
   const [heatMetric, setHeatMetric] = useState<"pct" | "vr">("pct");
+  const [vrBuckets, setVrBucketsState] = useState<Bucket[]>(["ALL"]);
+
+  // per-viewer convenience: remember which buckets the volume chart draws
+  useEffect(() => {
+    try {
+      const v = JSON.parse(localStorage.getItem("mbi.vrBuckets") ?? "null");
+      if (Array.isArray(v)) setVrBucketsState(ALL_BUCKETS.filter((b) => v.includes(b)));
+    } catch { /* storage unavailable */ }
+  }, []);
+  const setVrBuckets = useCallback((v: Bucket[]) => {
+    setVrBucketsState(v);
+    try { localStorage.setItem("mbi.vrBuckets", JSON.stringify(v)); } catch { /* storage unavailable */ }
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -96,8 +110,11 @@ export default function Dashboard() {
 
   return (
     <div className="flex flex-col gap-4">
-      <MarketStateCard latest={latest} bucket={bucket} setBucket={setBucket} ema={ema} raw={raw} setRaw={setRaw} />
+      <MarketStateCard latest={latest} bucket={bucket} ema={ema} raw={raw} setRaw={setRaw} cfg={cfg} />
 
+      <div className="-mb-2 flex items-center gap-1.5 text-xs text-ink-2">
+        <WithInfo k="buckets">Buckets · click a tile to select it</WithInfo>
+      </div>
       <div className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-6">
         {ALL_BUCKETS.map((b) => (
           <KpiTile key={b} bucket={b} series={bucketSeries(all, b)} ema={ema} selected={b === bucket} onSelect={() => setBucket(b)} dark={dark} />
@@ -106,7 +123,8 @@ export default function Dashboard() {
 
       <div className="sticky top-[52px] z-30 -mx-4 flex flex-wrap items-center gap-3 border-y border-line bg-page/95 px-4 py-2 backdrop-blur">
         <DateRange value={range} onChange={setRange} />
-        <span className="text-xs text-ink-2">Bucket for single-bucket charts</span>
+        <InfoTip k="range" />
+        <WithInfo k="bucket_picker" className="text-xs text-ink-2">Bucket for single-bucket charts</WithInfo>
         <BucketPicker value={bucket} onChange={setBucket} />
         <span className="text-xs text-ink-2 tabular">
           {zoom ? `Zoom ${zoom.start} → ${zoom.end}` : `${dates[0] ?? ""} → ${dates.at(-1) ?? ""}`} · {dates.length} sessions
@@ -118,7 +136,8 @@ export default function Dashboard() {
       <Card>
         <CardHeader
           title="Volume ratio"
-          subtitle="N stocks with rel_vol ≥ 1.5 ÷ N with rel_vol < 0.5 (vs 20-session average). Bands = regimes. ○ = day built from a fallback source or partial."
+          info="vr_chart"
+          subtitle="Stocks on heavy volume ÷ stocks on light volume, per bucket. Above 1 = active, above 2 = climax, below 0.5 = quiet."
           actions={
             <>
               <Segmented<"lin" | "log"> label="Y scale" value={log ? "log" : "lin"} onChange={(v) => setLog(v === "log")} options={[{ value: "lin", label: "Linear" }, { value: "log", label: "Log" }]} />
@@ -127,15 +146,20 @@ export default function Dashboard() {
           }
         />
         <CardBody>
-          <VolumeRatioChart rows={rows} t={t} zoom={zoom} setZoom={setZoom} log={log} barBucket={bucket} cfg={cfg} />
-          <p className="mt-1 text-xs text-muted">Lower panel: {BUCKET_LABEL[bucket]} high-volume count (up) and low-volume count (down). Click legend items to toggle buckets.</p>
+          <div className="mb-2 flex flex-wrap items-center gap-2">
+            <BucketToggles value={vrBuckets} onChange={setVrBuckets} dark={dark} />
+            <InfoTip k="vr_buckets" />
+            <span className="ml-auto inline-flex items-center gap-1 text-xs text-muted">Lower panel follows the bucket picker <InfoTip k="hl_bars" /></span>
+          </div>
+          <VolumeRatioChart rows={rows} t={t} zoom={zoom} setZoom={setZoom} log={log} barBucket={bucket} visible={vrBuckets} />
         </CardBody>
       </Card>
 
       <Card>
         <CardHeader
-          title={`% of stocks above EMA · ${emaView === "single" ? BUCKET_LABEL[bucket] : "all buckets"}`}
-          subtitle={`EMA${ema} highlighted (header selector). Reference lines at 20% and 80%.`}
+          title={`% of stocks above EMA${ema} · ${emaView === "single" ? BUCKET_LABEL[bucket] : "all buckets"}`}
+          info="ema_chart"
+          subtitle={`Change the EMA with the header selector. Shaded: ≥ 80% overheated, < 20% oversold.`}
           actions={
             <>
               <Segmented<"single" | "multiples"> label="View" value={emaView} onChange={setEmaView} options={[{ value: "single", label: "One bucket" }, { value: "multiples", label: "Small multiples" }]} />
@@ -155,6 +179,7 @@ export default function Dashboard() {
       <Card>
         <CardHeader
           title={`Market situation timeline · EMA${ema}`}
+          info="timeline"
           subtitle={`${raw ? "Raw" : "Confirmed"} state per bucket per day. Letter codes appear when zoomed to ≤ 70 sessions.`}
           actions={<Button size="sm" variant="ghost" onClick={() => downloadCsv(`states_ema${ema}_${range}.csv`, zoomedRows(rows).map((r) => ({ date: r.date, bucket: r.bucket, state: r[`state_ema${ema}`], state_raw: r[`state_raw_ema${ema}`], rule: r[`rule_ema${ema}`], days_in_state: r[`days_in_state_ema${ema}`], p: r[`pct_ema${ema}`], vr: r.vol_ratio })))}>CSV</Button>}
         />
@@ -166,6 +191,7 @@ export default function Dashboard() {
       <Card>
         <CardHeader
           title="Heatmap · days × buckets"
+          info="heatmap"
           subtitle={heatMetric === "pct" ? `Cells coloured by % above EMA${ema}.` : "Cells coloured by volume ratio (log scale, grey = 1.0)."}
           actions={
             <>
@@ -181,14 +207,14 @@ export default function Dashboard() {
 
       <div className="grid gap-4 xl:grid-cols-[1fr_1fr]">
         <Card>
-          <CardHeader title={`State map · ${BUCKET_LABEL[bucket]}`} subtitle={`VR vs % above EMA${ema}. Trail = last 10 sessions; slider replays history.`}
+          <CardHeader title={`State map · ${BUCKET_LABEL[bucket]}`} info="state_map" subtitle={`VR vs % above EMA${ema}. Trail = last 10 sessions; slider replays history.`}
             actions={<BucketPicker value={bucket} onChange={setBucket} />} />
           <CardBody>
             <StateMap rows={rows} bucket={bucket} ema={ema} t={t} cfg={cfg} />
           </CardBody>
         </Card>
         <Card>
-          <CardHeader title={`State statistics · ${BUCKET_LABEL[bucket]}`} subtitle={`${range} range · EMA${ema}`} />
+          <CardHeader title={`State statistics · ${BUCKET_LABEL[bucket]}`} info="state_stats" subtitle={`${range} range · EMA${ema}`} />
           <CardBody>
             <StateStats rows={zoomedRows(rows)} bucket={bucket} ema={ema} raw={raw} />
           </CardBody>
@@ -196,7 +222,7 @@ export default function Dashboard() {
       </div>
 
       <Card>
-        <CardHeader title="Compare days" subtitle="Pick two sessions; differences are B − A." />
+        <CardHeader title="Compare days" info="compare_days" subtitle="Pick two sessions; differences are B − A." />
         <CardBody>
           <CompareDays rows={all} ema={ema} />
         </CardBody>

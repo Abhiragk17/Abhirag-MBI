@@ -7,8 +7,10 @@ import { Button } from "@/components/ui/button";
 import { BUCKET_LABEL } from "@/lib/states";
 import { downloadCsv, fmtInt, fmtNum } from "@/lib/format";
 import type { Bucket, DayStatus, StockRow } from "@/lib/types";
+import type { GlossaryKey } from "@/lib/glossary";
 import { ALL_BUCKETS } from "@/lib/types";
 import { cn } from "@/lib/utils";
+import { InfoTip } from "@/components/ui/info";
 
 type SortKey = "symbol" | "bucket" | "rel_vol" | "close" | "volume" | "above";
 
@@ -69,11 +71,14 @@ export default function StocksPage() {
     });
   }, [rows, bucket, q, show, sort]);
 
-  const th = (key: SortKey, label: string, right = false) => (
+  const th = (key: SortKey, label: string, right = false, info?: GlossaryKey) => (
     <th className={cn("cursor-pointer select-none py-1.5 pr-3 font-medium hover:text-ink", right && "text-right")}
       onClick={() => setSort((s) => ({ key, dir: s.key === key ? ((-s.dir) as 1 | -1) : key === "symbol" ? 1 : -1 }))}
       aria-sort={sort.key === key ? (sort.dir === 1 ? "ascending" : "descending") : "none"}>
-      {label}{sort.key === key ? (sort.dir === 1 ? " ↑" : " ↓") : ""}
+      <span className={cn("inline-flex items-center gap-1", right && "flex-row-reverse")}>
+        <span>{label}{sort.key === key ? (sort.dir === 1 ? " ↑" : " ↓") : ""}</span>
+        {info ? <InfoTip k={info} /> : null}
+      </span>
     </th>
   );
   const nExcl = rows?.filter((r) => !r.valid).length ?? 0;
@@ -82,6 +87,7 @@ export default function StocksPage() {
     <Card>
       <CardHeader
         title="Stocks"
+        info="stocks_table"
         subtitle={`Per-stock inputs for ${date || "–"}. rel_vol = volume ÷ 20-session average (before today). Above/below uses split-adjusted closes.`}
         actions={
           <>
@@ -116,13 +122,13 @@ export default function StocksPage() {
               <thead className="sticky top-0 bg-surface text-left text-xs text-muted">
                 <tr className="border-b border-line">
                   {th("symbol", "Symbol")}
-                  {th("bucket", "Bucket")}
-                  {th("close", "Close", true)}
+                  {th("bucket", "Bucket", false, "buckets")}
+                  {th("close", "Close", true, "close_adj")}
                   {th("volume", "Volume", true)}
-                  {th("rel_vol", "rel_vol", true)}
-                  {th("above", "EMA 10 · 20 · 50")}
-                  <th className="py-1.5 pr-3 font-medium">Status</th>
-                  <th className="py-1.5 font-medium">Archive</th>
+                  {th("rel_vol", "rel_vol", true, "rel_vol")}
+                  {th("above", "EMA 10 · 20 · 50", false, "ema_flags")}
+                  <th className="py-1.5 pr-3 font-medium"><span className="inline-flex items-center gap-1">Status <InfoTip k="stock_status" /></span></th>
+                  <th className="py-1.5 font-medium"><span className="inline-flex items-center gap-1">Archive <InfoTip k="archive" /></span></th>
                 </tr>
               </thead>
               <tbody>

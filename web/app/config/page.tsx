@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useApp } from "@/components/AppShell";
 import { Card, CardBody, CardHeader, EmptyState } from "@/components/ui/card";
+import { InfoTip } from "@/components/ui/info";
 import { Button } from "@/components/ui/button";
 import { STATE_META } from "@/lib/states";
 import type { RegimeConfig, StateCode } from "@/lib/types";
@@ -70,7 +71,7 @@ export default function ConfigPage() {
   return (
     <div className="flex flex-col gap-4">
       <Card>
-        <CardHeader title="Market situation thresholds" subtitle="data/config/regime_config.json · starting defaults that need calibration (spec 7.4). Lower zone edges are inclusive."
+        <CardHeader title="Market situation thresholds" info="cfg_thresholds" subtitle="data/config/regime_config.json · starting defaults that need calibration (spec 7.4). Lower zone edges are inclusive."
           actions={
             <>
               <Button size="sm" variant="ghost" onClick={resetToDefaults}>Reset to defaults</Button>
@@ -81,13 +82,13 @@ export default function ConfigPage() {
         <CardBody className="flex flex-col gap-5">
           {msg ? <p className="rounded bg-surface-2 px-2 py-1 text-sm">{msg}</p> : null}
           <section>
-            <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-2">P zones (% above EMA) – lower edges</h3>
+            <h3 className="mb-2 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-ink-2">P zones (% above EMA) – lower edges <InfoTip k="p_zones" /></h3>
             <div className="flex flex-wrap gap-3">
               {(["L", "M", "H", "VH"] as const).map((k) => <Num key={k} label={`${k} from`} value={cfg.p_zones[k]} onChange={(v) => set((c) => { c.p_zones[k] = v; })} />)}
             </div>
           </section>
           <section>
-            <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-2">VR zones – lower edges</h3>
+            <h3 className="mb-2 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-ink-2">VR zones – lower edges <InfoTip k="vr_zones" /></h3>
             <div className="flex flex-wrap gap-3">
               <Num label="mid from" step={0.05} value={cfg.vr_zones.mid} onChange={(v) => set((c) => { c.vr_zones.mid = v; })} />
               <Num label="high from" step={0.05} value={cfg.vr_zones.high} onChange={(v) => set((c) => { c.vr_zones.high = v; })} />
@@ -96,7 +97,7 @@ export default function ConfigPage() {
           </section>
           <section className="flex flex-wrap gap-8">
             <div>
-              <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-2">Panic override</h3>
+              <h3 className="mb-2 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-ink-2">Panic override <InfoTip k="panic" /></h3>
               <label className="mb-2 flex items-center gap-1.5 text-xs"><input type="checkbox" checked={cfg.overrides.panic.enabled} onChange={(e) => set((c) => { c.overrides.panic.enabled = e.target.checked; })} /> enabled</label>
               <div className="flex gap-3">
                 <Num label="VR ≥" step={0.1} value={cfg.overrides.panic.vr_min} onChange={(v) => set((c) => { c.overrides.panic.vr_min = v; })} />
@@ -104,12 +105,12 @@ export default function ConfigPage() {
               </div>
             </div>
             <div>
-              <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-2">Euphoria override</h3>
+              <h3 className="mb-2 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-ink-2">Euphoria override <InfoTip k="euphoria" /></h3>
               <label className="mb-2 flex items-center gap-1.5 text-xs"><input type="checkbox" checked={cfg.overrides.euphoria.enabled} onChange={(e) => set((c) => { c.overrides.euphoria.enabled = e.target.checked; })} /> enabled</label>
               <Num label="P ≥" value={cfg.overrides.euphoria.p_min} onChange={(v) => set((c) => { c.overrides.euphoria.p_min = v; })} />
             </div>
             <div>
-              <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-2">Trend & smoothing</h3>
+              <h3 className="mb-2 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-ink-2">Trend & smoothing <InfoTip k="trend_smoothing" /></h3>
               <label className="mb-2 flex items-center gap-1.5 text-xs"><input type="checkbox" checked={cfg.trend.enabled} onChange={(e) => set((c) => { c.trend.enabled = e.target.checked; })} /> use dP trend input</label>
               <div className="flex gap-3">
                 <Num label="dP window (sessions)" value={cfg.trend.dp_window} onChange={(v) => set((c) => { c.trend.dp_window = Math.max(1, Math.round(v)); })} />
@@ -118,7 +119,7 @@ export default function ConfigPage() {
             </div>
           </section>
           <section>
-            <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-2">Decision table (edit cells in the JSON below)</h3>
+            <h3 className="mb-2 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-ink-2">Decision table (edit cells in the JSON below) <InfoTip k="decision_table" /></h3>
             <div className="overflow-x-auto">
               <table className="text-sm">
                 <thead><tr className="text-xs text-muted"><th className="p-1 text-left">P zone</th><th className="p-1">VR low</th><th className="p-1">VR mid</th><th className="p-1">VR high</th></tr></thead>
@@ -142,7 +143,7 @@ export default function ConfigPage() {
       </Card>
 
       <Card>
-        <CardHeader title="Live preview" subtitle="How many stored day × bucket states would change if this config were applied (classifier run by python on the current history)." />
+        <CardHeader title="Live preview" info="live_preview" subtitle="How many stored day × bucket states would change if this config were applied (classifier run by python on the current history)." />
         <CardBody>
           {preview?.error ? <p className="text-sm">Preview failed: {preview.error}</p> : !preview ? <p className="text-sm text-muted">Computing…</p> : (
             <div className="grid gap-4 md:grid-cols-3">
@@ -164,7 +165,7 @@ export default function ConfigPage() {
       </Card>
 
       <Card>
-        <CardHeader title="Raw JSON" subtitle="Full config, including the decision table and volume-ratio regime bands." actions={
+        <CardHeader title="Raw JSON" info="raw_json" subtitle="Full config, including the decision table and volume-ratio regime bands." actions={
           <Button size="sm" variant="outline" onClick={() => { try { const p = JSON.parse(rawJson); setCfg(p); setMsg(null); } catch (e) { setMsg(`Invalid JSON: ${String(e)}`); } }}>Apply JSON</Button>
         } />
         <CardBody>

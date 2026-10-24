@@ -11,6 +11,7 @@ import { EmaSelector } from "./EmaSelector";
 import { StatusBadge } from "./StatusBadge";
 import { StatusBanner } from "./StatusBanner";
 import { cn } from "@/lib/utils";
+import { InfoTip, WithInfo } from "./ui/info";
 
 export interface JobInfo {
   id: string; name: string; running: boolean; exitCode: number | null; error: string | null;
@@ -152,14 +153,15 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             ))}
           </nav>
           <div className="ml-auto flex flex-wrap items-center gap-3 text-xs text-ink-2">
-            <span className="tabular">Session <b className="text-ink">{status?.latestDate ?? "–"}</b></span>
-            <span className="hidden tabular lg:inline">Universe <b className="text-ink">{uni?.version ?? "–"}</b></span>
+            <WithInfo k="session" className="tabular"><span>Session <b className="text-ink">{status?.latestDate ?? "–"}</b></span></WithInfo>
+            <span className="hidden lg:inline-flex"><WithInfo k="universe" className="tabular"><span>Universe <b className="text-ink">{uni?.version ?? "–"}</b></span></WithInfo></span>
             <span className="hidden tabular xl:inline">Refreshed {fmtDateTime(status?.status?.last_run?.finished_at)}</span>
-            <StatusBadge level={status?.badge ?? "ok"} label={status?.badgeLabel ?? "Loading"} />
-            <EmaSelector value={ema} onChange={setEma} />
+            <WithInfo k="data_status"><StatusBadge level={status?.badge ?? "ok"} label={status?.badgeLabel ?? "Loading"} /></WithInfo>
+            <WithInfo k="ema_selector"><EmaSelector value={ema} onChange={setEma} /></WithInfo>
             <Button size="sm" variant="outline" onClick={() => runJob("daily")} disabled={running} title="Runs python -m mbi daily">
               {running ? "Refreshing…" : "Refresh data"}
             </Button>
+            <InfoTip k="refresh" className="-ml-2" />
             <Button size="sm" variant="ghost" onClick={toggleTheme} aria-label="Toggle dark mode">{dark ? "☀" : "☾"}</Button>
           </div>
         </div>

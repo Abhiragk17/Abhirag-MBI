@@ -1,0 +1,38 @@
+pthon -m mbi recompute
+python -m mbi backfill --from 2025-01-01
+python -m mbi daily
+
+
+Four commands take you from an empty folder to a working dashboard; after that, one
+command a day keeps it current.
+One-time setup (run from the project folder d:\Abhirag code\Abhirag MBI ):
+1. Install the Python packages: pip install -r requirements.txt (pandas, numpy ,
+pyarrow , requests, yfinance, pytest).
+2. Load history: python -m mbi backfill --from 2025-01-01. This builds the universe,
+downloads one bhavcopy per trading day (about 4 minutes for 440 sessions), ranks the
+nanocap tier (about 6 minutes of share-count lookups the first time) and computes
+every indicator . Go further back for longer history; the archive keeps everything.
+3. Build the web app once: cd web, then npm install and npm run build.
+4. Start it: npm start (inside web), then open http://localhost:3000.
+E very trading day, after about 6:30 PM IST (when NSE publishes the bhavcopy), either
+press Refresh data in the app header or run python -m mbi daily. The job fetches any
+sessions missed since the last run, retries recent f ailed days, recomputes and reclassifies.
+It takes a few seconds.
+T wice a year, after the end-of-June and end-of-December index reconstitutions, the daily
+job refreshes the universe automatically . Y ou can force it any time with python -m mbi
+universe --refresh.
+T rying the app without network access. python -m mbi demo writes about 360 sessions
+of synthetic data so you can explore every page. Point it at a separate folder first (set the
+environment variable MBI
+DATA
+_
+_
+DIR , for example to C:\temp\mbi-demo, and start the
+web app with the same variable). The demo refuses to run on a folder that holds real data,
+and the status log labels its days as synthetic.
+Optional extras
+Browser f allback for NSE: pip install playwright then python -m playwright
+install chromium. Without it, the app still works; the f allback step is skipped and
+logged.
+AMFI market-cap file for the nanocap ranking: pip install openpyxl and pass the
+file with --amfi-file.

@@ -6,6 +6,7 @@ import type { Bucket, Ema, HistoryRow } from "@/lib/types";
 import { fmtNum } from "@/lib/format";
 import { downloadCsv } from "@/lib/format";
 import { Button } from "./ui/button";
+import { InfoTip } from "./ui/info";
 
 export function StateStats({ rows, bucket, ema, raw }: { rows: HistoryRow[]; bucket: Bucket; ema: Ema; raw: boolean }) {
   const s = stateStats(rows, bucket, ema, raw);
@@ -55,7 +56,7 @@ export function StateStats({ rows, bucket, ema, raw }: { rows: HistoryRow[]; buc
       </div>
       <div className="overflow-x-auto">
         <div className="mb-1 flex items-center justify-between">
-          <span className="text-xs font-medium text-ink-2">Transition matrix (row = from, column = to)</span>
+          <span className="inline-flex items-center gap-1 text-xs font-medium text-ink-2">Transition matrix (row = from, column = to) <InfoTip k="transitions" /></span>
           <Button size="sm" variant="ghost" onClick={() => downloadCsv(`transitions_${bucket}_ema${ema}.csv`, STATE_ORDER.map((a) => ({ from: a, ...s.transitions[a] })))}>CSV</Button>
         </div>
         <table className="text-xs tabular">

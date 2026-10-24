@@ -40,7 +40,7 @@ export default function DataPage() {
     <div className="flex flex-col gap-4">
       <div className="grid gap-4 lg:grid-cols-3">
         <Card>
-          <CardHeader title="Last job" />
+          <CardHeader title="Last job" info="last_job" />
           <CardBody className="text-sm">
             {run ? (
               <dl className="grid grid-cols-[110px_1fr] gap-y-1">
@@ -61,7 +61,7 @@ export default function DataPage() {
           </CardBody>
         </Card>
         <Card>
-          <CardHeader title="Universe & calendar" />
+          <CardHeader title="Universe & calendar" info="universe_card" />
           <CardBody className="text-sm">
             {st?.universe ? (
               <dl className="grid grid-cols-[110px_1fr] gap-y-1">
@@ -77,7 +77,7 @@ export default function DataPage() {
           </CardBody>
         </Card>
         <Card>
-          <CardHeader title="Downloads" />
+          <CardHeader title="Downloads" info="downloads" />
           <CardBody className="flex flex-col gap-3 text-sm">
             <a className="underline" href="/api/download/history">breadth_history.csv (all indicator history)</a>
             <form className="flex flex-wrap items-center gap-2" onSubmit={(e) => { e.preventDefault(); if (stockSym) window.location.href = `/api/download/stock/${encodeURIComponent(stockSym.toUpperCase())}`; }}>
@@ -91,7 +91,7 @@ export default function DataPage() {
       </div>
 
       <Card id="quality">
-        <CardHeader title="Data quality · suspected unadjusted events" subtitle="close / previous close below 0.6 or above 1.6 with no split-list entry. Excluded from that day's counts." />
+        <CardHeader title="Data quality · suspected unadjusted events" info="suspected" subtitle="close / previous close below 0.6 or above 1.6 with no split-list entry. Excluded from that day's counts." />
         <CardBody>
           {suspected.length ? (
             <div className="max-h-80 overflow-auto">
@@ -113,7 +113,7 @@ export default function DataPage() {
       </Card>
 
       <Card id="splits">
-        <CardHeader title="Split list validation" subtitle={`data/config/split_adjustments.json · checked ${fmtDateTime(splits?.validation?.checked_at)}`} />
+        <CardHeader title="Split list validation" info="split_list" subtitle={`data/config/split_adjustments.json · checked ${fmtDateTime(splits?.validation?.checked_at)}`} />
         <CardBody>
           {splits?.validation?.issues?.length ? (
             <ul className="mb-3 text-sm">
@@ -130,7 +130,7 @@ export default function DataPage() {
       </Card>
 
       <Card>
-        <CardHeader title="Per-day status log" subtitle="Source used, attempts, errors, missing and excluded symbols."
+        <CardHeader title="Per-day status log" info="day_log" subtitle="Source used, attempts, errors, missing and excluded symbols."
           actions={<label className="inline-flex items-center gap-1.5 text-xs text-ink-2"><input type="checkbox" checked={onlyIssues} onChange={(e) => setOnlyIssues(e.target.checked)} className="accent-[#2a78d6]" />only days with issues</label>} />
         <CardBody>
           {!shown.length ? <EmptyState title={onlyIssues ? "No days with issues" : "No days logged"} /> : (
@@ -161,7 +161,7 @@ export default function DataPage() {
       </Card>
 
       <Card>
-        <CardHeader title="Recent events" subtitle="Recoveries, fallbacks and failures recorded by the NSE client and jobs." />
+        <CardHeader title="Recent events" info="events" subtitle="Recoveries, fallbacks and failures recorded by the NSE client and jobs." />
         <CardBody>
           {st?.events?.length ? (
             <ul className="max-h-64 overflow-auto font-mono text-xs">
@@ -172,7 +172,7 @@ export default function DataPage() {
       </Card>
 
       <Card id="log">
-        <CardHeader title="Run log" subtitle={log?.file ?? "no log file"} actions={<Button size="sm" variant="ghost" onClick={() => fetch("/api/log").then((r) => r.json()).then(setLog)}>Reload</Button>} />
+        <CardHeader title="Run log" info="run_log" subtitle={log?.file ?? "no log file"} actions={<Button size="sm" variant="ghost" onClick={() => fetch("/api/log").then((r) => r.json()).then(setLog)}>Reload</Button>} />
         <CardBody>
           {status?.job?.lines?.length ? (
             <>

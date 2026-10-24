@@ -1,17 +1,19 @@
 import * as React from "react";
 import { cn } from "@/lib/utils";
+import type { GlossaryKey } from "@/lib/glossary";
+import { InfoTip } from "./info";
 
 export function Card({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) {
   return <div className={cn("rounded-lg border border-line bg-surface", className)} {...props} />;
 }
 
 export function CardHeader({
-  title, subtitle, actions, className,
-}: { title: React.ReactNode; subtitle?: React.ReactNode; actions?: React.ReactNode; className?: string }) {
+  title, subtitle, actions, info, className,
+}: { title: React.ReactNode; subtitle?: React.ReactNode; actions?: React.ReactNode; info?: GlossaryKey; className?: string }) {
   return (
     <div className={cn("flex flex-wrap items-start justify-between gap-2 px-4 pt-3", className)}>
       <div className="min-w-0">
-        <h2 className="text-sm font-semibold text-ink">{title}</h2>
+        <h2 className="flex items-center gap-1.5 text-sm font-semibold text-ink">{title}{info ? <InfoTip k={info} /> : null}</h2>
         {subtitle ? <p className="mt-0.5 text-xs text-ink-2">{subtitle}</p> : null}
       </div>
       {actions ? <div className="flex flex-wrap items-center gap-2">{actions}</div> : null}
