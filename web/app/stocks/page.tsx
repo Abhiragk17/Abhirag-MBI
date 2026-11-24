@@ -1,8 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useApp } from "@/components/AppShell";
-import { Card, CardBody, CardHeader, EmptyState } from "@/components/ui/card";
+import { Card, CardBody, CardHeader, EmptyState, Skeleton } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BUCKET_LABEL } from "@/lib/states";
 import { downloadCsv, fmtInt, fmtNum } from "@/lib/format";
@@ -28,26 +29,32 @@ export default function StocksPage() {
   const [sort, setSort] = useState<{ key: SortKey; dir: 1 | -1 }>({ key: "rel_vol", dir: -1 });
 
   useEffect(() => {
+    let live = true;
     fetch("/api/breadth", { cache: "no-store" }).then((r) => r.json()).then((b) => {
+      if (!live) return;
       const ds = Array.from(new Set<string>((b.rows ?? []).map((r: { date: string }) => r.date))).sort().reverse();
       setDates(ds);
       setDate((d) => d || ds[0] || "");
-    });
+    }).catch((e) => live && setError(String(e)));
+    return () => { live = false; };
   }, [dataVersion]);
 
   useEffect(() => {
     if (!date) return;
+    let live = true; // ignore a slow response for a date the user has already left
     setRows(null);
     setError(null);
     fetch(`/api/day/${date}`, { cache: "no-store" })
       .then((r) => r.json())
       .then((b) => {
+        if (!live) return;
         setRows(b.rows ?? []);
         setDayStatus(b.status ?? null);
         setNote(b.note ?? null);
         if (b.error) setError(b.error);
       })
-      .catch((e) => setError(String(e)));
+      .catch((e) => live && setError(String(e)));
+    return () => { live = false; };
   }, [date, dataVersion]);
 
   const view = useMemo(() => {
@@ -73,6 +80,8 @@ export default function StocksPage() {
 
   const th = (key: SortKey, label: string, right = false, info?: GlossaryKey) => (
     <th className={cn("cursor-pointer select-none py-1.5 pr-3 font-medium hover:text-ink", right && "text-right")}
+      tabIndex={0}
+      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); e.currentTarget.click(); } }}
       onClick={() => setSort((s) => ({ key, dir: s.key === key ? ((-s.dir) as 1 | -1) : key === "symbol" ? 1 : -1 }))}
       aria-sort={sort.key === key ? (sort.dir === 1 ? "ascending" : "descending") : "none"}>
       <span className={cn("inline-flex items-center gap-1", right && "flex-row-reverse")}>
@@ -113,7 +122,7 @@ export default function StocksPage() {
         ) : null}
         {note ? <p className="mb-2 text-xs text-muted">{note}</p> : null}
         {error ? <EmptyState title="No per-stock data for this day" reason={error} /> : !rows ? (
-          <div className="h-64 animate-pulse rounded bg-surface-2" />
+          <Skeleton className="h-64" label="Loading stocks" />
         ) : !rows.length ? (
           <EmptyState title="No symbols" reason={status?.latestDate ? "The archive has no rows for this date." : "No data yet."} />
         ) : (
@@ -134,7 +143,7 @@ export default function StocksPage() {
               <tbody>
                 {view.map((r) => (
                   <tr key={r.symbol} className={cn("border-b border-line/60", !r.valid && "text-ink-2")}>
-                    <td className="py-1 pr-3 font-medium">{r.symbol}</td>
+                    <td className="py-1 pr-3 font-medium"><Link className="hover:underline" href={`/stocks/${encodeURIComponent(r.symbol)}?ema=${ema}`}>{r.symbol}</Link></td>
                     <td className="py-1 pr-3 text-xs">{BUCKET_LABEL[r.bucket] ?? r.bucket}</td>
                     <td className="py-1 pr-3 text-right">{fmtNum(r.close)}{r.adj_factor && r.adj_factor !== 1 ? <span className="ml-1 text-[10px] text-muted" title="split-adjusted factor">÷{r.adj_factor}</span> : null}</td>
                     <td className="py-1 pr-3 text-right">{fmtInt(r.volume)}</td>
@@ -149,7 +158,7 @@ export default function StocksPage() {
                             const up = r[`above_ema${e}`];
                             return (
                               <span key={e} title={`EMA${e}: ${fmtNum(r[`ema${e}`])}`}
-                                className={cn("inline-flex w-[4.5rem] justify-center whitespace-nowrap rounded px-1 text-[11px]", e === ema ? "font-semibold" : "", up ? "bg-[#2a78d6]/15" : "bg-[#e34948]/15")}>
+                                className={cn("inline-flex w-[4.5rem] justify-center whitespace-nowrap rounded px-1 text-[11px]", e === ema ? "font-semibold" : "", up ? "bg-[color-mix(in_srgb,var(--accent)_15%,transparent)]" : "bg-[color-mix(in_srgb,var(--critical)_15%,transparent)]")}>
                                 {up ? "▲ above" : "▼ below"}
                               </span>
                             );

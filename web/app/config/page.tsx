@@ -2,11 +2,12 @@
 
 import { useEffect, useState } from "react";
 import { useApp } from "@/components/AppShell";
-import { Card, CardBody, CardHeader, EmptyState } from "@/components/ui/card";
+import { Card, CardBody, CardHeader, EmptyState, Skeleton } from "@/components/ui/card";
 import { InfoTip } from "@/components/ui/info";
 import { Button } from "@/components/ui/button";
 import { STATE_META } from "@/lib/states";
 import type { RegimeConfig, StateCode } from "@/lib/types";
+import { ThemeConfig } from "@/components/themes/ThemeConfig";
 
 interface Preview { rows: number; changed: Record<string, number>; changed_dates: Record<string, number>; by_bucket: Record<string, Record<string, number>>; distribution: Record<string, Record<string, number>>; error?: string }
 
@@ -28,7 +29,11 @@ export default function ConfigPage() {
   const [msg, setMsg] = useState<string | null>(null);
   const [rawJson, setRawJson] = useState("");
 
-  const load = () => fetch("/api/config", { cache: "no-store" }).then((r) => r.json()).then((b) => { setCfg(b.config); setSaved(b.config); setRawJson(JSON.stringify(b.config, null, 2)); });
+  const [loadError, setLoadError] = useState<string | null>(null);
+  const load = () => fetch("/api/config", { cache: "no-store" }).then((r) => r.json()).then((b) => {
+    if (!b.config) throw new Error(b.error ?? "no config returned");
+    setCfg(b.config); setSaved(b.config); setRawJson(JSON.stringify(b.config, null, 2)); setLoadError(null);
+  }).catch((e) => setLoadError(String(e)));
   useEffect(() => { load(); }, []);
 
   // live preview (debounced)
@@ -41,7 +46,8 @@ export default function ConfigPage() {
     return () => clearTimeout(id);
   }, [cfg]);
 
-  if (!cfg) return <EmptyState title="Loading config…" />;
+  if (loadError && !cfg) return <EmptyState title="Could not load config" reason={loadError} />;
+  if (!cfg) return <Skeleton className="h-64" label="Loading config" />;
   const set = (fn: (c: RegimeConfig) => void) => {
     const next = structuredClone(cfg);
     fn(next);
@@ -70,6 +76,10 @@ export default function ConfigPage() {
 
   return (
     <div className="flex flex-col gap-4">
+      <nav className="flex gap-3 text-xs text-ink-2" aria-label="Config sections">
+        <span>Jump to:</span><a className="underline" href="#market">Market situation</a><a className="underline" href="#themes">Themes &amp; sector rotation</a>
+      </nav>
+      <span id="market" className="relative -top-16 block" />
       <Card>
         <CardHeader title="Market situation thresholds" info="cfg_thresholds" subtitle="data/config/regime_config.json · starting defaults that need calibration (spec 7.4). Lower zone edges are inclusive."
           actions={
@@ -172,6 +182,7 @@ export default function ConfigPage() {
           <textarea value={rawJson} onChange={(e) => setRawJson(e.target.value)} spellCheck={false} className="h-96 w-full rounded-md border border-line bg-surface-2 p-2 font-mono text-xs" aria-label="Config JSON" />
         </CardBody>
       </Card>
+      <ThemeConfig />
     </div>
   );
 }

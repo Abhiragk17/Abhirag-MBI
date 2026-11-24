@@ -53,3 +53,11 @@ data/meta/split_validation.json
 #   data/breadth/breadth_latest.json
 #   data/meta/universe_history/     universe versions (needed to reproduce past buckets)
 #   data/meta/holidays_cache.json, no_session_dates.json, shares_outstanding.csv  (slow to re-fetch)
+
+# Local-only project files (Claude Code setup, guides, notes, the in-house chart library source)
+.claude/
+explanations/
+issues/
+trading-chart-react/
+scanning.txt
+CLAUDE.md

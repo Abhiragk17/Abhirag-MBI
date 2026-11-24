@@ -5,6 +5,7 @@ import { useApp } from "@/components/AppShell";
 import { Card, CardBody, CardHeader, EmptyState } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { fmtDateTime } from "@/lib/format";
+import { suggestFactor } from "@/lib/splits";
 import type { DayStatus } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
@@ -23,6 +24,21 @@ export default function DataPage() {
   const [log, setLog] = useState<{ file: string | null; text: string } | null>(null);
   const [onlyIssues, setOnlyIssues] = useState(true);
   const [stockSym, setStockSym] = useState("");
+  // factor the user is about to add per suspected row, and what happened to rows already submitted
+  const [factors, setFactors] = useState<Record<string, string>>({});
+  const [added, setAdded] = useState<Record<string, "adding" | "added" | string>>({});
+  const nAdded = Object.values(added).filter((v) => v === "added").length;
+
+  const addSplit = async (key: string, symbol: string, exDate: string, factor: string) => {
+    setAdded((a) => ({ ...a, [key]: "adding" }));
+    try {
+      const r = await fetch("/api/splits", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ symbol, ex_date: exDate, factor: Number(factor) }) });
+      const b = await r.json();
+      setAdded((a) => ({ ...a, [key]: r.ok ? "added" : `Failed: ${b.error ?? r.status}` }));
+    } catch (e) {
+      setAdded((a) => ({ ...a, [key]: `Failed: ${String(e)}` }));
+    }
+  };
 
   useEffect(() => {
     fetch("/api/splits").then((r) => r.json()).then(setSplits).catch(() => setSplits(null));
@@ -93,6 +109,12 @@ export default function DataPage() {
       <Card id="quality">
         <CardHeader title="Data quality · suspected unadjusted events" info="suspected" subtitle="close / previous close below 0.6 or above 1.6 with no split-list entry. Excluded from that day's counts." />
         <CardBody>
+          {nAdded ? (
+            <div role="status" className="mb-2 flex flex-wrap items-center gap-2 rounded bg-surface-2 px-2 py-1.5 text-xs">
+              <span>{nAdded} split{nAdded > 1 ? "s" : ""} added. Recompute so history uses {nAdded > 1 ? "them" : "it"}.</span>
+              <Button size="sm" variant="outline" onClick={() => { setAdded({}); runJob("recompute"); }} disabled={!!status?.job?.running}>Recompute now</Button>
+            </div>
+          ) : null}
           {suspected.length ? (
             <div className="max-h-80 overflow-auto">
               <table className="w-full text-sm tabular">
@@ -102,7 +124,28 @@ export default function DataPage() {
                     <tr key={`${e.date}-${e.symbol}`} className="border-b border-line/60">
                       <td className="py-1 pr-3">{e.date}</td><td className="py-1 pr-3 font-medium">{e.symbol}</td><td className="py-1 pr-3 text-xs">{e.bucket}</td>
                       <td className="py-1 pr-3 text-right">{e.ratio.toFixed(3)}</td>
-                      <td className="py-1 text-xs">Add to split list? <code className="rounded bg-surface-2 px-1">{`{"symbol": "${e.symbol}", "ex_date": "${e.date}", "factor": ${(1 / e.ratio).toFixed(2)}, "type": "split"}`}</code></td>
+                      <td className="py-1 text-xs">
+                        {(() => {
+                          const key = `${e.symbol}|${e.date}`;
+                          const state = added[key];
+                          const factor = factors[key] ?? String(suggestFactor(e.ratio));
+                          if (state === "added") return <span style={{ color: "var(--good-text)" }}>✓ Added to split list. Recompute to apply.</span>;
+                          return (
+                            <span className="inline-flex flex-wrap items-center gap-1.5">
+                              <span className="text-ink-2">Split factor</span>
+                              <input aria-label={`Split factor for ${e.symbol}`} inputMode="decimal" value={factor}
+                                onChange={(ev) => setFactors((f) => ({ ...f, [key]: ev.target.value }))}
+                                className="h-7 w-16 rounded-md border border-line bg-surface px-1.5 text-right tabular" />
+                              <Button size="sm" variant="outline" disabled={state === "adding" || !(Number(factor) > 0) || Number(factor) === 1}
+                                onClick={() => addSplit(key, e.symbol, e.date, factor)}
+                                title={`Adds ${e.symbol} · ex ${e.date} · ×${factor} to split_adjustments.json`}>
+                                {state === "adding" ? "Adding…" : "Add to split list"}
+                              </Button>
+                              {state && state !== "adding" ? <span style={{ color: "var(--critical)" }}>{state}</span> : null}
+                            </span>
+                          );
+                        })()}
+                      </td>
                     </tr>
                   ))}
                 </tbody>
@@ -131,7 +174,7 @@ export default function DataPage() {
 
       <Card>
         <CardHeader title="Per-day status log" info="day_log" subtitle="Source used, attempts, errors, missing and excluded symbols."
-          actions={<label className="inline-flex items-center gap-1.5 text-xs text-ink-2"><input type="checkbox" checked={onlyIssues} onChange={(e) => setOnlyIssues(e.target.checked)} className="accent-[#2a78d6]" />only days with issues</label>} />
+          actions={<label className="inline-flex items-center gap-1.5 text-xs text-ink-2"><input type="checkbox" checked={onlyIssues} onChange={(e) => setOnlyIssues(e.target.checked)} className="accent-accent" />only days with issues</label>} />
         <CardBody>
           {!shown.length ? <EmptyState title={onlyIssues ? "No days with issues" : "No days logged"} /> : (
             <div className="max-h-[480px] overflow-auto">

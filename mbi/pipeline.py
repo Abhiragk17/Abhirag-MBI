@@ -120,6 +120,24 @@ def _merge_client_events(client: NSEClient, status: StatusStore, mark: int = 0) 
             status.event(f"nse_{e['kind']}", e["detail"], url=e.get("url"))
 
 
+def run_themes() -> None:
+    """Theme analytics are a derived view: a failure must never fail the breadth job."""
+    try:
+        from . import themes
+        themes.run()
+    except Exception:  # noqa: BLE001
+        log.exception("theme analytics failed (breadth results are unaffected)")
+
+
+def run_screener() -> None:
+    """The screener is a derived view too: a failure must never fail the breadth job."""
+    try:
+        from . import screener
+        screener.run()
+    except Exception:  # noqa: BLE001
+        log.exception("screener failed (breadth results are unaffected)")
+
+
 def daily(status: StatusStore, *, target: date | None = None, client: NSEClient | None = None,
           offline: bool = False) -> dict[str, Any]:
     client = client or make_client()
@@ -168,6 +186,8 @@ def daily(status: StatusStore, *, target: date | None = None, client: NSEClient 
         n = run_compute(to_compute[0], to_compute[-1], status)
     else:
         reclassify()
+    run_themes()
+    run_screener()
     return {"ingested": [r.__dict__ for r in results], "computed": n, "network_down": network_down}
 
 
@@ -212,6 +232,8 @@ def backfill(status: StatusStore, start: date, end: date | None = None, *, clien
     archived = store.archived_dates()
     if archived:
         run_compute(archived[0], archived[-1], status, details_for_last=None)
+        run_themes()
+        run_screener()
     return counts
 
 

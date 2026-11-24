@@ -8,6 +8,8 @@ Source code: [mbi/metrics.py](../mbi/metrics.py) (the numbers), [mbi/classifier.
 
 ## 1. The big picture
 
+![The Market situation card and the bucket tiles on the Dashboard (2026-11-23, EMA 20)](images/01-dashboard-overview.jpg)
+
 The dashboard answers one question: **"What is the mood of the market today, and what kind of trades suit it?"**
 
 It does this with only **two breadth measures**, both computed from the top 1000 NSE stocks:

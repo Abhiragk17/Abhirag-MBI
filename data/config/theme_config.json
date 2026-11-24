@@ -1,0 +1,34 @@
+{
+  "_comment": "Thematic group analytics. Edit and run `python -m mbi themes` to recompute.",
+  "min_traded_value": 2500000,
+  "min_history": 20,
+  "new_listing_sessions": 60,
+  "winsor": 0.2,
+  "min_group_size": 3,
+  "min_stocks_per_day": 2,
+  "rrg": {
+    "ratio_window": 50,
+    "momentum_window": 10,
+    "tail_step": 5,
+    "history_sessions": 150
+  },
+  "weights": {
+    "rs": 0.4,
+    "breadth": 0.25,
+    "momentum": 0.2,
+    "volume": 0.15
+  },
+  "emerging_lookback": 10,
+  "thrust": {
+    "lookback": 5,
+    "rise": 30,
+    "level": 60
+  },
+  "corr_window": 60,
+  "top_n": 25,
+  "watchlist": {
+    "top_groups": 10,
+    "stocks_per_group": 5
+  },
+  "aliases": {}
+}

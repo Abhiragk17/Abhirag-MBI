@@ -16,7 +16,7 @@ def seed_splits():
 
 def kotak_frame():
     sessions = weekdays(date(2025, 12, 15), 40)
-    ex = date(2026, 1, 13)
+    ex = date(2026, 1, 14)  # first session at the post-split price in the archive
     rows = []
     for d in sessions:
         pre = d < ex
@@ -33,7 +33,7 @@ def test_seed_has_seven_splits():
     s = seed_splits()
     assert len(s) == 7
     k = next(x for x in s if x["symbol"] == "KOTAKBANK")
-    assert k["factor"] == 5.0 and k["ex_date"] == "2026-01-13"
+    assert k["factor"] == 5.0 and k["ex_date"] == "2026-01-14"
 
 
 def test_kotak_adjusted_close_is_continuous():

@@ -27,6 +27,7 @@ interface Ctx {
   dataVersion: number;
   runJob: (job: string) => Promise<void>;
   dark: boolean;
+  setDark: (dark: boolean) => void;
 }
 const AppCtx = createContext<Ctx | null>(null);
 export const useApp = () => {
@@ -37,6 +38,8 @@ export const useApp = () => {
 
 const NAV = [
   { href: "/", label: "Dashboard" },
+  { href: "/themes", label: "Themes" },
+  { href: "/scanner", label: "Scanner" },
   { href: "/stocks", label: "Stocks" },
   { href: "/data", label: "Data & Quality" },
   { href: "/config", label: "Config" },
@@ -57,6 +60,18 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const [dataVersion, setDataVersion] = useState(0);
   const [dark, setDark] = useState(false);
   const lastJob = useRef<string | null>(null);
+  const headerRef = useRef<HTMLElement>(null);
+
+  // publish the real header height so sticky sub-bars sit directly beneath it, however the header wraps
+  useEffect(() => {
+    const el = headerRef.current;
+    if (!el) return;
+    const set = () => document.documentElement.style.setProperty("--header-h", `${el.offsetHeight}px`);
+    set();
+    const ro = new ResizeObserver(set);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
 
   // EMA: URL wins, then localStorage, then 20
   useEffect(() => {
@@ -86,12 +101,12 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     setDark(document.documentElement.classList.contains("dark"));
   }, []);
-  const toggleTheme = () => {
-    const next = !dark;
+  const applyTheme = useCallback((next: boolean) => {
     setDark(next);
     document.documentElement.classList.toggle("dark", next);
     try { localStorage.setItem("mbi.theme", next ? "dark" : "light"); } catch { /* storage unavailable */ }
-  };
+  }, []);
+  const toggleTheme = () => applyTheme(!dark);
 
   const reloadStatus = useCallback(async () => {
     try {
@@ -132,21 +147,23 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     await reloadStatus();
   }, [reloadStatus]);
 
-  const ctx = useMemo(() => ({ ema, setEma, status, reloadStatus, dataVersion, runJob, dark }), [ema, setEma, status, reloadStatus, dataVersion, runJob, dark]);
+  const ctx = useMemo(() => ({ ema, setEma, status, reloadStatus, dataVersion, runJob, dark, setDark: applyTheme }), [ema, setEma, status, reloadStatus, dataVersion, runJob, dark, applyTheme]);
   const uni = status?.status?.universe;
   const job = status?.job;
 
   return (
     <AppCtx.Provider value={ctx}>
-      <header className="sticky top-0 z-40 border-b border-line bg-surface/95 backdrop-blur">
+      <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:rounded focus:bg-ink focus:px-3 focus:py-1.5 focus:text-sm focus:text-page">Skip to content</a>
+      <header ref={headerRef} className="sticky top-0 z-40 border-b border-line bg-surface/95 backdrop-blur">
         <div className="mx-auto flex max-w-[1500px] flex-wrap items-center gap-x-4 gap-y-2 px-4 py-2">
           <Link href={`/?ema=${ema}`} className="text-sm font-bold tracking-tight">Market Breadth · India</Link>
-          <nav className="flex flex-wrap gap-1">
+          <nav aria-label="Primary" className="flex flex-wrap gap-1">
             {NAV.map((n) => (
               <Link
                 key={n.href}
                 href={`${n.href}?ema=${ema}`}
-                className={cn("rounded px-2 py-1 text-sm", pathname === n.href ? "bg-surface-2 font-semibold" : "text-ink-2 hover:bg-surface-2")}
+                aria-current={pathname === n.href || (n.href !== "/" && pathname.startsWith(`${n.href}/`)) ? "page" : undefined}
+                className={cn("rounded px-2 py-1 text-sm", (pathname === n.href || (n.href !== "/" && pathname.startsWith(`${n.href}/`))) ? "bg-surface-2 font-semibold" : "text-ink-2 hover:bg-surface-2")}
               >
                 {n.label}
               </Link>
@@ -166,7 +183,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </div>
         </div>
         {job && (job.running || (job.finishedAt && Date.now() - new Date(job.finishedAt).getTime() < 120_000)) ? (
-          <div className={cn("border-t border-line px-4 py-1 text-xs", job.error ? "bg-[#d03b3b]/10" : "bg-surface-2")}>
+          <div role="status" aria-live="polite" className={cn("border-t border-line px-4 py-1 text-xs", job.error ? "bg-[color-mix(in_srgb,var(--critical)_10%,transparent)]" : "bg-surface-2")}>
             <div className="mx-auto flex max-w-[1500px] items-center gap-2">
               <span className="font-semibold">{job.running ? `Running ${job.name}…` : job.error ? `${job.name} failed: ${job.error}` : `${job.name} finished`}</span>
               <span className="truncate font-mono text-ink-2">{job.lines.at(-1) ?? ""}</span>
@@ -176,7 +193,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         ) : null}
       </header>
       <StatusBanner banners={status?.banners ?? []} />
-      <main className="mx-auto max-w-[1500px] px-4 py-4">{children}</main>
+      <main id="main" tabIndex={-1} className="mx-auto max-w-[1500px] px-4 py-4 focus:outline-none">{children}</main>
     </AppCtx.Provider>
   );
 }

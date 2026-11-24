@@ -1,0 +1,3591 @@
+{
+  "states": [
+    "BD",
+    "BR",
+    "EU",
+    "LD",
+    "LS",
+    "PA"
+  ],
+  "days": {
+    "LS": 26,
+    "BD": 60,
+    "EU": 46,
+    "LD": 165,
+    "BR": 110,
+    "PA": 11
+  },
+  "rows": [
+    {
+      "name": "CABLES & WIRES",
+      "slug": "cables-wires",
+      "LS": {
+        "avg_bps": -33.0,
+        "hit": 31.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 11.4,
+        "hit": 60.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 41.7,
+        "hit": 54.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 11.7,
+        "hit": 52.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 3.5,
+        "hit": 52.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 0.6,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "OPTICAL FIBRE & TELECOM GEAR",
+      "slug": "optical-fibre-telecom-gear",
+      "LS": {
+        "avg_bps": -35.7,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 14.6,
+        "hit": 50.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 51.4,
+        "hit": 67.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 8.7,
+        "hit": 45.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 10.3,
+        "hit": 49.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 2.2,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "TELECOM SERVICES & TOWERS",
+      "slug": "telecom-services-towers",
+      "LS": {
+        "avg_bps": 38.7,
+        "hit": 65.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -6.0,
+        "hit": 43.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 6.5,
+        "hit": 52.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -4.2,
+        "hit": 42.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -11.8,
+        "hit": 35.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -36.6,
+        "hit": 18.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "CNC MACHINES & MACHINE TOOLS",
+      "slug": "cnc-machines-machine-tools",
+      "LS": {
+        "avg_bps": -49.6,
+        "hit": 23.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 23.5,
+        "hit": 55.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -0.1,
+        "hit": 52.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 16.7,
+        "hit": 56.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -4.1,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 40.3,
+        "hit": 64.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "INDUSTRIAL AUTOMATION & CONTROLS",
+      "slug": "industrial-automation-controls",
+      "LS": {
+        "avg_bps": -1.2,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 4.5,
+        "hit": 53.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -3.5,
+        "hit": 54.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -6.2,
+        "hit": 45.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 7.7,
+        "hit": 51.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -34.9,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "BEARINGS",
+      "slug": "bearings",
+      "LS": {
+        "avg_bps": -23.4,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 8.1,
+        "hit": 55.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 14.7,
+        "hit": 41.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 6.7,
+        "hit": 56.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 11.8,
+        "hit": 56.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -23.7,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "FORGINGS & CASTINGS",
+      "slug": "forgings-castings",
+      "LS": {
+        "avg_bps": -8.5,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 31.1,
+        "hit": 57.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 3.5,
+        "hit": 48.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 9.5,
+        "hit": 56.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 18.6,
+        "hit": 59.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -0.9,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "ABRASIVES & REFRACTORIES",
+      "slug": "abrasives-refractories",
+      "LS": {
+        "avg_bps": -2.4,
+        "hit": 42.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -9.2,
+        "hit": 43.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 2.3,
+        "hit": 41.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 1.2,
+        "hit": 48.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -2.9,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 8.5,
+        "hit": 73.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "PUMPS, VALVES & COMPRESSORS",
+      "slug": "pumps-valves-compressors",
+      "LS": {
+        "avg_bps": 29.9,
+        "hit": 65.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 1.8,
+        "hit": 50.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 10.1,
+        "hit": 50.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -11.5,
+        "hit": 42.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 0.4,
+        "hit": 51.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -4.1,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "PROCESS EQUIPMENT & BOILERS",
+      "slug": "process-equipment-boilers",
+      "LS": {
+        "avg_bps": -3.0,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -5.4,
+        "hit": 47.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 17.8,
+        "hit": 50.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -4.7,
+        "hit": 48.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 3.7,
+        "hit": 51.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 4.1,
+        "hit": 64.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "CRANES & MATERIAL HANDLING",
+      "slug": "cranes-material-handling",
+      "LS": {
+        "avg_bps": 0.7,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 26.8,
+        "hit": 53.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 2.4,
+        "hit": 48.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -6.2,
+        "hit": 45.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 6.1,
+        "hit": 52.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -13.1,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "PRE-ENGINEERED BUILDINGS & STRUCTURES",
+      "slug": "pre-engineered-buildings-structures",
+      "LS": {
+        "avg_bps": 9.0,
+        "hit": 31.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -14.7,
+        "hit": 35.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 8.0,
+        "hit": 39.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -0.1,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -3.3,
+        "hit": 40.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 8.6,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "EMS - ELECTRONIC MANUFACTURING",
+      "slug": "ems-electronic-manufacturing",
+      "LS": {
+        "avg_bps": -4.0,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 5.1,
+        "hit": 52.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 3.9,
+        "hit": 48.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 8.4,
+        "hit": 54.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 7.8,
+        "hit": 55.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -17.9,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "SEMICONDUCTOR & ELECTRONIC COMPONENTS",
+      "slug": "semiconductor-electronic-components",
+      "LS": {
+        "avg_bps": -17.8,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -19.0,
+        "hit": 38.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 16.5,
+        "hit": 43.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 25.5,
+        "hit": 54.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 3.9,
+        "hit": 47.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 33.1,
+        "hit": 64.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "LED LIGHTING",
+      "slug": "led-lighting",
+      "LS": {
+        "avg_bps": 1.2,
+        "hit": 58.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -0.6,
+        "hit": 42.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 4.2,
+        "hit": 48.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -8.5,
+        "hit": 45.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -8.8,
+        "hit": 40.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -54.8,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "AIR CONDITIONING & COOLING",
+      "slug": "air-conditioning-cooling",
+      "LS": {
+        "avg_bps": 19.4,
+        "hit": 58.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -7.6,
+        "hit": 45.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -34.6,
+        "hit": 30.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 6.5,
+        "hit": 53.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -12.1,
+        "hit": 44.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -68.7,
+        "hit": 27.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "WHITE GOODS & SMALL APPLIANCES",
+      "slug": "white-goods-small-appliances",
+      "LS": {
+        "avg_bps": 12.6,
+        "hit": 54.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -8.5,
+        "hit": 40.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -13.4,
+        "hit": 35.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -1.4,
+        "hit": 45.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -3.8,
+        "hit": 51.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -72.3,
+        "hit": 18.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "WATCHES & EYEWEAR",
+      "slug": "watches-eyewear",
+      "LS": {
+        "avg_bps": -3.6,
+        "hit": 54.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 34.6,
+        "hit": 53.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -53.7,
+        "hit": 28.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 21.5,
+        "hit": 53.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 8.4,
+        "hit": 53.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 5.8,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "LUGGAGE, HELMETS & SAFETY GEAR",
+      "slug": "luggage-helmets-safety-gear",
+      "LS": {
+        "avg_bps": -10.5,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -30.6,
+        "hit": 38.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -33.3,
+        "hit": 30.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 10.4,
+        "hit": 50.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -2.3,
+        "hit": 47.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -81.6,
+        "hit": 18.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "FURNITURE & HOME DECOR",
+      "slug": "furniture-home-decor",
+      "LS": {
+        "avg_bps": 21.8,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -7.6,
+        "hit": 40.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -10.8,
+        "hit": 33.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -0.2,
+        "hit": 45.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -7.5,
+        "hit": 43.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -46.2,
+        "hit": 27.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "STATIONERY, TOYS & GIFTING",
+      "slug": "stationery-toys-gifting",
+      "LS": {
+        "avg_bps": 16.4,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 1.9,
+        "hit": 52.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -25.8,
+        "hit": 41.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -5.5,
+        "hit": 47.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 6.1,
+        "hit": 53.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 12.1,
+        "hit": 64.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "QUICK COMMERCE, E-COMMERCE & CONSUMER INTERNET",
+      "slug": "quick-commerce-e-commerce-consumer-internet",
+      "LS": {
+        "avg_bps": 9.6,
+        "hit": 58.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -15.6,
+        "hit": 38.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -25.7,
+        "hit": 35.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 6.8,
+        "hit": 55.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 8.5,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -15.0,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "FINTECH & PAYMENTS",
+      "slug": "fintech-payments",
+      "LS": {
+        "avg_bps": 4.4,
+        "hit": 42.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -3.0,
+        "hit": 42.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -38.1,
+        "hit": 35.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -13.0,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 19.6,
+        "hit": 53.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 2.4,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "BROKERS & CAPITAL MARKET INFRA",
+      "slug": "brokers-capital-market-infra",
+      "LS": {
+        "avg_bps": 4.2,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 15.3,
+        "hit": 60.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 1.0,
+        "hit": 46.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -0.4,
+        "hit": 48.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 12.9,
+        "hit": 58.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 21.4,
+        "hit": 64.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "AMC & WEALTH MANAGEMENT",
+      "slug": "amc-wealth-management",
+      "LS": {
+        "avg_bps": 37.0,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 14.5,
+        "hit": 52.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 11.3,
+        "hit": 50.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -4.4,
+        "hit": 45.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 10.0,
+        "hit": 54.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -31.6,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "CREDIT RATING AGENCIES",
+      "slug": "credit-rating-agencies",
+      "LS": {
+        "avg_bps": 16.2,
+        "hit": 54.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -5.3,
+        "hit": 47.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -5.3,
+        "hit": 41.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 2.2,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -3.9,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -75.6,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "GOLD LOAN & MICROFINANCE",
+      "slug": "gold-loan-microfinance",
+      "LS": {
+        "avg_bps": -4.4,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 14.3,
+        "hit": 50.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 1.8,
+        "hit": 41.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 6.1,
+        "hit": 53.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -4.2,
+        "hit": 48.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -0.7,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "SMALL FINANCE & NICHE LENDERS",
+      "slug": "small-finance-niche-lenders",
+      "LS": {
+        "avg_bps": -5.8,
+        "hit": 62.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 2.6,
+        "hit": 45.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 5.4,
+        "hit": 46.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 2.9,
+        "hit": 51.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -7.0,
+        "hit": 48.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -3.1,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "HOUSING FINANCE",
+      "slug": "housing-finance",
+      "LS": {
+        "avg_bps": 4.5,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -1.9,
+        "hit": 43.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -18.0,
+        "hit": 30.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -3.9,
+        "hit": 47.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -1.9,
+        "hit": 50.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 14.3,
+        "hit": 64.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "INSURANCE & INSURTECH",
+      "slug": "insurance-insurtech",
+      "LS": {
+        "avg_bps": 14.6,
+        "hit": 62.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 2.9,
+        "hit": 47.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -4.5,
+        "hit": 52.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -4.5,
+        "hit": 49.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -4.1,
+        "hit": 52.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -11.8,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "DEFENCE - PLATFORMS & ORDNANCE",
+      "slug": "defence-platforms-ordnance",
+      "LS": {
+        "avg_bps": -12.2,
+        "hit": 42.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 11.6,
+        "hit": 38.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 46.6,
+        "hit": 57.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -12.2,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 9.5,
+        "hit": 51.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 26.6,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "DEFENCE - ELECTRONICS, DRONES & NEW AGE",
+      "slug": "defence-electronics-drones-new-age",
+      "LS": {
+        "avg_bps": -21.5,
+        "hit": 35.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 39.1,
+        "hit": 63.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 52.8,
+        "hit": 61.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -5.2,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 14.9,
+        "hit": 49.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -16.0,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "AEROSPACE & SPACE COMPONENTS",
+      "slug": "aerospace-space-components",
+      "LS": {
+        "avg_bps": -21.0,
+        "hit": 27.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 14.4,
+        "hit": 57.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 38.0,
+        "hit": 54.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 13.4,
+        "hit": 51.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 26.4,
+        "hit": 58.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 26.4,
+        "hit": 64.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "SHIPBUILDING, DREDGING & SHIPPING",
+      "slug": "shipbuilding-dredging-shipping",
+      "LS": {
+        "avg_bps": 5.3,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -7.9,
+        "hit": 40.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 11.6,
+        "hit": 48.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -0.5,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 12.9,
+        "hit": 49.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 65.1,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "PORTS & TERMINALS",
+      "slug": "ports-terminals",
+      "LS": {
+        "avg_bps": 9.3,
+        "hit": 58.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 20.7,
+        "hit": 50.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -17.1,
+        "hit": 41.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -0.2,
+        "hit": 49.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 7.6,
+        "hit": 50.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -25.3,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "LOGISTICS, EXPRESS & COLD CHAIN",
+      "slug": "logistics-express-cold-chain",
+      "LS": {
+        "avg_bps": -16.3,
+        "hit": 31.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -3.3,
+        "hit": 45.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 9.3,
+        "hit": 50.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 3.9,
+        "hit": 50.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 0.0,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -4.7,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "RAILWAYS",
+      "slug": "railways",
+      "LS": {
+        "avg_bps": -7.7,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -2.5,
+        "hit": 45.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 22.6,
+        "hit": 48.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -15.6,
+        "hit": 35.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 2.6,
+        "hit": 39.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -4.6,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "AIRLINES, AIRPORTS & TRAVEL SERVICES",
+      "slug": "airlines-airports-travel-services",
+      "LS": {
+        "avg_bps": -5.7,
+        "hit": 54.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -2.5,
+        "hit": 48.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -48.8,
+        "hit": 26.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 3.9,
+        "hit": 47.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -6.4,
+        "hit": 44.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 4.8,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "HOTELS & RESORTS",
+      "slug": "hotels-resorts",
+      "LS": {
+        "avg_bps": 15.3,
+        "hit": 62.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -13.4,
+        "hit": 38.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -31.2,
+        "hit": 24.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -1.3,
+        "hit": 47.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 3.9,
+        "hit": 56.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -7.6,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "AMUSEMENT, GAMING & LEISURE",
+      "slug": "amusement-gaming-leisure",
+      "LS": {
+        "avg_bps": 0.7,
+        "hit": 35.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -0.4,
+        "hit": 48.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -11.9,
+        "hit": 35.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -6.3,
+        "hit": 41.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -8.9,
+        "hit": 44.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 23.6,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "QSR & RESTAURANTS",
+      "slug": "qsr-restaurants",
+      "LS": {
+        "avg_bps": -35.0,
+        "hit": 35.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 16.5,
+        "hit": 40.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -7.6,
+        "hit": 43.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -0.4,
+        "hit": 49.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -11.7,
+        "hit": 39.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -20.8,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "PACKAGED FOODS & SNACKS",
+      "slug": "packaged-foods-snacks",
+      "LS": {
+        "avg_bps": -2.5,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -9.2,
+        "hit": 43.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 0.7,
+        "hit": 48.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 0.6,
+        "hit": 48.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -3.8,
+        "hit": 48.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 18.2,
+        "hit": 64.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "DAIRY",
+      "slug": "dairy",
+      "LS": {
+        "avg_bps": 4.6,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 6.4,
+        "hit": 45.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -25.7,
+        "hit": 43.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 18.7,
+        "hit": 50.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 2.5,
+        "hit": 51.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -23.4,
+        "hit": 27.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "POULTRY, ANIMAL FEED & AQUA",
+      "slug": "poultry-animal-feed-aqua",
+      "LS": {
+        "avg_bps": -10.1,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -18.6,
+        "hit": 40.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -11.6,
+        "hit": 37.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -5.0,
+        "hit": 48.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 15.6,
+        "hit": 48.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 63.2,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "RICE, SPICES & AGRI PROCESSING",
+      "slug": "rice-spices-agri-processing",
+      "LS": {
+        "avg_bps": 5.2,
+        "hit": 58.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 5.6,
+        "hit": 48.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -15.4,
+        "hit": 37.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -6.4,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 8.5,
+        "hit": 51.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 43.3,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "SEEDS & AGROCHEMICALS",
+      "slug": "seeds-agrochemicals",
+      "LS": {
+        "avg_bps": -4.7,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -10.2,
+        "hit": 40.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 3.0,
+        "hit": 57.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -4.4,
+        "hit": 45.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -17.0,
+        "hit": 43.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 6.1,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "FERTILIZERS",
+      "slug": "fertilizers",
+      "LS": {
+        "avg_bps": -22.1,
+        "hit": 35.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -14.6,
+        "hit": 40.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -1.2,
+        "hit": 41.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 1.1,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 1.9,
+        "hit": 43.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 1.7,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "SUGAR & ETHANOL",
+      "slug": "sugar-ethanol",
+      "LS": {
+        "avg_bps": 25.2,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 2.0,
+        "hit": 38.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 0.3,
+        "hit": 43.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -6.5,
+        "hit": 36.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 2.2,
+        "hit": 43.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 67.5,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "BREWERIES & DISTILLERIES",
+      "slug": "breweries-distilleries",
+      "LS": {
+        "avg_bps": 0.4,
+        "hit": 54.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -4.5,
+        "hit": 45.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -1.9,
+        "hit": 35.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 7.3,
+        "hit": 49.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -1.5,
+        "hit": 43.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -8.8,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "TOBACCO",
+      "slug": "tobacco",
+      "LS": {
+        "avg_bps": 17.8,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -15.9,
+        "hit": 33.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -3.8,
+        "hit": 46.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -14.3,
+        "hit": 42.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 4.1,
+        "hit": 46.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -25.7,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "PAINTS & COATINGS",
+      "slug": "paints-coatings",
+      "LS": {
+        "avg_bps": -2.2,
+        "hit": 58.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -4.7,
+        "hit": 40.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 0.2,
+        "hit": 39.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -2.9,
+        "hit": 47.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -11.2,
+        "hit": 44.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -2.0,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "ADHESIVES & CONSTRUCTION CHEMICALS",
+      "slug": "adhesives-construction-chemicals",
+      "LS": {
+        "avg_bps": -11.9,
+        "hit": 42.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 16.2,
+        "hit": 47.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -1.2,
+        "hit": 46.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -6.3,
+        "hit": 45.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -10.5,
+        "hit": 52.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -25.9,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "PLYWOOD, MDF & LAMINATES",
+      "slug": "plywood-mdf-laminates",
+      "LS": {
+        "avg_bps": -16.6,
+        "hit": 42.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 4.4,
+        "hit": 50.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 16.3,
+        "hit": 52.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -5.4,
+        "hit": 46.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 1.1,
+        "hit": 46.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -12.6,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "TILES, SANITARYWARE & BATH",
+      "slug": "tiles-sanitaryware-bath",
+      "LS": {
+        "avg_bps": -6.9,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 0.5,
+        "hit": 42.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 14.1,
+        "hit": 48.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -7.3,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -7.7,
+        "hit": 41.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 42.4,
+        "hit": 73.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "GLASS & GLASSWARE",
+      "slug": "glass-glassware",
+      "LS": {
+        "avg_bps": -4.4,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -38.6,
+        "hit": 38.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 33.9,
+        "hit": 50.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 4.4,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 2.9,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -36.7,
+        "hit": 27.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "PACKAGING - FLEXIBLE, RIGID & CARTONS",
+      "slug": "packaging-flexible-rigid-cartons",
+      "LS": {
+        "avg_bps": -8.6,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 7.4,
+        "hit": 47.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 3.9,
+        "hit": 50.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -2.7,
+        "hit": 41.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 0.2,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 25.9,
+        "hit": 73.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "PAPER & PAPERBOARD",
+      "slug": "paper-paperboard",
+      "LS": {
+        "avg_bps": -4.9,
+        "hit": 31.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -14.8,
+        "hit": 38.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -4.2,
+        "hit": 39.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -0.8,
+        "hit": 37.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -7.7,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 2.1,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "PVC & POLYMER PIPES",
+      "slug": "pvc-polymer-pipes",
+      "LS": {
+        "avg_bps": 26.5,
+        "hit": 54.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 0.5,
+        "hit": 50.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 13.9,
+        "hit": 50.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -8.7,
+        "hit": 45.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 0.4,
+        "hit": 44.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -61.9,
+        "hit": 18.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "STEEL PIPES & TUBES",
+      "slug": "steel-pipes-tubes",
+      "LS": {
+        "avg_bps": 4.5,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 7.4,
+        "hit": 53.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 4.9,
+        "hit": 46.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -1.3,
+        "hit": 49.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -0.5,
+        "hit": 43.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 25.3,
+        "hit": 64.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "STAINLESS STEEL & SPECIAL ALLOYS",
+      "slug": "stainless-steel-special-alloys",
+      "LS": {
+        "avg_bps": -19.1,
+        "hit": 42.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -14.5,
+        "hit": 43.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 7.8,
+        "hit": 50.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 0.2,
+        "hit": 47.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 15.6,
+        "hit": 55.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 35.8,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "FERROALLOYS & MINERALS",
+      "slug": "ferroalloys-minerals",
+      "LS": {
+        "avg_bps": 3.2,
+        "hit": 54.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -17.7,
+        "hit": 40.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -9.0,
+        "hit": 35.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 1.6,
+        "hit": 42.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 17.6,
+        "hit": 52.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 48.1,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "NON-FERROUS & METAL RECYCLING",
+      "slug": "non-ferrous-metal-recycling",
+      "LS": {
+        "avg_bps": 4.8,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 11.3,
+        "hit": 47.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 10.7,
+        "hit": 50.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -7.8,
+        "hit": 47.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 32.0,
+        "hit": 58.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 12.6,
+        "hit": 64.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "CEMENT & CEMENT PRODUCTS",
+      "slug": "cement-cement-products",
+      "LS": {
+        "avg_bps": 7.0,
+        "hit": 58.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -4.5,
+        "hit": 40.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -20.2,
+        "hit": 37.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -3.9,
+        "hit": 43.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -9.5,
+        "hit": 48.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 10.8,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "BUILDING MATERIALS & FITTINGS",
+      "slug": "building-materials-fittings",
+      "LS": {
+        "avg_bps": -29.5,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 9.8,
+        "hit": 38.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -1.1,
+        "hit": 50.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -12.5,
+        "hit": 49.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -2.3,
+        "hit": 53.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 21.3,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "ROAD & HIGHWAY EPC",
+      "slug": "road-highway-epc",
+      "LS": {
+        "avg_bps": 5.1,
+        "hit": 42.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -1.1,
+        "hit": 47.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -3.8,
+        "hit": 46.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -21.8,
+        "hit": 39.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -1.4,
+        "hit": 47.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -30.1,
+        "hit": 27.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "URBAN, BUILDING & INDUSTRIAL EPC",
+      "slug": "urban-building-industrial-epc",
+      "LS": {
+        "avg_bps": 1.2,
+        "hit": 54.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 6.5,
+        "hit": 50.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -8.6,
+        "hit": 35.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -10.3,
+        "hit": 38.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -12.6,
+        "hit": 37.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 25.9,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "WATER, ENVIRONMENT & WASTE",
+      "slug": "water-environment-waste",
+      "LS": {
+        "avg_bps": -1.6,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -11.2,
+        "hit": 40.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -36.3,
+        "hit": 30.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -13.0,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -5.7,
+        "hit": 46.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 4.9,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "POWER T&D EQUIPMENT",
+      "slug": "power-t-d-equipment",
+      "LS": {
+        "avg_bps": -19.1,
+        "hit": 35.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -7.8,
+        "hit": 52.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 30.8,
+        "hit": 63.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -1.9,
+        "hit": 43.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 15.7,
+        "hit": 55.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 12.5,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "SOLAR - CELLS, MODULES & EPC",
+      "slug": "solar-cells-modules-epc",
+      "LS": {
+        "avg_bps": -29.6,
+        "hit": 31.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -10.9,
+        "hit": 42.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 2.9,
+        "hit": 59.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -17.2,
+        "hit": 37.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -4.2,
+        "hit": 47.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 18.7,
+        "hit": 73.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "WIND & GREEN ENERGY",
+      "slug": "wind-green-energy",
+      "LS": {
+        "avg_bps": -8.1,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -14.1,
+        "hit": 38.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 31.6,
+        "hit": 57.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -13.6,
+        "hit": 41.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -9.9,
+        "hit": 39.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -16.3,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "POWER UTILITIES & TRADING",
+      "slug": "power-utilities-trading",
+      "LS": {
+        "avg_bps": 11.5,
+        "hit": 58.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -4.0,
+        "hit": 43.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -2.4,
+        "hit": 33.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -8.0,
+        "hit": 39.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -4.8,
+        "hit": 42.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -14.6,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "CITY GAS & GAS TRANSMISSION",
+      "slug": "city-gas-gas-transmission",
+      "LS": {
+        "avg_bps": 21.9,
+        "hit": 62.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 12.2,
+        "hit": 47.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -3.7,
+        "hit": 41.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -5.3,
+        "hit": 45.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -9.5,
+        "hit": 42.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -35.1,
+        "hit": 27.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "OIL & GAS SERVICES & EQUIPMENT",
+      "slug": "oil-gas-services-equipment",
+      "LS": {
+        "avg_bps": 13.8,
+        "hit": 58.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -14.0,
+        "hit": 38.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 5.9,
+        "hit": 52.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 17.2,
+        "hit": 50.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -7.3,
+        "hit": 43.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -25.0,
+        "hit": 27.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "LUBRICANTS & SPECIALTY OILS",
+      "slug": "lubricants-specialty-oils",
+      "LS": {
+        "avg_bps": 6.1,
+        "hit": 58.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 5.8,
+        "hit": 47.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -29.1,
+        "hit": 35.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -1.8,
+        "hit": 48.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 0.4,
+        "hit": 54.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -39.0,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "TYRES & RUBBER",
+      "slug": "tyres-rubber",
+      "LS": {
+        "avg_bps": 27.8,
+        "hit": 69.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 17.4,
+        "hit": 50.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -33.8,
+        "hit": 33.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -1.4,
+        "hit": 47.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 3.1,
+        "hit": 50.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -28.7,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "AUTO ANCILLARY - DRIVELINE & SYSTEMS",
+      "slug": "auto-ancillary-driveline-systems",
+      "LS": {
+        "avg_bps": 23.0,
+        "hit": 62.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 17.3,
+        "hit": 62.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 4.7,
+        "hit": 50.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 8.3,
+        "hit": 53.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 3.0,
+        "hit": 50.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 13.4,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "AUTO - WHEELS & FASTENERS",
+      "slug": "auto-wheels-fasteners",
+      "LS": {
+        "avg_bps": 0.8,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 5.5,
+        "hit": 48.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -3.1,
+        "hit": 37.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 26.0,
+        "hit": 54.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 0.0,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -1.8,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "EV, BATTERIES & CHARGING",
+      "slug": "ev-batteries-charging",
+      "LS": {
+        "avg_bps": -13.8,
+        "hit": 31.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -18.2,
+        "hit": 35.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 5.4,
+        "hit": 39.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 13.8,
+        "hit": 50.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 10.4,
+        "hit": 47.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 39.7,
+        "hit": 64.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "TRACTORS & FARM EQUIPMENT",
+      "slug": "tractors-farm-equipment",
+      "LS": {
+        "avg_bps": 19.7,
+        "hit": 54.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 3.4,
+        "hit": 45.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -18.0,
+        "hit": 46.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 1.3,
+        "hit": 46.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 2.6,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 15.3,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "AUTO RETAIL & DEALERSHIPS",
+      "slug": "auto-retail-dealerships",
+      "LS": {
+        "avg_bps": 10.3,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -4.1,
+        "hit": 43.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -6.5,
+        "hit": 39.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 27.4,
+        "hit": 50.0,
+        "n": 163
+      },
+      "BR": {
+        "avg_bps": 1.9,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -15.3,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "TEXTILES - SPINNING & YARN",
+      "slug": "textiles-spinning-yarn",
+      "LS": {
+        "avg_bps": 3.2,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -8.0,
+        "hit": 35.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 1.5,
+        "hit": 46.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 20.9,
+        "hit": 46.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 5.0,
+        "hit": 50.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 41.7,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "TEXTILES - HOME & TECHNICAL",
+      "slug": "textiles-home-technical",
+      "LS": {
+        "avg_bps": 12.0,
+        "hit": 58.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -0.3,
+        "hit": 48.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -23.0,
+        "hit": 33.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 16.2,
+        "hit": 53.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 9.4,
+        "hit": 49.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 44.1,
+        "hit": 73.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "APPAREL BRANDS & RETAIL",
+      "slug": "apparel-brands-retail",
+      "LS": {
+        "avg_bps": 4.0,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -4.5,
+        "hit": 50.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -17.3,
+        "hit": 28.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -6.5,
+        "hit": 36.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -4.2,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 18.2,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "FOOTWEAR & LEATHER",
+      "slug": "footwear-leather",
+      "LS": {
+        "avg_bps": 16.0,
+        "hit": 54.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -19.4,
+        "hit": 32.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -12.3,
+        "hit": 35.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -12.7,
+        "hit": 39.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -13.1,
+        "hit": 41.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -17.2,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "JEWELLERY & GEMS",
+      "slug": "jewellery-gems",
+      "LS": {
+        "avg_bps": 43.7,
+        "hit": 65.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 11.1,
+        "hit": 43.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -35.6,
+        "hit": 30.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 14.0,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -12.9,
+        "hit": 37.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 13.6,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "COSMETICS & PERSONAL CARE",
+      "slug": "cosmetics-personal-care",
+      "LS": {
+        "avg_bps": 20.8,
+        "hit": 69.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -13.3,
+        "hit": 45.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 0.3,
+        "hit": 59.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -0.1,
+        "hit": 48.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -9.5,
+        "hit": 48.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -12.4,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "HOSPITALS",
+      "slug": "hospitals",
+      "LS": {
+        "avg_bps": -4.2,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 17.9,
+        "hit": 52.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -3.5,
+        "hit": 41.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 14.2,
+        "hit": 55.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -5.7,
+        "hit": 56.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -17.6,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "DIAGNOSTICS & LABS",
+      "slug": "diagnostics-labs",
+      "LS": {
+        "avg_bps": -17.5,
+        "hit": 42.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -11.6,
+        "hit": 45.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 11.0,
+        "hit": 50.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 13.6,
+        "hit": 53.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 9.7,
+        "hit": 56.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -35.0,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "CDMO, CRO & CRAMS",
+      "slug": "cdmo-cro-crams",
+      "LS": {
+        "avg_bps": -10.0,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 7.0,
+        "hit": 43.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 16.9,
+        "hit": 52.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 4.5,
+        "hit": 48.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 0.6,
+        "hit": 50.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 8.7,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "API & BULK DRUGS",
+      "slug": "api-bulk-drugs",
+      "LS": {
+        "avg_bps": -13.4,
+        "hit": 35.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 8.6,
+        "hit": 47.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 14.4,
+        "hit": 59.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 12.9,
+        "hit": 53.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 9.8,
+        "hit": 55.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 23.9,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "MEDICAL DEVICES & LABWARE",
+      "slug": "medical-devices-labware",
+      "LS": {
+        "avg_bps": -65.7,
+        "hit": 19.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 3.1,
+        "hit": 53.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -23.2,
+        "hit": 33.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -6.1,
+        "hit": 45.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -5.4,
+        "hit": 51.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -28.4,
+        "hit": 27.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "SPECIALTY CHEMICALS - FLUORINE & PERFORMANCE",
+      "slug": "specialty-chemicals-fluorine-performance",
+      "LS": {
+        "avg_bps": -12.6,
+        "hit": 38.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 10.7,
+        "hit": 58.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 5.2,
+        "hit": 48.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 9.0,
+        "hit": 54.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -3.9,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -35.9,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "DYES, PIGMENTS & INTERMEDIATES",
+      "slug": "dyes-pigments-intermediates",
+      "LS": {
+        "avg_bps": 11.5,
+        "hit": 27.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -46.3,
+        "hit": 25.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -17.9,
+        "hit": 35.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 20.2,
+        "hit": 51.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 9.2,
+        "hit": 50.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 4.3,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "PETROCHEMICALS & POLYMERS",
+      "slug": "petrochemicals-polymers",
+      "LS": {
+        "avg_bps": -22.3,
+        "hit": 42.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -15.8,
+        "hit": 35.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 13.4,
+        "hit": 52.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 7.0,
+        "hit": 49.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -4.8,
+        "hit": 42.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -27.7,
+        "hit": 36.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "CARBON BLACK & GRAPHITE",
+      "slug": "carbon-black-graphite",
+      "LS": {
+        "avg_bps": 3.6,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -20.8,
+        "hit": 37.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 21.0,
+        "hit": 54.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 9.8,
+        "hit": 50.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -20.2,
+        "hit": 37.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 44.3,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "FLAVOURS, FRAGRANCES & ENZYMES",
+      "slug": "flavours-fragrances-enzymes",
+      "LS": {
+        "avg_bps": -26.4,
+        "hit": 35.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -15.6,
+        "hit": 40.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 26.6,
+        "hit": 54.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 8.8,
+        "hit": 41.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -2.0,
+        "hit": 46.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -52.9,
+        "hit": 18.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "IT - ER&D AND NICHE SERVICES",
+      "slug": "it-er-d-and-niche-services",
+      "LS": {
+        "avg_bps": 20.8,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -29.8,
+        "hit": 32.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 6.5,
+        "hit": 52.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -12.2,
+        "hit": 42.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 5.6,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -10.7,
+        "hit": 27.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "SOFTWARE PRODUCTS, SAAS & ANALYTICS",
+      "slug": "software-products-saas-analytics",
+      "LS": {
+        "avg_bps": -15.4,
+        "hit": 27.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -17.7,
+        "hit": 43.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 10.2,
+        "hit": 52.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 3.5,
+        "hit": 48.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -15.3,
+        "hit": 38.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -31.1,
+        "hit": 27.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "BPO, CX & HEALTHCARE BPM",
+      "slug": "bpo-cx-healthcare-bpm",
+      "LS": {
+        "avg_bps": -21.3,
+        "hit": 35.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -28.4,
+        "hit": 30.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -8.6,
+        "hit": 39.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -3.6,
+        "hit": 44.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 4.4,
+        "hit": 51.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -10.0,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "STAFFING, FACILITY & SECURITY SERVICES",
+      "slug": "staffing-facility-security-services",
+      "LS": {
+        "avg_bps": 8.6,
+        "hit": 50.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -4.9,
+        "hit": 52.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": 4.0,
+        "hit": 52.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -3.8,
+        "hit": 47.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -13.2,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 35.9,
+        "hit": 73.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "CO-WORKING & FLEX WORKSPACE",
+      "slug": "co-working-flex-workspace",
+      "LS": {
+        "avg_bps": -18.1,
+        "hit": 42.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -0.3,
+        "hit": 42.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -13.5,
+        "hit": 37.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -4.1,
+        "hit": 50.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -3.1,
+        "hit": 47.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -5.0,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "EDUCATION & EDTECH",
+      "slug": "education-edtech",
+      "LS": {
+        "avg_bps": -24.7,
+        "hit": 35.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -24.1,
+        "hit": 37.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -4.0,
+        "hit": 39.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -9.3,
+        "hit": 38.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 1.4,
+        "hit": 49.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -9.1,
+        "hit": 55.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "MEDIA - BROADCAST, PRINT & RADIO",
+      "slug": "media-broadcast-print-radio",
+      "LS": {
+        "avg_bps": 4.0,
+        "hit": 42.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": -21.7,
+        "hit": 38.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -9.8,
+        "hit": 39.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -9.1,
+        "hit": 40.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -7.1,
+        "hit": 45.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -4.2,
+        "hit": 45.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "FILM, MUSIC & CONTENT",
+      "slug": "film-music-content",
+      "LS": {
+        "avg_bps": 61.0,
+        "hit": 62.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 21.2,
+        "hit": 52.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -12.1,
+        "hit": 39.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": 0.9,
+        "hit": 47.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": 6.1,
+        "hit": 53.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": 42.8,
+        "hit": 73.0,
+        "n": 11
+      }
+    },
+    {
+      "name": "REAL ESTATE - RESIDENTIAL & COMMERCIAL",
+      "slug": "real-estate-residential-commercial",
+      "LS": {
+        "avg_bps": -4.8,
+        "hit": 46.0,
+        "n": 26
+      },
+      "BD": {
+        "avg_bps": 16.3,
+        "hit": 53.0,
+        "n": 60
+      },
+      "EU": {
+        "avg_bps": -1.3,
+        "hit": 46.0,
+        "n": 46
+      },
+      "LD": {
+        "avg_bps": -3.7,
+        "hit": 42.0,
+        "n": 165
+      },
+      "BR": {
+        "avg_bps": -10.7,
+        "hit": 35.0,
+        "n": 110
+      },
+      "PA": {
+        "avg_bps": -24.1,
+        "hit": 36.0,
+        "n": 11
+      }
+    }
+  ],
+  "current": "LD"
+}

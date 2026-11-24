@@ -8,6 +8,8 @@ const JOBS: Record<string, string[]> = {
   offline: ["daily", "--offline"],
   recompute: ["recompute"],
   reclassify: ["recompute", "--states-only"],
+  themes: ["themes"],
+  screener: ["screener"],
 };
 
 export async function GET() {

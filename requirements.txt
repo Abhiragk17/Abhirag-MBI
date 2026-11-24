@@ -8,3 +8,6 @@ pytest>=8
 # playwright>=1.45   then: python -m playwright install chromium
 # optional: AMFI xlsx for nanocap ranking (mbi universe --refresh --amfi-file ...)
 # openpyxl>=3.1
+claude-agent-sdk
+playwright
+chromium

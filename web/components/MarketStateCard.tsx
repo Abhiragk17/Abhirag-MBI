@@ -86,7 +86,7 @@ export function MarketStateCard({
         <WithInfo k="market_situation" className="font-semibold text-ink">Market situation</WithInfo>
         <span>{BUCKET_LABEL[bucket]} · EMA{ema}{r ? ` · ${r.date}` : ""}</span>
         <label className="ml-auto inline-flex cursor-pointer items-center gap-1.5">
-          <input type="checkbox" checked={raw} onChange={(e) => setRaw(e.target.checked)} className="accent-[#2a78d6]" />
+          <input type="checkbox" checked={raw} onChange={(e) => setRaw(e.target.checked)} className="accent-accent" />
           raw state (no smoothing)
         </label>
         <InfoTip k="raw_state" />

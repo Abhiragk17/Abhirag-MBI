@@ -259,6 +259,240 @@ export const GLOSSARY = {
     title: "Raw JSON",
     what: "The full config file, including table cells and regime bands. Edit here for anything without a form field, then Apply JSON.",
   },
+  th_page: {
+    title: "Themes & sector rotation",
+    what: "Groups the 1,297 stocks in your theme file into 112 industries and themes, and shows which ones are leading, rotating in, or fading.",
+    read: "Start with the Leaderboard for who leads, then the Rotation graph for who is turning, then Movers for individual stocks.",
+  },
+  th_group_index: {
+    title: "Group index",
+    what: "An equal-weight index of the group's counted stocks: each day it moves by the average return of those stocks, chained over time.",
+    read: "Equal weight keeps one giant stock from dominating a small theme. It is not a tradable index.",
+  },
+  th_market_bar: {
+    title: "Market (equal weight)",
+    what: "The benchmark every group is compared with: an equal-weight index of every counted stock across all groups.",
+    read: "If a group beats this line, it is outperforming the typical theme stock, not a cap-weighted index like the Nifty.",
+  },
+  th_recompute: {
+    title: "Recompute themes",
+    what: "Re-runs the theme analytics (python -m mbi themes) from the stored price archive. It does not download anything.",
+    read: "Use it after changing settings or the group list on the Config page. The normal daily refresh already does this for you.",
+  },
+  th_low_n: {
+    title: "Show low-n groups",
+    what: "Low-n means the group has fewer counted stocks than the minimum (default 3), usually because most of its stocks are illiquid or newly listed.",
+    read: "With so few stocks one name decides the whole group, so these are hidden from rankings and the rotation graph. Tick the box to see them anyway, and treat them with caution.",
+  },
+  th_leaderboard: {
+    title: "Group leaderboard",
+    what: "All groups ranked by the leadership score, with returns, breadth and volume side by side. Click a header to sort and a group name to open it.",
+    read: "Score near 100 with Leading quadrant, high %>EMA20 and rising volume is the strongest picture. Rank arrows show the change over 5 sessions.",
+  },
+  th_score: {
+    title: "Leadership score (0-100)",
+    what: "A blend of four percentile ranks across all groups: relative strength vs the market over 1M/3M/6M, breadth inside the group, RS momentum, and traded-value expansion.",
+    read: "90 means ahead of 90% of groups on the blend. It is relative: in a falling market the best group can still be falling. Weights are editable on the Config page.",
+  },
+  th_quadrant: {
+    title: "Rotation quadrant",
+    what: "Where the group sits on the rotation graph: Leading (strong and gaining), Weakening (strong but fading), Lagging (weak and fading), Improving (weak but gaining).",
+    read: "Groups usually move clockwise: Improving → Leading → Weakening → Lagging.",
+  },
+  th_rel_3m: {
+    title: "3M vs market",
+    what: "The group's 3-month return minus the market's, in percentage points.",
+    read: "Positive means it beat the average theme stock over 3 months, whatever the market did.",
+  },
+  th_pct_ema: {
+    title: "% above EMA",
+    what: "The share of the group's counted stocks closing above their EMA20 (or EMA50).",
+    read: "High and rising means the whole group is participating, not just one stock. The arrow shows the change over 5 sessions.",
+  },
+  th_near_high: {
+    title: "Near 52-week high",
+    what: "The share of counted stocks within 5% of their 52-week high.",
+    read: "Leading themes usually have many stocks near highs.",
+  },
+  th_vol_exp: {
+    title: "Volume expansion",
+    what: "The group's average traded value over the last 10 sessions divided by its average over the last 60.",
+    read: "Above 1 means more money is flowing in than usual. Below 1 means interest is drying up.",
+  },
+  th_n: {
+    title: "Stocks counted (n)",
+    what: "Counted stocks / stocks in the group. A stock counts when it has enough history and enough daily traded value.",
+    read: "A big gap means many stocks are illiquid or new, so the group index rests on fewer names.",
+  },
+  th_heatmap: {
+    title: "Group heatmap",
+    what: "Every group as a tile, coloured by the metric you pick and sized by how many stocks are counted. Hover for details, click to open.",
+    read: "Look for clusters of green (leaders) or red (laggards) sharing a theme. Use the metric switch to compare return, outperformance, score and breadth.",
+  },
+  th_rrg: {
+    title: "Rotation graph (RRG)",
+    what: "Plots every group by RS-Ratio (is it stronger than the market over the medium term?) and RS-Momentum (is that strength rising or falling?). Both are centred on 100.",
+    read: "Right side = outperforming, top = gaining. The tail shows where the group was in recent weeks, ending at the dot. Click a dot to open the group.",
+  },
+  th_rs_ratio: {
+    title: "RS-Ratio",
+    what: "The group's relative strength line (group index ÷ market index) divided by its own moving average, times 100.",
+    read: "Above 100 means the group is above its recent relative trend, so it is outperforming.",
+  },
+  th_rs_momentum: {
+    title: "RS-Momentum",
+    what: "100 plus the change in RS-Ratio over the momentum window (default 10 sessions).",
+    read: "Above 100 means relative strength is rising. A Leading group whose momentum dips below 100 moves to Weakening, an early warning.",
+  },
+  th_rrg_pick: {
+    title: "Groups shown",
+    what: "Which groups are plotted. Top 15 / Top 30 use the leadership score on the as-of date. Leading and Improving filter by quadrant.",
+    read: "Showing fewer groups keeps the chart readable. 'All' can get crowded.",
+  },
+  th_rrg_tail: {
+    title: "Tail length",
+    what: "How many weeks of history each group's trail shows (one point per week).",
+    read: "Long tails show a group's full rotation. Short tails show only the latest move.",
+  },
+  th_rrg_asof: {
+    title: "As-of date and play",
+    what: "Move the slider to see the chart as it looked on an earlier date, or press Play to watch groups rotate over time.",
+    read: "Useful for seeing how past leaders entered Leading, and how long leadership lasted.",
+  },
+  th_rrg_highlight: {
+    title: "Highlight a group",
+    what: "Picks one group and dims the others so you can follow its path.",
+    read: "The listing beside the chart shows every group by quadrant, with its score.",
+  },
+  th_movers: {
+    title: "Top movers",
+    what: "The biggest gainers and losers over the chosen period, for groups (index return) and for stocks.",
+    read: "Stocks shown are liquid, not newly listed, and traded today, so illiquid circuit-limit names don't crowd the list.",
+  },
+  th_rs_stock: {
+    title: "Stock RS",
+    what: "The stock's percentile rank (0-100) across all liquid theme stocks, averaged over its 1M, 3M and 6M returns.",
+    read: "80 means it has beaten 80% of theme stocks. It is relative, not absolute.",
+  },
+  th_role: {
+    title: "Leader / laggard",
+    what: "Leader: RS 70 or more and beating its own group over 3 months. Laggard: RS under 30 and trailing its group. New: listed within the last 60 sessions.",
+    read: "Leaders in leading groups are the usual place to look for continuation setups.",
+  },
+  th_vs_group: {
+    title: "Vs group",
+    what: "The stock's return minus its own group's index return over the same period.",
+    read: "Positive means the stock is outperforming its peers, not just riding the theme.",
+  },
+  th_rel_vol: {
+    title: "Relative volume",
+    what: "Today's volume divided by the stock's average of the previous 20 sessions.",
+    read: "Above 1.5 means unusual activity. Very high values on thin stocks are common and less meaningful.",
+  },
+  th_explorer: {
+    title: "Stock explorer",
+    what: "Every liquid theme stock in one table. Filter by group or role, search by symbol, and click a header to sort.",
+    read: "Try role = Leaders with a leading group selected to shortlist candidates.",
+  },
+  th_digest: {
+    title: "Daily digest",
+    what: "A one-screen summary: the leading groups, leader stocks inside them, the weakest groups, and the alerts.",
+    read: "Download it as Markdown or JSON, or export the watchlist.",
+  },
+  th_emerging: {
+    title: "Emerging themes",
+    what: "Groups that moved from Improving or Lagging into Leading within the last N sessions (default 10).",
+    read: "Early rotation signal: a fresh entry into Leading with rising breadth is more interesting than a group that has been Leading for months.",
+  },
+  th_deteriorating: {
+    title: "Losing leadership",
+    what: "Groups that were Leading within the last N sessions and are now Weakening or Lagging.",
+    read: "A warning to tighten risk on stocks from these groups.",
+  },
+  th_thrust: {
+    title: "Breadth thrust",
+    what: "The share of a group's stocks above EMA20 rose sharply (default 30+ points in 5 sessions) to a high level (default 60%+).",
+    read: "Many stocks turning up together suggests real group-wide demand rather than one stock's move.",
+  },
+  th_watchlist: {
+    title: "Watchlist export",
+    what: "A text file in the same ###GROUP,NSE:SYMBOL format as your source file: the top stocks (by RS, above EMA50, liquid) of the leading groups.",
+    read: "Import it into TradingView as a watchlist. Group and stock counts are set on the Config page.",
+  },
+  th_regime: {
+    title: "Groups by market state",
+    what: "For each market-breadth state (BD, LD, EU, BR, LS, PA), the average daily return of each group minus the market, on days the market was in that state.",
+    read: "It shows what has tended to work in each state. It is descriptive, not a forecast, and states with few days give noisy numbers.",
+  },
+  th_corr: {
+    title: "Group correlation",
+    what: "How closely groups' daily returns move together over the last 60 sessions (1 = identical). The heatmap is ordered so similar groups sit together.",
+    read: "Two high-correlation groups are effectively the same bet. Low or negative pairs diversify.",
+  },
+  th_corr_pick: {
+    title: "Pick a group",
+    what: "Lists the groups that move most and least like the one you choose.",
+    read: "Use it to find real diversifiers for a position.",
+  },
+  th_group_page: {
+    title: "Group page",
+    what: "Everything about one group: its index against the market, relative strength, rotation, internal breadth, score history and every stock in it.",
+    read: "Faded rows are illiquid stocks that are excluded from the group index.",
+  },
+  th_illiquid: {
+    title: "Illiquid",
+    what: "Stocks whose 20-day median traded value is below the minimum on the Config page.",
+    read: "They appear in the table but don't affect the group index or the rankings.",
+  },
+  cfgth_liquidity: {
+    title: "Liquidity filter",
+    what: "A stock counts in a group only if its 20-day median daily traded value is at least this amount (shown in lakh rupees; 100 lakh = 1 crore).",
+    read: "Higher values give cleaner, tradable groups but fewer stocks per group. Lower values include thin micro-caps that can distort small groups.",
+  },
+  cfgth_history: {
+    title: "History and new listings",
+    what: "Minimum sessions before a stock counts (skips IPO noise), and how young a stock must be to be tagged 'new'.",
+    read: "Recent IPOs often jump 50%+ on listing. Raising the minimum keeps them out longer.",
+  },
+  cfgth_winsor: {
+    title: "Daily return clip",
+    what: "Each stock's daily return is capped at this percentage up or down before averaging into the group.",
+    read: "Stops a single circuit-limit day from moving a small group. 20% matches NSE's widest regular band.",
+  },
+  cfgth_min_size: {
+    title: "Group size limits",
+    what: "Minimum counted stocks for a group to be ranked, and the minimum counted on a given day for the group index to move.",
+    read: "Raising the first hides more thin groups. The second only matters on days when many stocks in a group did not trade.",
+  },
+  cfgth_rrg: {
+    title: "Rotation windows",
+    what: "RS-Ratio window: the moving-average length that RS is compared with. Momentum window: the lookback for the change in RS-Ratio. Tail step: sessions between tail points. History: how many sessions the graph keeps.",
+    read: "Longer windows give smoother, slower rotation. Shorter windows react faster but jitter more.",
+  },
+  cfgth_weights: {
+    title: "Score weights",
+    what: "How much each component contributes to the leadership score. They are normalised, so only the ratios matter.",
+    read: "Raise 'Relative strength' for a pure trend view. Raise 'Breadth' to favour groups where most stocks participate.",
+  },
+  cfgth_alerts: {
+    title: "Alert thresholds",
+    what: "Emerging/deteriorating look-back, and the breadth thrust rule: rise in % above EMA20, within a number of sessions, to at least a level.",
+    read: "Tighter thresholds give fewer, stronger alerts.",
+  },
+  cfgth_misc: {
+    title: "Correlation, lists and watchlist",
+    what: "Correlation window in sessions, how many stocks each top list shows, and how many groups and stocks per group go into the watchlist export.",
+  },
+  cfgth_aliases: {
+    title: "Symbol aliases",
+    what: "Maps a symbol in your group list to the NSE symbol used in the price archive when they differ (for example M_M → M&M).",
+    read: "Characters like _ are already tried as & and - automatically. Add an alias only for symbols that still show as unmapped.",
+  },
+  cfgth_list: {
+    title: "Group list",
+    what: "The groups and their stocks, one group per line: ###GROUP NAME,NSE:SYMBOL,NSE:SYMBOL. A stock that appears in two groups stays in the first.",
+    read: "Saving writes data/config/themes.txt and leaves the original file untouched. Reset returns to the original list.",
+  },
 } satisfies Record<string, GlossaryEntry>;
 
 export type GlossaryKey = keyof typeof GLOSSARY;

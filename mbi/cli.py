@@ -10,6 +10,8 @@
   export-history                            (CSV to stdout, parquet fallback)
   day-detail   --date D                       (per-stock table for /stocks)
   classify-preview --config PATH              (JSON: how many states would change)
+  themes       group analytics: leaders, rotation (RRG), movers (writes data/themes/)
+  screener     technical screener: ~250 indicators per stock (writes data/screener/)
   demo         [--days 300]                   (synthetic data for UI testing)
 """
 from __future__ import annotations
@@ -29,7 +31,7 @@ from .status import StatusStore
 
 log = logging.getLogger("mbi")
 
-MUTATING = {"daily", "backfill", "recompute", "universe", "consolidate", "demo"}
+MUTATING = {"daily", "backfill", "recompute", "universe", "consolidate", "demo", "themes", "screener"}
 
 
 def setup_logging(command: str, to_file: bool) -> str | None:
@@ -112,6 +114,12 @@ def build_parser() -> argparse.ArgumentParser:
 
     s = sub.add_parser("classify-preview")
     s.add_argument("--config", required=True)
+
+    s = sub.add_parser("print-theme-config", help="print theme_config.json (writes defaults if missing)")
+    s.add_argument("--defaults", action="store_true")
+
+    sub.add_parser("themes", help="recompute thematic group analytics from the archive")
+    sub.add_parser("screener", help="recompute the technical screener table from the archive")
 
     s = sub.add_parser("demo")
     s.add_argument("--days", type=int, default=300)
@@ -226,6 +234,10 @@ def main(argv: list[str] | None = None) -> int:
         from .classifier import DEFAULT_CONFIG, load_config
         print(json.dumps(DEFAULT_CONFIG if args.defaults else load_config(), indent=2))
         return 0
+    if args.command == "print-theme-config":
+        from . import themes
+        print(json.dumps(themes.DEFAULT_CONFIG if args.defaults else themes.load_config(), indent=2))
+        return 0
     if args.command == "export-history":
         sys.stdout.write(store.read_history().to_csv(index=False, lineterminator="\n"))
         return 0
@@ -262,6 +274,16 @@ def main(argv: list[str] | None = None) -> int:
         elif args.command == "consolidate":
             p = store.consolidate()
             summary = f"wrote {p}"
+        elif args.command == "themes":
+            from . import themes
+            res = themes.run(status)
+            summary = f"themes: {res['groups']} groups, {res.get('stocks', 0)} stocks as of {res['date']}"
+            if res.get("unmapped"):
+                summary += f"; {len(res['unmapped'])} symbol(s) not in the archive: {', '.join(res['unmapped'][:12])}"
+        elif args.command == "screener":
+            from . import screener
+            res = screener.run()
+            summary = f"screener: {res['stocks']} stocks x {res.get('fields', 0)} fields as of {res['date']}"
         elif args.command == "demo":
             from .demo import build_demo
             summary = build_demo(status, days=args.days, seed=args.seed, force=args.force)

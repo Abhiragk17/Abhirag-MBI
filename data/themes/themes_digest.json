@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-23",
+  "market_state": "LD",
+  "leaders": [
+    {
+      "name": "TEXTILES - SPINNING & YARN",
+      "slug": "textiles-spinning-yarn",
+      "score": 89.6,
+      "quadrant": "Leading",
+      "ret_1M": 11.32,
+      "rel_3M": 8.13,
+      "pct_ema20": 77.8
+    },
+    {
+      "name": "AIRLINES, AIRPORTS & TRAVEL SERVICES",
+      "slug": "airlines-airports-travel-services",
+      "score": 87.8,
+      "quadrant": "Leading",
+      "ret_1M": 13.92,
+      "rel_3M": 7.68,
+      "pct_ema20": 80.0
+    },
+    {
+      "name": "PRE-ENGINEERED BUILDINGS & STRUCTURES",
+      "slug": "pre-engineered-buildings-structures",
+      "score": 87.2,
+      "quadrant": "Leading",
+      "ret_1M": 14.14,
+      "rel_3M": 8.72,
+      "pct_ema20": 66.7
+    },
+    {
+      "name": "HOSPITALS",
+      "slug": "hospitals",
+      "score": 83.9,
+      "quadrant": "Leading",
+      "ret_1M": 14.62,
+      "rel_3M": 5.01,
+      "pct_ema20": 80.0
+    },
+    {
+      "name": "FORGINGS & CASTINGS",
+      "slug": "forgings-castings",
+      "score": 83.7,
+      "quadrant": "Leading",
+      "ret_1M": 10.45,
+      "rel_3M": 6.7,
+      "pct_ema20": 63.6
+    }
+  ],
+  "emerging": [
+    {
+      "name": "INSURANCE & INSURTECH",
+      "slug": "insurance-insurtech",
+      "days_in_leading": 1,
+      "from": "Improving",
+      "score": 56.2,
+      "ret_1M": 3.55,
+      "pct_ema20": 60.0
+    },
+    {
+      "name": "LUGGAGE, HELMETS & SAFETY GEAR",
+      "slug": "luggage-helmets-safety-gear",
+      "days_in_leading": 2,
+      "from": "Improving",
+      "score": 65.0,
+      "ret_1M": 2.69,
+      "pct_ema20": 66.7
+    },
+    {
+      "name": "SMALL FINANCE & NICHE LENDERS",
+      "slug": "small-finance-niche-lenders",
+      "days_in_leading": 2,
+      "from": "Improving",
+      "score": 56.0,
+      "ret_1M": 3.59,
+      "pct_ema20": 35.7
+    },
+    {
+      "name": "ROAD & HIGHWAY EPC",
+      "slug": "road-highway-epc",
+      "days_in_leading": 2,
+      "from": "Improving",
+      "score": 45.9,
+      "ret_1M": 1.78,
+      "pct_ema20": 25.0
+    },
+    {
+      "name": "AIR CONDITIONING & COOLING",
+      "slug": "air-conditioning-cooling",
+      "days_in_leading": 3,
+      "from": "Improving",
+      "score": 76.8,
+      "ret_1M": 6.12,
+      "pct_ema20": 83.3
+    }
+  ],
+  "deteriorating": [
+    {
+      "name": "WHITE GOODS & SMALL APPLIANCES",
+      "slug": "white-goods-small-appliances",
+      "now": "Weakening",
+      "left_leading_days_ago": 1,
+      "score": 45.2,
+      "ret_1M": 2.82
+    },
+    {
+      "name": "WATCHES & EYEWEAR",
+      "slug": "watches-eyewear",
+      "now": "Weakening",
+      "left_leading_days_ago": 1,
+      "score": 78.3,
+      "ret_1M": 13.79
+    },
+    {
+      "name": "TRACTORS & FARM EQUIPMENT",
+      "slug": "tractors-farm-equipment",
+      "now": "Weakening",
+      "left_leading_days_ago": 1,
+      "score": 44.8,
+      "ret_1M": 3.17
+    },
+    {
+      "name": "AUTO RETAIL & DEALERSHIPS",
+      "slug": "auto-retail-dealerships",
+      "now": "Weakening",
+      "left_leading_days_ago": 1,
+      "score": 57.9,
+      "ret_1M": 7.55
+    },
+    {
+      "name": "CO-WORKING & FLEX WORKSPACE",
+      "slug": "co-working-flex-workspace",
+      "now": "Weakening",
+      "left_leading_days_ago": 1,
+      "score": 51.8,
+      "ret_1M": 7.11
+    }
+  ],
+  "thrusts": [
+    {
+      "name": "AUTO RETAIL & DEALERSHIPS",
+      "slug": "auto-retail-dealerships",
+      "pct_ema20": 66.7,
+      "from": 0.0,
+      "rise": 66.7,
+      "n_eligible": 3
+    }
+  ],
+  "top_stocks": [
+    {
+      "symbol": "THOMASCOOK",
+      "group": "AIRLINES, AIRPORTS & TRAVEL SERVICES",
+      "ret_1d": 12.85,
+      "ret_21d": 36.8,
+      "rs": 95.0
+    },
+    {
+      "symbol": "INDOMIM",
+      "group": "FORGINGS & CASTINGS",
+      "ret_1d": 1.45,
+      "ret_21d": 16.83,
+      "rs": 94.1
+    },
+    {
+      "symbol": "SANSERA",
+      "group": "FORGINGS & CASTINGS",
+      "ret_1d": -3.73,
+      "ret_21d": 16.13,
+      "rs": 92.7
+    },
+    {
+      "symbol": "SANGAMIND",
+      "group": "TEXTILES - SPINNING & YARN",
+      "ret_1d": 3.32,
+      "ret_21d": 18.04,
+      "rs": 92.5
+    },
+    {
+      "symbol": "SPORTKING",
+      "group": "TEXTILES - SPINNING & YARN",
+      "ret_1d": 8.09,
+      "ret_21d": 16.38,
+      "rs": 91.2
+    },
+    {
+      "symbol": "YATHARTH",
+      "group": "HOSPITALS",
+      "ret_1d": -0.75,
+      "ret_21d": 17.84,
+      "rs": 90.0
+    },
+    {
+      "symbol": "NELCAST",
+      "group": "FORGINGS & CASTINGS",
+      "ret_1d": 4.59,
+      "ret_21d": 25.13,
+      "rs": 89.1
+    },
+    {
+      "symbol": "NITINSPIN",
+      "group": "TEXTILES - SPINNING & YARN",
+      "ret_1d": -0.78,
+      "ret_21d": 12.24,
+      "rs": 88.3
+    },
+    {
+      "symbol": "INDIGO",
+      "group": "AIRLINES, AIRPORTS & TRAVEL SERVICES",
+      "ret_1d": -1.16,
+      "ret_21d": 20.07,
+      "rs": 86.2
+    },
+    {
+      "symbol": "MEDANTA",
+      "group": "HOSPITALS",
+      "ret_1d": 1.35,
+      "ret_21d": 25.2,
+      "rs": 86.2
+    }
+  ],
+  "worst_groups": [
+    {
+      "name": "CARBON BLACK & GRAPHITE",
+      "slug": "carbon-black-graphite",
+      "score": 12.4,
+      "quadrant": "Lagging",
+      "ret_1M": -7.55
+    },
+    {
+      "name": "CREDIT RATING AGENCIES",
+      "slug": "credit-rating-agencies",
+      "score": 15.5,
+      "quadrant": "Lagging",
+      "ret_1M": -6.98
+    },
+    {
+      "name": "PAPER & PAPERBOARD",
+      "slug": "paper-paperboard",
+      "score": 17.1,
+      "quadrant": "Lagging",
+      "ret_1M": -5.31
+    }
+  ]
+}

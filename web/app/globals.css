@@ -17,6 +17,7 @@
   --warning: #fab219;
   --serious: #ec835a;
   --critical: #d03b3b;
+  --accent: #2a78d6;
 }
 .dark {
   color-scheme: dark;
@@ -29,6 +30,7 @@
   --line: #2c2c2a;
   --axis: #383835;
   --good-text: #0ca30c;
+  --accent: #3987e5;
 }
 
 body {

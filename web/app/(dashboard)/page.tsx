@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useApp } from "@/components/AppShell";
-import { Card, CardBody, CardHeader, EmptyState } from "@/components/ui/card";
+import { Card, CardBody, CardHeader, EmptyState, Skeleton } from "@/components/ui/card";
 import { Button, Segmented } from "@/components/ui/button";
 import { MarketStateCard } from "@/components/MarketStateCard";
 import { StateStats } from "@/components/StateStats";
@@ -92,7 +92,7 @@ export default function Dashboard() {
   const zoomedRows = useCallback((rs: HistoryRow[]) => (zoom ? rs.filter((r) => r.date >= zoom.start && r.date <= zoom.end) : rs), [zoom]);
 
   if (error) return <EmptyState title="Could not load breadth history" reason={error} />;
-  if (!data) return <div className="h-64 animate-pulse rounded-lg bg-surface-2" />;
+  if (!data) return <Skeleton className="h-64" label="Loading breadth history" />;
   if (!all.length) {
     return (
       <EmptyState
@@ -121,7 +121,7 @@ export default function Dashboard() {
         ))}
       </div>
 
-      <div className="sticky top-[52px] z-30 -mx-4 flex flex-wrap items-center gap-3 border-y border-line bg-page/95 px-4 py-2 backdrop-blur">
+      <div className="sticky top-[var(--header-h,52px)] z-30 -mx-4 flex flex-wrap items-center gap-3 border-y border-line bg-page/95 px-4 py-2 backdrop-blur">
         <DateRange value={range} onChange={setRange} />
         <InfoTip k="range" />
         <WithInfo k="bucket_picker" className="text-xs text-ink-2">Bucket for single-bucket charts</WithInfo>

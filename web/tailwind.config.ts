@@ -17,6 +17,7 @@ const config: Config = {
         warning: "var(--warning)",
         serious: "var(--serious)",
         critical: "var(--critical)",
+        accent: "var(--accent)",
       },
       fontFamily: {
         sans: ["system-ui", "-apple-system", "Segoe UI", "sans-serif"],

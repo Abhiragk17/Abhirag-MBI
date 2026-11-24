@@ -103,3 +103,21 @@ def seed_universe_file() -> Path:
 
 def seed_splits_file() -> Path:
     return ROOT / "splits_seed.csv"
+
+
+def themes_dir() -> Path:
+    return data_dir() / "themes"
+
+
+def screener_dir() -> Path:
+    return data_dir() / "screener"
+
+
+def theme_config() -> Path:
+    return config_dir() / "theme_config.json"
+
+
+def themes_file() -> Path:
+    """The group list. ``data/config/themes.txt`` overrides the copy shipped at the repo root."""
+    custom = config_dir() / "themes.txt"
+    return custom if custom.exists() else ROOT / "Indian_Micro_Sector_Themes.txt"

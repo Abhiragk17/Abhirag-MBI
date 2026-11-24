@@ -33,3 +33,7 @@ export function EmptyState({ title, reason, className }: { title: string; reason
     </div>
   );
 }
+
+export function Skeleton({ className, label = "Loading" }: { className?: string; label?: string }) {
+  return <div role="status" aria-busy="true" aria-label={label} className={cn("animate-pulse rounded-lg bg-surface-2", className)} />;
+}
